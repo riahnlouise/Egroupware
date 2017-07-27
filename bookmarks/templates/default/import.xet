@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE overlay PUBLIC "-//Stylite AG//eTemplate 2//EN" "http://www.egroupware.org/etemplate2.dtd">
+<!-- $Id$ -->
+<overlay>
+	<template id="bookmarks.import" template="" lang="" group="0" version="1.7.001">
+		<grid>
+			<columns>
+				<column/>
+				<column/>
+			</columns>
+			<rows>
+				<row class="dialogHeader">
+					<description value="Bookmark file"/>
+					<file id="file"/>
+				</row>
+				<row class="th">
+					<description value="Note: You can use bookmark files exported as HTML" span="all" class="help"/>
+					<menulist>
+						<menupopup id="type" options="Netscape / Firefox"/>
+					</menulist>
+				</row>
+				<row>
+					<description value="Import under category"/>
+					<menulist>
+						<menupopup type="select-cat" id="category"/>
+					</menulist>
+				</row>
+				<row class="th">
+					<description value="Sub-folders will create new categories" span="all" class="help"/>
+					<description/>
+				</row>
+				<row>
+					<description/>
+					<description/>
+				</row>
+				<row class="dialogFooterToolbar">
+					<hbox span="all">
+						<button label="Import" id="import" span="all"/>
+						<button label="Cancel" id="cancel" onclick="window.close();"/>
+					</hbox>
+				</row>
+			</rows>
+		</grid>
+	</template>
+</overlay>

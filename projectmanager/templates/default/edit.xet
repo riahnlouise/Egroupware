@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE overlay PUBLIC "-//Stylite AG//eTemplate 2//EN" "http://www.egroupware.org/etemplate2.dtd">
+<!-- $Id$ -->
+<overlay>
+	<template id="projectmanager.edit.general" template="" lang="" group="0" version="1.9.001">
+		<grid width="100%">
+			<columns>
+				<column width="95"/>
+				<column width="40%"/>
+				<column width="30"/>
+				<column width="8%"/>
+				<column width="40%"/>
+			</columns>
+			<rows>
+				<row class="row">
+					<description value="Category" for="cat_id"/>
+					<menulist class="et2_fullWidth">
+						<menupopup type="select-cat" id="cat_id" options="None"/>
+					</menulist>
+					<description/>
+					<description value="Access" for="pm_access"/>
+					<menulist class="et2_fullWidth">
+						<menupopup id="pm_access" no_lang="1"/>
+					</menulist>
+				</row>
+				<row class="row">
+					<description value="Priority" for="pm_priority"/>
+					<menulist class="et2_fullWidth">
+						<menupopup type="select-number" id="pm_priority" options=",1,10"/>
+					</menulist>
+					<description/>
+					<description value="Status" for="pm_status"/>
+					<hbox>
+						<menulist>
+							<menupopup id="pm_status" no_lang="1"/>
+						</menulist>
+						<checkbox statustext="If checked the datasources of the elements (eg. InfoLog entries) will change their status too." label="datasources too" id="status_sources" class="projectmanager_leftPad5"/>
+					</hbox>
+				</row>
+				<row class="th" height="20" valign="bottom">
+					<description value="Value"/>
+					<description value="Project"/>
+					<description/>
+					<description value="Elementlist" span="all"/>
+				</row>
+				<row class="row">
+					<description value="Startdate" for="pm_real_start"/>
+					<date-time id="pm_real_start" class="et2_fullWidth"/>
+					<description/>
+					<date-time id="ds[pe_real_start]" readonly="true" span="all"/>
+				</row>
+				<row class="row">
+					<description value="- planned" for="pm_planned_end"/>
+					<date-time id="pm_planned_start" class="et2_fullWidth"/>
+					<description/>
+					<date-time id="ds[pe_planned_start]" readonly="true" span="all"/>
+				</row>
+				<row class="row">
+					<description value="Enddate" for="pm_real_end"/>
+					<date-time id="pm_real_end" class="et2_fullWidth"/>
+					<description/>
+					<date-time id="ds[pe_real_end]" readonly="true" span="all"/>
+				</row>
+				<row class="row">
+					<description value="- planned" for="pm_planned_end"/>
+					<date-time id="pm_planned_end" class="et2_fullWidth"/>
+					<description/>
+					<date-time id="ds[pe_planned_end]" readonly="true" span="all"/>
+				</row>
+				<row class="row" disabled="@pm_accounting_type=status">
+					<description value="Times" for="pm_used_time"/>
+					<date-duration id="pm_used_time" options="@duration_format" class="et2_fullWidth"/>
+					<description/>
+					<date-duration id="ds[pe_used_time]" readonly="true" options="@duration_format" span="all"/>
+				</row>
+				<row class="row" disabled="@pm_accounting_type=status">
+					<description value="- planned" for="pm_planned_time"/>
+					<date-duration id="pm_planned_time" options="@duration_format" class="et2_fullWidth"/>
+					<description/>
+					<date-duration id="ds[pe_planned_time]" readonly="true" options="@duration_format" span="all"/>
+				</row>
+				<row class="row" disabled="@pm_accounting_type=status">
+					<description value="- re-planned" for="pm_replanned_time"/>
+					<date-duration id="pm_replanned_time" options="@duration_format" class="et2_fullWidth"/>
+					<description/>
+					<date-duration id="ds[pe_replanned_time]" readonly="true" options="@duration_format" span="all"/>
+				</row>
+				<row class="row">
+					<description value="Status" for="pm_completion"/>
+					<menulist class="et2_fullWidth">
+						<menupopup type="select-percent" id="pm_completion" options="None"/>
+					</menulist>
+					<description/>
+					<description id="ds[pe_completion]" no_lang="1" readonly="true" span="all"/>
+				</row>
+			</rows>
+		</grid>
+	</template>
+	<template id="projectmanager.edit.description" template="" lang="" group="0" version="0.4.001">
+		<grid width="100%">
+			<columns>
+				<column/>
+			</columns>
+			<rows>
+				<row valign="top">
+					<htmlarea id="pm_description" mode="extended" height="240px" width="100%" toolbar="true" imageUpload="link_to"/>
+				</row>
+			</rows>
+		</grid>
+	</template>
+	<template id="projectmanager.edit.members" template="" lang="" group="0" version="1.9.002">
+		<grid width="100%">
+			<columns>
+				<column width="30%"/>
+				<column width="10%"/>
+				<column width="10%"/>
+				<column width="50%"/>
+			</columns>
+			<rows>
+				<row class="th" height="20">
+					<description value="Members"/>
+					<description value="General availibility"/>
+					<description value="Project availibility"/>
+					<hbox>
+						<description value="Role"/>
+						<button statustext="Add or edit roles and their ACL" label="Edit" id="edit_roles" onclick="window.open(egw::link('/index.php','menuaction=projectmanager.projectmanager_roles_ui.roles&amp;pm_id=$cont[pm_id]'),'roles','dependent=yes,width=760,height=450,scrollbars=yes,status=yes'); return false;" image="edit" background_image="1"/>
+					</hbox>
+				</row>
+				<row class="row" height="12" disabled="@view">
+					<menulist class="et2_fullWidth">
+						<menupopup type="select-account" id="member[1]" options="select one,both"/>
+					</menulist>
+					<textbox type="float" statustext="Percentage the member is availible for projects" id="general_avail[1]"/>
+					<textbox type="float" statustext="Percentage the member is availible for this project" id="availibility[1]"/>
+					<hbox orient=",0,0" options="0,0">
+						<menulist>
+							<menupopup id="role[1]"/>
+						</menulist>
+						<button label="Add" id="add" image="add" background_image="1"/>
+					</hbox>
+				</row>
+				<row class="row" valign="top" disabled="!@member">
+					<menulist>
+						<menupopup type="select-account" id="member[$row]" readonly="true"/>
+					</menulist>
+					<textbox type="float" statustext="Percentage the member is availible for projects" id="general_avail[$row]"/>
+					<textbox type="float" statustext="Percentage the member is availible for this project" id="availibility[$row]"/>
+					<menulist>
+						<menupopup id="role[$row]" options="None"/>
+					</menulist>
+				</row>
+			</rows>
+		</grid>
+	</template>
+	<template id="projectmanager.edit.accounting" template="" lang="" group="0" version="1.9.001">
+		<grid width="100%">
+			<columns>
+				<column width="95"/>
+				<column width="40%"/>
+				<column/>
+			</columns>
+			<rows>
+				<row class="row" valign="top" height="12">
+					<description value="Accounting type" for="pm_accounting_type"/>
+					<menulist span="all">
+						<menupopup id="pm_accounting_type" onchange="1"/>
+					</menulist>
+				</row>
+				<row class="th" height="20" disabled="@no_budget" valign="bottom">
+					<description value="Value"/>
+					<description value="Project"/>
+					<description value="Elementlist"/>
+				</row>
+				<row class="row" height="12" disabled="@no_budget">
+					<description value="Budget" for="pm_used_budget"/>
+					<textbox type="float" id="pm_used_budget" size="10"/>
+					<textbox type="float" id="ds[pe_used_budget]" readonly="true" min="2"/>
+				</row>
+				<row class="row" valign="top" height="12" disabled="@no_budget">
+					<description value="- planned" for="pm_planned_budget"/>
+					<textbox type="float" id="pm_planned_budget" size="10"/>
+					<textbox type="float" id="ds[pe_planned_budget]" readonly="true" min="2"/>
+				</row>
+				<row valign="top">
+					<description/>
+					<description/>
+					<description/>
+				</row>
+			</rows>
+		</grid>
+	</template>
+	<template id="projectmanager.edit.custom" template="" lang="" group="0" version="1.9.001">
+		<grid width="100%">
+			<columns>
+				<column/>
+			</columns>
+			<rows>
+				<row class="row" valign="top">
+					<customfields/>
+				</row>
+			</rows>
+		</grid>
+	</template>
+	<template id="projectmanager.edit.links" template="" lang="" group="0" version="1.9.001">
+		<grid width="100%">
+			<columns>
+				<column width="95"/>
+				<column/>
+			</columns>
+			<rows>
+				<row class="row" disabled="@view">
+					<link-to id="link_to" span="all"/>
+				</row>
+				<row class="th">
+					<description value="Existing links" span="all"/>
+				</row>
+				<row class="row_off" valign="top" height="164">
+					<link-list id="link_to" span="all"/>
+				</row>
+			</rows>
+		</grid>
+	</template>
+	<template id="projectmanager.edit.history" template="" lang="" group="0" version="1.9.001">
+		<historylog id="history"/>
+	</template>
+	<template id="projectmanager.edit" template="" lang="" group="0" version="1.9.001">
+		<grid width="100%">
+			<columns>
+				<column width="100"/>
+				<column width="150"/>
+				<column width="500"/>
+				<column width="50"/>
+			</columns>
+			<rows>
+				<row class="dialogHeader">
+					<description value="Project ID" for="pm_number"/>
+					<textbox statustext="leave it empty to have one generated" id="pm_number" no_lang="1" size="20" maxlength="64"/>
+					<textbox blur="Title" statustext="a describtive title for the project, must not be empty" id="pm_title" needed="1" class="et2_fullWidth" maxlength="255" tabindex="1"/>
+					<appicon src="projectmanager"/>
+				</row>
+				<row>
+					<tabbox id="tabs" span="all" tab_height="280px">
+						<tabs>
+							<tab id="general" label="General" statustext="Start, End, Category, ..."/>
+							<tab id="description" label="Description" statustext="free descriptiv text"/>
+							<tab id="members" label="Members" statustext="Project members and roles"/>
+							<tab id="accounting" label="Accounting" statustext="Accounting options"/>
+							<tab id="custom" label="Custom" statustext="Custom fields"/>
+							<tab id="links" label="Links" statustext="Linked elements"/>
+							<tab id="history" label="History"/>
+						</tabs>
+						<tabpanels>
+							<template id="projectmanager.edit.general"/>
+							<template id="projectmanager.edit.description"/>
+							<template id="projectmanager.edit.members"/>
+							<template id="projectmanager.edit.accounting"/>
+							<template id="projectmanager.edit.custom"/>
+							<template id="projectmanager.edit.links"/>
+							<template id="projectmanager.edit.history"/>
+						</tabpanels>
+					</tabbox>
+				</row>
+				<row disabled="!@pm_id" class="dialogOperators">
+					<hbox span="2">
+						<description value="Modified"/>
+						<date-time id="pm_modified" readonly="true"/>
+						<menulist>
+							<menupopup type="select-account" label="by" id="pm_modifier" readonly="true"/>
+						</menulist>
+					</hbox>
+					<hbox align="right" span="2">
+						<date-time label="created" id="pm_created" no_lang="1" readonly="true"/>
+						<menulist>
+							<menupopup type="select-account" label="by" id="pm_creator" readonly="true"/>
+						</menulist>
+					</hbox>
+				</row>
+				<row class="dialogFooterToolbar">
+					<hbox span="2">
+						<button statustext="Edit this project" label="Edit" id="edit" image="edit" background_image="1"/>
+						<button statustext="Save the changes made" label="Save" id="save" image="save" background_image="1"/>
+						<button statustext="Apply the changes" label="Apply" id="apply" image="apply" background_image="1"/>
+						<buttononly statustext="Exit without saving" label="Cancel" id="cancel" onclick="window.close();" image="cancel" background_image="1"/>
+					</hbox>
+					<hbox align="right">
+						<checkbox statustext="If checked the datasources of the elements (eg. InfoLog entries) are deleted too." label="datasources too" id="delete_sources"/>
+						<button statustext="Delete this project" label="Delete" id="delete" onclick="et2_dialog.confirm(widget,'Delete this project','Delete')" image="delete" background_image="1"/>
+					</hbox>
+				</row>
+			</rows>
+		</grid>
+	</template>
+</overlay>

@@ -1,0 +1,92 @@
+language: php
+php:
+  - 5.4
+  - 5.5
+  - 5.6
+  - 7
+  - hhvm
+
+matrix:
+  fast_finish: true
+  allow_failures:
+    - php: hhvm
+
+services:
+  - memcached
+#  - mysql we use mariadb instead installed via addons below
+  - postgres
+
+addons:
+  mariadb: '10.0'
+
+sudo: required
+dist: trusty
+# this fixes hhvm builds according to https://docs.travis-ci.com/user/languages/php#HHVM-versions-on-Trusty
+group: edge
+
+before_script:
+  - sudo apt-get update -qq
+  - sudo apt-get install -y myrepos libpcre3-dev
+  - case $(phpenv version-name) in
+    "5.4")
+       php -m;
+       pecl config-show;
+       pecl config-show|grep /5.6|cut -c 32-|sed "s/5\.6\.[0-9]*/5.4.45/g"|xargs -t -L 1 pecl config-set;
+       pecl config-show;
+       yes "" | pecl install memcache;
+       yes "" | pecl install apcu-4.0.11;
+       yes "" | pecl install igbinary;
+       echo "extension=memcached.so" >> ~/.phpenv/versions/$(phpenv version-name)/etc/php.ini;
+       phpenv config-rm xdebug.ini;
+       php -m;
+       ;;
+    "5.5"|"5.6")
+       yes "" | pecl install memcache;
+       yes "" | pecl install apcu-4.0.11;
+       yes "" | pecl install igbinary;
+       echo "extension=memcached.so" >> ~/.phpenv/versions/$(phpenv version-name)/etc/php.ini;
+       phpenv config-rm xdebug.ini;
+       ;;
+    "7")
+       yes "" | pecl install apcu;
+       echo "extension=memcached.so" >> ~/.phpenv/versions/$(phpenv version-name)/etc/php.ini;
+       phpenv config-rm xdebug.ini;
+       ;;
+    "hhvm")
+       ;;
+    esac
+  #- php -m
+  #- curl https://svn.stylite.de/fix_mrconfig 2>/dev/null | php
+  - sed 's/^update = git stash -q/update = \#git stash -q/g' .mrconfig
+  - mr --trust-all --stats up
+  - (cd activesync; mr --trust-all --stats up)
+  # installing phpunit in version suitable for used PHP version
+  - composer require 'phpunit/phpunit:~4.8|~5.4'
+  # create data directory
+  - sudo mkdir /var/lib/egroupware
+  - sudo chown travis /var/lib/egroupware
+  - ln -s /var/lib/egroupware/header.inc.php
+
+script:
+  # install egroupware using MariaDB as domain "default"
+  - php doc/rpm-build/post_install.php --domain default
+    --source_dir `pwd` --start_db '' --autostart_db '' --start_webserver '' --webserver_user ''
+  # disable PostgreSQL install as it fails in Travis with Fatal error: Call to unimplemented native function pg_set_client_encoding
+  # install egroupware using PostgreSQL as domain "pgsql", need some specific handling we can not create users via sql
+  #- psql -U postgres -c 'create database egroupware';
+  # disable postgres install for hhvm, as there is no psql extension
+  #- test $(phpenv version-name) = 'hhvm' ||
+  #  php doc/rpm-build/post_install.php --domain pgsql --db_type pgsql --db_port 5432 --db_user postgres --db_pass ''
+  #  --source_dir `pwd` --start_db '' --autostart_db '' --start_webserver '' --webserver_user ''
+  # install egroupware with LDAP for account and MySQL as domain "ldap"
+  #- php doc/rpm-build/post_install.php --domain ldap --db_name ldap --db_user ldap
+  #  --account-auth ldap --ldap_suffix dc=local --ldap_admin 'cn=admin,$suffix' --ldap_admin_pw secret
+  #  --source_dir `pwd` --start_db '' --autostart_db '' --start_webserver '' --webserver_user ''
+  # Ubuntu has problems with #!/usr/bin/env php -dapc.enable=1, it stalls forever
+  - php -dapc.enable_cli=1 doc/test-cli.php
+  # do not run syntax check for hhvm, as it always fails / get terminated after 10m
+  - test $(phpenv version-name) = 'hhvm' || ./doc/php_syntax_check.sh
+
+cache:
+  directories:
+    - $HOME/.composer/cache

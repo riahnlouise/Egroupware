@@ -1,0 +1,120 @@
+%1 bookmarks have been deleted	bookmarks	fi	%1 suosikkia poistettu
+%1 bookmarks imported from %2 successfully.	bookmarks	fi	%1 suosikkia tuotiin tiedostosta %2.
+%s bookmarks selected for export	bookmarks	fi	%1 suosikkia valittu vientiin
+(comma separate multiple addresses)	bookmarks	fi	(erota osoitteet toisistaan pilkuilla)
+(selecting a category includes all sub-categories)	bookmarks	fi	(valitsemalla kategorian valitset myös alikategoriat)
+actions	bookmarks	fi	Toimenpiteet
+added	bookmarks	fi	Lisätty
+all bookmarks	bookmarks	fi	Kaikki suosikit
+and	bookmarks	fi	Ja
+append this message to mailed bookmarks	bookmarks	fi	Lisää tämä teksti viestinä lähettyihin suosikkeihin
+apply the action on the whole query, not only the shown bookmarks!!!	bookmarks	fi	Toimenpide vaikuttaa kaikkiin merkintöihin, ei vain näkyvissä oleviin!!
+ascending	bookmarks	fi	Nouseva
+book marks	common	fi	Suosikit
+bookmark - %1	bookmarks	fi	Suosikki - %1
+bookmark changed sucessfully	bookmarks	fi	Suosikki muutettu.
+bookmark created successfully.	bookmarks	fi	Suosikki lisätty.
+bookmark deleted successfully	bookmarks	fi	Suosikki poistettu.
+bookmark deleted successfully.	bookmarks	fi	Suosikki poistettu.
+bookmark file	bookmarks	fi	Suosikkitiedosto
+bookmark not editable	bookmarks	fi	Suosikkia ei voi muokata
+bookmark not readable	bookmarks	fi	Suosikkia ei voi näyttää
+bookmarks	common	fi	Suosikit
+bookmarks - export	bookmarks	fi	Suosikit - Vienti
+bookmarks - import	bookmarks	fi	Suosikit - Tuonti
+bookmarks - mail	bookmarks	fi	Suosikit - Lähetä sähköpostilla
+bookmarks - tree	bookmarks	fi	Suosikit - Runkonäkymä
+bookmarks settings	bookmarks	fi	Suosikkien asetukset
+categories to export	bookmarks	fi	Vie kategoriat
+change bookmark	bookmarks	fi	Muuta suosikki
+check all	bookmarks	fi	Valitse kaikki
+choose the categories to display	bookmarks	fi	Valitse näytettävät kategoriat
+close this window to return	bookmarks	fi	Sulje ikkuna palataksesi
+create bookmark	bookmarks	fi	Lisää suosikki
+create new bookmark	bookmarks	fi	Lisää uusi suosikki
+create new links	bookmarks	fi	Lisää uusi linkki
+created	bookmarks	fi	Lisätty
+custom fields	bookmarks	fi	Lisäkentät
+date added	bookmarks	fi	Päiväys lisätty
+date changed	bookmarks	fi	Päiväys muutettu
+date last updated	bookmarks	fi	Päivitetty viimeksi
+date last visited	bookmarks	fi	Vierailtu viimeksi
+default view for bookmarks	bookmarks	fi	Suosikkien oletusnäkymä
+descending	bookmarks	fi	Laskeva
+edit bookmark	bookmarks	fi	Muokkaa suosikkia
+edit bookmark - %1	bookmarks	fi	Muokkaa suosikkia %1
+edit this bookmark	bookmarks	fi	Muokkaa tätä suosikkia
+enter the name of the netscape bookmark file<br>that you want imported into bookmarker below.	bookmarks	fi	Valitse tuotava Netscapen suosikki-tiedosto.
+existing links	bookmarks	fi	Olemassaolevat linkit
+export	bookmarks	fi	Vienti
+export bookmarks	common	fi	Vie suosikit
+export definition to use for nextmatch export	bookmarks	fi	Vienti asetukset 'nextmatch' vientiin
+export definitition to use for nextmatch export	bookmarks	fi	Vienti asetukset 'nextmatch' vientiin
+export format	bookmarks	fi	Vie formaatti
+fewer	bookmarks	fi	Vähemmän
+filter by	bookmarks	fi	Suodata
+found a link you might like	bookmarks	fi	Sinua saattaisi kiinnostaa tämä linkki:
+from	bookmarks	fi	Mistä
+from category %1	bookmarks	fi	Kategoriasta %1
+general	bookmarks	fi	Yleinen
+global categories	bookmarks	fi	Yleiset kategoriat
+highest	bookmarks	fi	Korkein
+history	bookmarks	fi	Historia
+i thought you would be interested in the following link(s):	bookmarks	fi	Ajattelin, että saattaisit olla kiinnostunut seuraavista linkeistä:
+if you specify an export definition, it will be used when you export	bookmarks	fi	Valitse viennin oletusasetus
+if you specify an export definition, it will be used when you export*	bookmarks	fi	Valitse viennin oletusasetus
+import bookmarks	common	fi	Tuo suosikkeja
+import under category	bookmarks	fi	Tuo kategoriaan
+last modified	bookmarks	fi	Viimeksi muokattu
+last visited	bookmarks	fi	Viimeksi vierailtu
+like	bookmarks	fi	kuin
+links	bookmarks	fi	Linkit
+list view	bookmarks	fi	Luettelo
+lowest	bookmarks	fi	Matalin
+mail	bookmarks	fi	Lähetä sähköpostilla
+mail this bookmark	bookmarks	fi	Lähetä sähköpostilla
+mail-this-link message sent to %1.	bookmarks	fi	Linkki lähetetty vastaanottajalle %1.
+mass update:	bookmarks	fi	Joukkopäivitys:
+message from	bookmarks	fi	Lähettäjä
+more	bookmarks	fi	Enemmän
+name	bookmarks	fi	Nimi
+name is required	bookmarks	fi	Nimi on annettava
+netscape / firefox	bookmarks	fi	Netscape / Firefox
+netscape bookmark file	bookmarks	fi	Netscapen suosikit-tiedosto
+netscape bookmark filename is required!	bookmarks	fi	Netscapen suosikit-tiedoston nimi on annettava!
+netscape/mozilla	bookmarks	fi	Netscape/Mozilla
+new	bookmarks	fi	Uusi
+new bookmark	bookmarks	fi	Uusi suosikki
+old fixed definition	bookmarks	fi	Vanha, korjattu määritelmä
+or	bookmarks	fi	tai
+please fill out <b>to e-mail address</b>, <b>subject</b>, and <b>message</b>!	bookmarks	fi	Täytä <B>Vastaanottaja</B>, <B>Aihe</B> ja <B>Viesti</B>!
+please select the categories to export	bookmarks	fi	Valitse vietävät kategoriat
+query condition	bookmarks	fi	Hakuehto
+rating	bookmarks	fi	Luokitus
+rating of this site	bookmarks	fi	Sivuston luokitus
+search for:	bookmarks	fi	Etsi:
+select an action	bookmarks	fi	Valitse toiminto
+select an action...	bookmarks	fi	Valitse toiminto...
+select the format you would like to export to	bookmarks	fi	Valitse muoto, jolla viedään
+send bookmark	bookmarks	fi	Lähetä suosikki
+sub category	bookmarks	fi	Alikategoria
+sub-folders will create new categories	bookmarks	fi	Alikansiot luovat uusia kategorioita
+this is the view bookmarks uses when you enter the application.	bookmarks	fi	Suosikit käyttää tätä oletusnäkymänä.
+this module displays bookmarks in a javascript based tree	bookmarks	fi	Sovellus näyttää suosikit Javascript rungossa.
+to address %1 invalid. format must be <strong>user@domain</strong> and domain must exist!	bookmarks	fi	Virheellinen vastaanottajan osoite %1. Osoitteen on oltava muotoa <strong>kayttaja@verkkotunnus</strong> ja verkkotunnuksen on oltava olemassa!
+to e-mail addresses	bookmarks	fi	Sähköpostiosoitteisiin
+to which category should the imported folder hierarchy be attached	bookmarks	fi	Mihin kategoriaan tuotu kansiohierarkia lisätään
+total visits	bookmarks	fi	Vierailukertoja
+tree view	bookmarks	fi	Runkonäkymä
+unable to open temp file %1 for import.	bookmarks	fi	Virhe avattaessa tiedostoa %1 tuontia varten
+unknown format	bookmarks	fi	Tuntematon muoto
+updated	bookmarks	fi	Päivitetty
+url is required.	bookmarks	fi	URL on annettava
+view bookmark	bookmarks	fi	Näytä suosikki
+view this bookmark	bookmarks	fi	Näytä tämä suosikki
+warning	bookmarks	fi	Varoitus
+whole query	bookmarks	fi	Koko kysely
+xbel	bookmarks	fi	XBEL
+you are viewing this site outside of egroupware	bookmarks	fi	Tämä on EGroupware -järjestelmän ulkopuolinen sivu
+you must select a category	bookmarks	fi	Valitse kategoria
+you need to select a category!	bookmarks	fi	Valitse kategoria!

@@ -1,0 +1,8 @@
+#bookmarks-list_nm table.egwGridView_grid img.favicon {
+	height: auto;
+	max-height: 32px;
+}
+
+#bookmarks-tree_add {
+	float: right;
+}

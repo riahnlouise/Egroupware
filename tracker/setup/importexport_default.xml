@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<entry type="array" name="importExportDefinitions">
+  <entry type="array" name="metainfo">
+    <entry type="string" name="type">importexport definitions</entry>
+    <entry type="string" name="charset">utf-8</entry>
+    <entry type="integer" name="entries">2</entry>
+  </entry>
+  <entry type="array" name="definitions">
+    <entry type="array" name="export-tracker">
+      <entry type="string" name="name">export-tracker</entry>
+      <entry type="string" name="application">tracker</entry>
+      <entry type="string" name="plugin">tracker_export_csv</entry>
+      <entry type="string" name="type">export</entry>
+      <entry type="array" name="allowed_users">
+        <entry type="string" name="0">Default</entry>
+      </entry>
+      <entry type="array" name="plugin_options">
+        <entry type="array" name="mapping">
+          <entry type="string" name="tr_id">Tracker ID</entry>
+          <entry type="string" name="tr_summary">Summary</entry>
+          <entry type="string" name="tr_tracker">Queue</entry>
+          <entry type="string" name="cat_id">Category</entry>
+          <entry type="string" name="tr_version">Version</entry>
+          <entry type="string" name="tr_status">Status</entry>
+          <entry type="string" name="tr_description">Description</entry>
+          <entry type="string" name="replies">Comments</entry>
+          <entry type="string" name="tr_assigned">Assigned to</entry>
+          <entry type="string" name="tr_private">Private</entry>
+          <entry type="string" name="tr_resolution">Resolution</entry>
+          <entry type="string" name="tr_completion">Completed</entry>
+          <entry type="string" name="tr_priority">Priority</entry>
+          <entry type="string" name="tr_closed">Closed</entry>
+          <entry type="string" name="tr_creator">Created by</entry>
+          <entry type="string" name="tr_modifier">Modified by</entry>
+          <entry type="string" name="tr_modified">Last Modified</entry>
+          <entry type="string" name="tr_created">Created</entry>
+          <entry type="string" name="tr_votes">Votes</entry>
+          <entry type="string" name="bounties">Bounty</entry>
+          <entry type="string" name="tr_group">Group</entry>
+          <entry type="string" name="tr_cc">CC</entry>
+          <entry type="string" name="num_replies">Number of replies</entry>
+          <entry type="string" name="all_custom_fields">tracker</entry>
+        </entry>
+        <entry type="string" name="delimiter">;</entry>
+        <entry type="string" name="charset">user</entry>
+        <entry type="string" name="begin_with_fieldnames">label</entry>
+        <entry type="string" name="convert">1</entry>
+      </entry>
+      <entry type="string" name="modified">2012-05-29 08:25:22</entry>
+    </entry>
+    <entry type="array" name="import-tracker">
+      <entry type="string" name="name">import-tracker</entry>
+      <entry type="string" name="application">tracker</entry>
+      <entry type="string" name="plugin">tracker_import_csv</entry>
+      <entry type="string" name="type">import</entry>
+      <entry type="array" name="allowed_users">
+        <entry type="string" name="0">Admins</entry>
+      </entry>
+      <entry type="array" name="plugin_options">
+        <entry type="string" name="fieldsep">;</entry>
+        <entry type="string" name="charset">user</entry>
+        <entry type="string" name="num_header_lines">1</entry>
+        <entry type="string" name="update_cats">replace</entry>
+        <entry type="array" name="csv_fields">
+          <entry type="string" name="0">Tracker ID</entry>
+          <entry type="string" name="1">Summary</entry>
+          <entry type="string" name="2">Queue</entry>
+          <entry type="string" name="3">Category</entry>
+          <entry type="string" name="4">Version</entry>
+          <entry type="string" name="5">Status</entry>
+          <entry type="string" name="6">Description</entry>
+          <entry type="string" name="7">Comments</entry>
+          <entry type="string" name="8">Assigned to</entry>
+          <entry type="string" name="9">Private</entry>
+          <entry type="string" name="10">Resolution</entry>
+          <entry type="string" name="11">Completed</entry>
+          <entry type="string" name="12">Priority</entry>
+          <entry type="string" name="13">Closed</entry>
+          <entry type="string" name="14">Created by</entry>
+          <entry type="string" name="15">Modified by</entry>
+          <entry type="string" name="16">Last Modified</entry>
+          <entry type="string" name="17">Created</entry>
+          <entry type="string" name="18">Votes</entry>
+          <entry type="string" name="19">Bounty</entry>
+          <entry type="string" name="20">Group</entry>
+          <entry type="string" name="21">CC</entry>
+          <entry type="string" name="22">Number of replies</entry>
+        </entry>
+        <entry type="array" name="field_mapping">
+          <entry type="string" name="0">tr_id</entry>
+          <entry type="string" name="1">tr_summary</entry>
+          <entry type="string" name="2">tr_tracker</entry>
+          <entry type="string" name="3">cat_id</entry>
+          <entry type="string" name="4">tr_version</entry>
+          <entry type="string" name="5">tr_status</entry>
+          <entry type="string" name="6">tr_description</entry>
+          <entry type="string" name="7">replies</entry>
+          <entry type="string" name="8">tr_assigned</entry>
+          <entry type="string" name="9">tr_private</entry>
+          <entry type="string" name="10">tr_resolution</entry>
+          <entry type="string" name="11">tr_completion</entry>
+          <entry type="string" name="12">tr_priority</entry>
+          <entry type="string" name="13">tr_closed</entry>
+          <entry type="string" name="14">tr_creator</entry>
+          <entry type="string" name="17">tr_created</entry>
+          <entry type="string" name="20">tr_group</entry>
+          <entry type="string" name="21">tr_cc</entry>
+          <entry type="string" name="22">num_replies</entry>
+        </entry>
+        <entry type="array" name="conditions">
+          <entry type="array" name="0">
+            <entry type="string" name="string">tr_id</entry>
+            <entry type="string" name="type">exists</entry>
+            <entry type="array" name="true">
+              <entry type="string" name="action">update</entry>
+              <entry type="string" name="stop">1</entry>
+            </entry>
+            <entry type="array" name="false">
+              <entry type="string" name="action">insert</entry>
+              <entry type="string" name="stop">1</entry>
+            </entry>
+          </entry>
+        </entry>
+        <entry type="string" name="owner_from_csv">1</entry>
+        <entry type="string" name="change_owner">0</entry>
+        <entry type="string" name="message">Import options</entry>
+        <entry type="string" name="translate_tracker">add</entry>
+        <entry type="string" name="translate_version">add~</entry>
+        <entry type="string" name="translate_status">add~</entry>
+        <entry type="string" name="translate_resolution">add~</entry>
+        <entry type="string" name="translate_cat_id">add~</entry>
+        <entry type="string" name="creator"/>
+        <entry type="string" name="creator_from_csv">1</entry>
+        <entry type="string" name="group_from_csv">1</entry>
+        <entry type="string" name="assigned_from_csv">1</entry>
+        <entry type="string" name="change_creator"/>
+        <entry type="string" name="convert">1</entry>
+        <entry type="boolean" name="no_cats">TRUE</entry>
+        <entry type="string" name="field_conversion"/>
+        <entry type="string" name="record_owner"></entry>
+        <entry type="string" name="record_group">-1</entry>
+        <entry type="string" name="change_group">0</entry>
+        <entry type="string" name="change_assigned">0</entry>
+        <entry type="string" name="record_assigned"></entry>
+      </entry>
+      <entry type="string" name="modified">2012-10-22 10:00:00</entry>
+    </entry>
+  </entry>
+</entry>

@@ -1,0 +1,16 @@
+{
+	"name": "egroupware/ckeditor",
+	"description": "Compiled version of CKEditor customized for EGroupware project.",
+	"type": "library",
+	"homepage": "https://github.com/EGroupware/ckeditor",
+	"require": {
+		"php": ">=5.4"
+	},
+	"license": [ "GPL-2.0+", "LGPL-2.1+", "MPL-1.1+" ],
+	"authors": [
+		{
+			"name":  "CKSource",
+			"homepage": "http://cksource.com"
+		}
+	]
+}

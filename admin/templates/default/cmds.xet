@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE overlay PUBLIC "-//Stylite AG//eTemplate 2//EN" "http://www.egroupware.org/etemplate2.dtd">
+<!-- $Id$ -->
+<overlay>
+	<template id="admin.cmds.rows" template="" lang="" group="0" version="1.5.001">
+		<grid width="100%">
+			<columns>
+				<column width="30%" minWidth="300"/>
+				<column/>
+				<column/>
+				<column/>
+				<column width="120"/>
+				<column width="120"/>
+				<column width="30%" minWidth="120"/>
+				<column/>
+				<column/>
+			</columns>
+			<rows>
+				<row class="th">
+					<nextmatch-header label="Title" id="title"/>
+					<nextmatch-header label="Requested" id="requested"/>
+					<nextmatch-sortheader label="Scheduled" id="scheduled"/>
+					<nextmatch-filterheader options="Remote" id="remote_id"/>
+					<nextmatch-sortheader label="Created" id="created"/>
+					<nextmatch-accountfilter empty_label="Creator" id="creator"/>
+					<nextmatch-filterheader empty_label="Status" id="status"/>
+					<nextmatch-sortheader label="Modified" id="modified"/>
+					<nextmatch-accountfilter options="Modifier" id="modifier"/>
+				</row>
+				<row class="row $row_cont[class]">
+					<description id="${row}[title]" statustext="$row_cont[data]"/>
+					<url-email id="${row}[requested]" options=",,,$row_cont[requested_email]" readonly="true"/>
+					<date-time id="${row}[scheduled]" readonly="true"/>
+					<select id="${row}[remote_id]" readonly="true"/>
+					<date-time id="${row}[created]" readonly="true"/>
+					<select-account id="${row}[creator]" readonly="true" statustext="$row_cont[creator_email]"/>
+					<vbox>
+						<select id="${row}[status]" readonly="true"/>
+						<description id="${row}[error]" class="redItalic"/>
+					</vbox>
+					<date-time id="${row}[modified]" readonly="true"/>
+					<select-account id="${row}[modifier]" readonly="true" statustext="$row_cont[modifier_email]"/>
+				</row>
+			</rows>
+		</grid>
+	</template>
+	<template id="admin.cmds" template="" lang="" group="0" version="1.5.001">
+		<grid width="100%">
+			<columns>
+				<column/>
+			</columns>
+			<rows>
+				<row>
+					<nextmatch options="admin.cmds.rows" id="nm"/>
+				</row>
+			</rows>
+		</grid>
+	</template>
+</overlay>

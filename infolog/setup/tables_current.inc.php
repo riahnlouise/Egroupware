@@ -1,0 +1,68 @@
+<?php
+/**
+ * EGroupware - InfoLog - Setup
+ *
+ * @link http://www.egroupware.org
+ * @author Ralf Becker <RalfBecker-AT-outdoor-training.de>
+ * @package infolog
+ * @subpackage setup
+ * @copyright (c) 2003-13 by Ralf Becker <RalfBecker-AT-outdoor-training.de>
+ * @license http://opensource.org/licenses/gpl-license.php GPL - GNU General Public License
+ * @version $Id$
+ */
+
+$phpgw_baseline = array(
+	'egw_infolog' => array(
+		'fd' => array(
+			'info_id' => array('type' => 'auto','nullable' => False,'comment' => 'id of the infolog-entry'),
+			'info_type' => array('type' => 'varchar','precision' => '40','nullable' => False,'default' => 'task','comment' => 'infolog-type e.g. task, phone, email or note'),
+			'info_from' => array('type' => 'varchar','precision' => '255','comment' => 'text of the primary link'),
+			'info_addr' => array('type' => 'varchar','precision' => '255','comment' => 'textfield for phone-number or email of the primary contact'),
+			'info_subject' => array('type' => 'varchar','precision' => '255','comment' => 'title of the infolog-entry'),
+			'info_des' => array('type' => 'longtext','comment' => 'desciption of the infolog-entry'),
+			'info_owner' => array('type' => 'int','meta' => 'account','precision' => '4','nullable' => False,'comment' => 'owner of the entry, can be account or group'),
+			'info_responsible' => array('type' => 'ascii','meta' => 'account-commasep','precision' => '255','nullable' => False,'default' => '0','comment' => 'responsible users or groups (multiple)'),
+			'info_access' => array('type' => 'ascii','precision' => '10','default' => 'public','comment' => 'public or privat'),
+			'info_cat' => array('type' => 'int','meta' => 'category','precision' => '4','nullable' => False,'default' => '0','comment' => 'category id'),
+			'info_datemodified' => array('type' => 'int','meta' => 'timestamp','precision' => '8','nullable' => False,'comment' => 'timestamp of the last mofification'),
+			'info_startdate' => array('type' => 'int','meta' => 'timestamp','precision' => '8','nullable' => False,'default' => '0','comment' => 'timestamp of the startdate'),
+			'info_enddate' => array('type' => 'int','meta' => 'timestamp','precision' => '8','nullable' => False,'default' => '0','comment' => 'timestamp of the enddate'),
+			'info_id_parent' => array('type' => 'int','precision' => '4','nullable' => False,'default' => '0','comment' => 'id of the parent infolog'),
+			'info_planned_time' => array('type' => 'int','precision' => '4','nullable' => False,'default' => '0','comment' => 'pm-field: planned time'),
+			'info_replanned_time' => array('type' => 'int','precision' => '4','nullable' => False,'default' => '0','comment' => 'pm-field: replanned time'),
+			'info_used_time' => array('type' => 'int','precision' => '4','nullable' => False,'default' => '0','comment' => 'pm-field: used time'),
+			'info_status' => array('type' => 'varchar','precision' => '40','default' => 'done','comment' => 'status e.g. ongoing, done ...'),
+			'info_confirm' => array('type' => 'ascii','precision' => '10','default' => 'not'),
+			'info_modifier' => array('type' => 'int','meta' => 'user','precision' => '4','nullable' => False,'default' => '0','comment' => 'account id of the last modifier'),
+			'info_link_id' => array('type' => 'int','precision' => '4','nullable' => False,'default' => '0','comment' => 'id of the primary link'),
+			'info_priority' => array('type' => 'int','precision' => '2','default' => '1','comment' => '0=Low, 1=Normal, 2=High, 3=Urgent'),
+			'pl_id' => array('type' => 'int','precision' => '4','comment' => 'pm-field: id of the pricelist'),
+			'info_price' => array('type' => 'float','precision' => '8','comment' => 'pm-field: price-field'),
+			'info_percent' => array('type' => 'int','meta' => 'percent','precision' => '2','default' => '0','comment' => 'percentage of completion'),
+			'info_datecompleted' => array('type' => 'int','meta' => 'timestamp','precision' => '8','comment' => 'timestamp of completion'),
+			'info_location' => array('type' => 'varchar','precision' => '255','comment' => 'textfield location'),
+			'info_custom_from' => array('type' => 'int','precision' => '1','comment' => 'tick-box to show infolog_from'),
+			'info_uid' => array('type' => 'ascii','precision' => '128','comment' => 'unique id of the infolog-entry'),
+			'info_cc' => array('type' => 'varchar','precision' => '255','comment' => 'textfield for email-adress to be notified via email of changes'),
+			'caldav_name' => array('type' => 'ascii','precision' => '128','comment' => 'name part of CalDAV URL, if specified by client'),
+			'info_etag' => array('type' => 'int','precision' => '4','default' => '0','comment' => 'etag, not yet used'),
+			'info_created' => array('type' => 'int','meta' => 'timestamp','precision' => '8','comment' => 'timestamp of the creation date'),
+			'info_creator' => array('type' => 'int','meta' => 'user','precision' => '4','comment' => 'account id of the creator')
+		),
+		'pk' => array('info_id'),
+		'fk' => array(),
+		'ix' => array('caldav_name',array('info_owner','info_responsible','info_status','info_startdate'),array('info_id_parent','info_owner','info_responsible','info_status','info_startdate')),
+		'uc' => array()
+	),
+	'egw_infolog_extra' => array(
+		'fd' => array(
+			'info_id' => array('type' => 'int','precision' => '4','nullable' => False),
+			'info_extra_name' => array('type' => 'varchar','meta' => 'cfname','precision' => '64','nullable' => False),
+			'info_extra_value' => array('type' => 'varchar','meta' => 'cfvalue','precision' => '16384','nullable' => False)
+		),
+		'pk' => array('info_id','info_extra_name'),
+		'fk' => array(),
+		'ix' => array(),
+		'uc' => array()
+	)
+);

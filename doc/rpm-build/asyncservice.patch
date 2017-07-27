@@ -1,0 +1,63 @@
+diff --git egroupware/admin/inc/class.admin_asyncservice.inc.php egroupware/admin/inc/class.admin_asyncservice.inc.php
+index cb19e5f..2e58ce3 100644
+--- egroupware/admin/inc/class.admin_asyncservice.inc.php
++++ egroupware/admin/inc/class.admin_asyncservice.inc.php
+@@ -97,16 +97,20 @@ class admin_asyncservice
+ 		{
+ 			Api\Config::save_value('asyncservice', $GLOBALS['egw_info']['server']['asyncservice']=$_POST['asyncservice'], 'phpgwapi');
+ 		}
++/*
+ 		if (!$async->only_fallback)
+ 		{
+ 			$installed = $async->installed();
+ 			if (is_array($installed) && isset($installed['cronline']))
+ 			{
++*/
+ 				$async_use['cron'] = lang('crontab only (recomended)');
++/*
+ 			}
+ 		}
+ 		$async_use['']    = lang('fallback (after each pageview)');
+ 		$async_use['off'] = lang('disabled (not recomended)');
++*/
+ 		echo '<p><b>'.lang('Run Asynchronous services').'</b>'.
+ 			' <select name="asyncservice" onChange="this.form.submit();">';
+ 		foreach ($async_use as $key => $label)
+@@ -128,8 +132,9 @@ class admin_asyncservice
+ 		}
+ 		else
+ 		{
+-			echo '<p>'.lang('Installed crontab').": \n";
++			echo '<p>'.lang('Installed crontab').": /etc/cron.d/egroupware.cron\n";
+
++/*
+ 			if (is_array($installed) && isset($installed['cronline']))
+ 			{
+ 				echo "$installed[cronline]</p>";
+@@ -144,6 +149,7 @@ class admin_asyncservice
+ 			}
+ 			echo '<p><input type="submit" name="install" value="'.lang('Install crontab')."\">\n".
+ 				lang("for the times below (empty values count as '*', all empty = every minute)")."</p>\n";
++*/
+ 		}
+
+ 		echo "<hr><table border=0><tr>\n";
+diff --git egroupware/api/src/Egw.php egroupware/api/src/Egw.php
+index bfbb4fb..28e3eee 100644
+--- egroupware/api/src/Egw.php
++++ egroupware/api/src/Egw.php
+@@ -589,12 +589,14 @@ class Egw extends Egw\Base
+ 					_egw_log_exception($ex);
+ 				}
+ 			}
++/* not needed as rpm uses /etc/cron.d/egroupware
+ 			// call the asyncservice check_run function if it is not explicitly set to cron-only
+ 			if (!$GLOBALS['egw_info']['server']['asyncservice'])	// is default
+ 			{
+ 				$async = new Asyncservice();
+ 				$async->check_run('fallback');
+ 			}
++*/
+ 			$this->db->disconnect();
+ 		}
+ 	}

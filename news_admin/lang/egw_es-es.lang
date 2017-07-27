@@ -1,0 +1,138 @@
+%1 entries %2	news_admin	es-es	%1 entradas %2
+%1 entries %2, %3 failed because of insufficent rights !!!	news_admin	es-es	%1 entradas %2, %3 fallaron por permisos insuficientes
+%1 module	news_admin	es-es	Módulo %1
+%1 news imported (%2 new, %3 deleted).	news_admin	es-es	Se han importado %1 noticias. %2 nuevas y se han borrado %3.
+%s hours	news_admin	es-es	%s horas
+%s imported news items	news_admin	es-es	Se han importado %s elementos
+actions	news_admin	es-es	Acciones
+active	news_admin	es-es	Activo
+add new article	news_admin	es-es	Añadir artículo nuevo
+add new news	news_admin	es-es	Añadir noticias nuevas
+add news item	news_admin	es-es	Añadir elemento de noticias
+all news	news_admin	es-es	Todas las noticias
+all users	news_admin	es-es	Todos los usuarios
+always	news_admin	es-es	Siempre
+as	news_admin	es-es	como
+as imported	news_admin	es-es	como se importaron
+by date	news_admin	es-es	Por fecha
+categories to displayed on main page?	news_admin	es-es	¿Mostrar categorías en la página principal?
+category deleted.	news_admin	es-es	Se ha borrado la categoría.
+category saved.	news_admin	es-es	Se ha guardado la categoría.
+choose a category	news_admin	es-es	Elija una categoría
+comma separated item ids which shall be shown (empty = all)	news_admin	es-es	IDs de elementos separados por comas que se mostrarán. Vacío = todos
+configuration	news_admin	es-es	Configuración
+configure access permissions	common	es-es	Configurar permisos de acceso
+configure rss exports	common	es-es	Configurar exportación RSS
+contains html	news_admin	es-es	Contiene HTML
+content	news_admin	es-es	Contenido
+count	news_admin	es-es	Contar
+date and time	news_admin	es-es	Fecha y hora
+date of entry, newest first	news_admin	es-es	Fecha de la entrada, las más recientes primero
+default languages	news_admin	es-es	Idiomas predeterminados
+delete these categories, and all news in them	news_admin	es-es	Borrar estas categorías y todas las noticias que contengan
+delete this category, and all news in it	news_admin	es-es	Borrar esta categoría y todas las noticias que contenga
+delete this news	news_admin	es-es	Borrar esta noticia
+deleted	news_admin	es-es	borrado
+do you want to publish a rss feed for this news category	news_admin	es-es	¿Desea publicar un canal RSS para esta categoría de noticias?
+edit news item	news_admin	es-es	Editar elemento de noticias
+end	news_admin	es-es	Fin
+end date (if selected), first ending first, then unterminated	news_admin	es-es	Fecha de fin (si se selecciona), primero las que acaben antes, luego las no finalizadas
+error importing the feed!	news_admin	es-es	¡Error al importar el hilo de noticias!
+error saving the category!	news_admin	es-es	¡Error al guardar la categoría!
+error saving the news!	news_admin	es-es	¡Error al guardar la noticia!
+failed to add message	news_admin	es-es	Fallo al añadir un mensaje nuevo
+format for links to items	news_admin	es-es	Formato para los enlaces a los elementos
+format of export	news_admin	es-es	Formato de exportación
+from	news_admin	es-es	De
+from all	news_admin	es-es	Desde todos
+future	news_admin	es-es	Futuro
+global categories	news_admin	es-es	Categorías globales
+global news	news_admin	es-es	Noticias globales
+global_news	news_admin	es-es	Noticias globales
+headline	news_admin	es-es	Titular
+headline with link	news_admin	es-es	Titular con enlace
+how many describtion lines should be directly visible. further lines are available via a scrollbar.	news_admin	es-es	Cuántas líneas de descripción deben verse directamente. Las líneas posteriores están disponibles mediante una barra de desplazamiento.
+how shall the articles be sorted?	news_admin	es-es	¿Cómo se ordenan los artículos?
+if you specify an export definition, it will be used when you export	news_admin	es-es	Si especifica una definición de exportar, se usará al exportar.
+image link	news_admin	es-es	Enlace a la imagen
+image title	news_admin	es-es	Título de la imagen
+image url	news_admin	es-es	URL de la imagen
+implies read permission	news_admin	es-es	implica permiso de lectura
+import every	news_admin	es-es	Importar cada
+import now	news_admin	es-es	Importar ahora
+import url	news_admin	es-es	URL de importación
+imported feeds can not be writable!	news_admin	es-es	¡Las noticias importadas NO se pueden escribir!
+imported news items	news_admin	es-es	elmentos de noticias importados
+item has been deleted	news_admin	es-es	El elemento ha sido borrado
+item not found	news_admin	es-es	No se encontró el elemento
+keep	news_admin	es-es	Mantener
+keep all	news_admin	es-es	Mantener todos
+kept %1 because of write permissions.  remove them first.	news_admin	es-es	Se ha mantenido %1 por permisos de escritura. Elimínelos antes.
+last imported	news_admin	es-es	Última importación
+last updated	news_admin	es-es	Ultima actualización
+limit number of description lines (default 5, 0 for no limit)	news_admin	es-es	Limitar el número de líneas de la descripción (predeterminado: 5, 0 para ilimitadas)
+link	news_admin	es-es	Enlace
+main	news_admin	es-es	Principal
+maintain	news_admin	es-es	Mantener
+maintain news	admin	es-es	Mantener noticias
+message has been added	news_admin	es-es	El mensaje ha sido añadido
+more news	news_admin	es-es	Más noticias
+more news link	news_admin	es-es	Enlace a más noticias
+new item has been added	news_admin	es-es	Se ha añadido un elemento nuevo
+news	news_admin	es-es	Noticias
+news admin	news_admin	es-es	Administrador de noticias
+news administration	news_admin	es-es	Administración de noticias
+news deleted.	news_admin	es-es	Noticia borrada
+news item has been added	news_admin	es-es	Se ha añadido un elemento de noticias
+news item has been updated	news_admin	es-es	Se ha actualizado un elemento de noticias
+news saved.	news_admin	es-es	Noticia guardada
+news_admin	common	es-es	Administrador de noticias
+no anonymous user accounts installed.  notify the administrator.	news_admin	es-es	NO HAY CUENTA INSTALADA PARA EL USUARIO ANONIMO. NOTIFIQUELO AL ADMINISTRADOR.
+no entries found	news_admin	es-es	No se encontraron entradas
+no matching news item	news_admin	es-es	No coincide ninguna noticia
+no news	news_admin	es-es	Sin noticias está actualmente en la categoría
+no rss export	news_admin	es-es	No hay exportación RSS
+now	news_admin	es-es	Ahora
+number of articles to display on the main screen	news_admin	es-es	Número de artículos a mostrar en la pantalla principal
+number of news items to be displayed on page	news_admin	es-es	Número de elementos de noticias a mostrar en la página
+old	news_admin	es-es	Antigua
+on	news_admin	es-es	en
+owner / read permissions	news_admin	es-es	Propietario / permisos de lectura
+page-name the item should be displayed (empty = current page)	news_admin	es-es	Página-indique el elemento a mostrar (vacío=página actual)
+parent	news_admin	es-es	Nivel superior
+picture upload (leave the upload directory empty to disable the upload)	admin	es-es	Subir imagen (dejar el directorio en blanco para desactivar subir imágenes)
+please select a category	news_admin	es-es	Por favor, seleccione una categoría
+publish date	news_admin	es-es	Fecha de publicación
+read more	news_admin	es-es	leer más
+read news	news_admin	es-es	Leer noticias
+read permissions	news_admin	es-es	Permiso de lectura
+reload	news_admin	es-es	Recargar
+send mail to others	news_admin	es-es	Enviar correo a otros
+should news_admin display the latest article headlines on the main screen.	news_admin	es-es	Mostrar el titular del último artículo en la pantalla principal
+show latest news articles?	news_admin	es-es	¿Mostrar los últimos artículos de noticias?
+show news articles on main page?	news_admin	es-es	¿Mostrar artículos de noticias en la página principal?
+small view	news_admin	es-es	Vista reducida
+start	news_admin	es-es	Inicio
+start date (if selected), last started first, then unterminated	news_admin	es-es	Fecha de inicio (si se selecciona), primero las últimas iniciadas, luego las que están sin finalizar
+submitted by	common	es-es	Enviado por
+submitted by %1 on %2	news_admin	es-es	Enviado por %1 el %2
+submitted by and date	news_admin	es-es	Enviado por y fecha
+teaser	news_admin	es-es	Introducción
+teaser with read more link	news_admin	es-es	Introducción con enlace de leer más
+the news content is missing	news_admin	es-es	Falta el contenido de las noticias
+the number of articles to display on the main screen.	news_admin	es-es	El número de artículos a mostrar en la pantalla principal.
+the subject is missing	news_admin	es-es	Falta el asunto
+there no such translation.	news_admin	es-es	No hay tal traducción.
+this module publishes news from the news_admin application on your website. be aware of news_admin's acl restrictions.	news_admin	es-es	Este módulo publica noticias desde la aplicación Administrador de noticias en su sitio web. Tenga en cuenta las restricciones de ACL de la aplicación.
+until	news_admin	es-es	hasta
+update rss feed	news_admin	es-es	Actualizar hilo RSS
+updated	news_admin	es-es	Actualizado
+url of the rss or atom feed, empty for own news feed	news_admin	es-es	URL del hilo Atom. En blanco para hilo propio.
+view this category	news_admin	es-es	Ver esta categoría
+visible	news_admin	es-es	Visible
+webpage news admin	news_admin	es-es	Administrador de noticias de la página web
+which information do you want to show (css class)	news_admin	es-es	Qué información desea mostrar (clase CSS)
+which news categories should be displayed on the main screen.	news_admin	es-es	Qué categorías de noticias deben mostrarse en la pantalla principal.
+write	news_admin	es-es	Escribir
+write permissions	news_admin	es-es	Permiso de escritura
+you need to select some entries first	news_admin	es-es	Necesita seleccionar antes algunas entradas

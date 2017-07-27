@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE overlay PUBLIC "-//Stylite AG//eTemplate 2//EN" "http://www.egroupware.org/etemplate2.dtd">
+<!-- $Id$ -->
+<overlay>
+	<template id="bookmarks.list.row" template="" lang="" group="0" version="1.9.001">
+		<grid width="100%">
+			<columns>
+				<column width="50"/>
+				<column width="45%"/>
+				<column width="120"/>
+				<column width="20%"/>
+				<column width="15%" disabled="@no_customfields"/>
+				<column width="120"/>
+				<column width="120"/>
+			</columns>
+			<rows>
+				<row class="th" valign="bottom">
+					<description/>
+					<vbox>
+						<nextmatch-sortheader label="Name" id="bm_name"/>
+						<nextmatch-sortheader label="Description" id="bm_desc"/>
+					</vbox>
+					<vbox>
+						<nextmatch-header label="Category" id="category"/>
+						<nextmatch-sortheader label="Rating" id="bm_rating"/>
+					</vbox>
+					<nextmatch-header label="Keywords" id="bm_keywords"/>
+					<nextmatch-customfields id="customfields"/>
+					<vbox>
+						<nextmatch-sortheader label="Last visited" id="visited"/>
+						<nextmatch-sortheader label="Total visits" id="bm_visits"/>
+					</vbox>
+					<vbox>
+						<nextmatch-sortheader label="Created" id="added"/>
+						<nextmatch-sortheader label="Last modified" id="updated"/>
+					</vbox>
+				</row>
+				<row class="row">
+					<image align="center" label="$row_cont[name]" src="${row}[favicon]" href="$row_cont[url]" class="favicon"/>
+					<vbox>
+						<hbox>
+							<description value="${row_cont[stripped_name]}" href="bookmarks.bookmarks_ui.redirect&amp;bm_id=${row_cont[id]}" extra_link_target="_blank"/>
+						</hbox>
+						<description id="${row}[desc]"/>
+					</vbox>
+					<vbox>
+						<menulist>
+							<menupopup type="select-cat" id="${row}[category]" readonly="true"/>
+						</menulist>
+						<image statustext="Rating of this site" src="bar-{$row_cont[rating]}"/>
+					</vbox>
+					<description id="${row}[keywords]"/>
+					<customfields-list id="$row" class="customfields"/>
+					<vbox>
+						<date-time id="${row}[visited]" readonly="true"/>
+						<description id="${row}[visits]" no_lang="1"/>
+					</vbox>
+					<vbox>
+						<menulist>
+							<menupopup type="select-account" id="${row}[owner]" readonly="true"/>
+						</menulist>
+						<date-time id="${row}[added]" readonly="true" class="noWrap"/>
+						<date-time id="${row}[updated]" readonly="true" class="noBreak"/>
+					</vbox>
+				</row>
+			</rows>
+		</grid>
+	</template>
+	<template id="bookmarks.list.add" template="" lang="" group="0" version="1.7.001">
+		<buttononly label="Add" id="add" onclick="egw.open('','bookmarks','add');"/>
+	</template>
+	<template id="bookmarks.list" template="" lang="" group="0" version="1.9.001">
+		<nextmatch id="nm" options="bookmarks.list.row" header_left="bookmarks.list.add"/>
+	</template>
+</overlay>

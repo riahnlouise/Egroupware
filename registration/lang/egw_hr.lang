@@ -1,0 +1,29 @@
+address line 2	registration	hr	Adresa Linija 2
+anonymous password	admin	hr	Lozinka nepoznatog
+anonymous user	registration	hr	Nepoznati korisnik
+business phone	registration	hr	Tvrtka - Broj telefona
+canceled	registration	hr	Otkazano
+city	registration	hr	Grad
+confirm	registration	hr	Potvrdi
+department	registration	hr	Odjel
+email address	registration	hr	email address
+enter your new password	registration	hr	Unesite vašu novu zaporku
+expires	registration	hr	Istječe
+fax	registration	hr	Fax
+home phone	registration	hr	Osobno - Telefon
+hours	registration	hr	sati
+ip	registration	hr	IP
+mobile phone	registration	hr	Mobilni Telefon
+order	registration	hr	Naredba
+prefix	registration	hr	Prefiks
+re-enter password	registration	hr	Ponovo unesite zaporku
+re-enter your password	registration	hr	Ponovo unesite vašu zaporku
+registered	registration	hr	registered
+remove	registration	hr	Makni
+street	registration	hr	Ulica
+text	registration	hr	Tekst
+the two passwords are not the same	registration	hr	Dvije unesene zaporke nisu iste
+type	registration	hr	Type
+work phone	registration	hr	Telefon na poslu
+you must enter a password	registration	hr	You must enter a password
+zip code	registration	hr	Poštanski Broj

@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE overlay PUBLIC "-//Stylite AG//eTemplate 2//EN" "http://www.egroupware.org/etemplate2.dtd">
+<!-- $Id$ -->
+<overlay>
+	<template id="projectmanager.elements.list.add-new" template="" lang="" group="0" version="1.9.001">
+		<link-add id="link_add" onchange="/* Keep app, but do not trigger a change */
+		if(widget.id !== 'link_addapp') return false;
+var nm = widget.getParent();
+while(!nm.instanceOf(et2_nextmatch))
+{
+	nm = nm.getParent();
+}
+if(nm.activeFilters) {
+	nm.activeFilters[widget.id] = widget.get_value();
+}
+return false;"/>
+	</template>
+	<template id="projectmanager.elements.list.add" template="" lang="" group="0" version="1.9.001">
+		<grid width="99%" height="99%">
+			<columns>
+				<column width="90%"/>
+				<column width="9%"/>
+			</columns>
+			<rows>
+				<row>
+					<link-to label="Add existing" id="link_to" no_files="true"/>
+					<!--
+					<image align="right" label="Show more options" src="extra_icons" onclick="app.projectmanager.toggleDiv" readonly="true"/>
+					-->
+				</row>
+			</rows>
+		</grid>
+		<grid class="egwLinkMoreOptions">
+			<columns>
+				<column/>
+			</columns>
+			<rows>
+				<row>
+					<projectmanager-select-erole label="Element roles" id="eroles_add" no_lang="1" options="8,true,width:99%" span="all"/>
+				</row>
+			</rows>
+		</grid>
+	</template>
+	<template id="projectmanager.elements.list.rows" template="" lang="" group="0" version="1.9.005">
+		<grid width="100%">
+			<columns>
+				<column width="80"/>
+				<column width="65%"/>
+				<column width="10%"/>
+				<column/>
+				<column width="130"/>
+				<column width="120"/>
+				<column width="120"/>
+				<column width="80"/>
+				<column width="80"/>
+				<column width="80" disabled="@no_pe_used_budget_pe_planned_budget"/>
+				<column width="80"/>
+				<column width="130"/>
+			</columns>
+			<rows>
+				<row class="th">
+					<nextmatch-filterheader align="center" id="pe_app" options="Application"/>
+					<vbox>
+						<nextmatch-sortheader label="Title" id="pe_title"/>
+						<nextmatch-sortheader label="Comment" id="pe_remark"/>
+					</vbox>
+					<nextmatch-header label="Category" id="cat_id"/>
+					<nextmatch-sortheader label="Element role" id="pe_eroles"/>
+					<nextmatch-accountfilter id="pe_resources" options="Resources"/>
+					<vbox>
+						<nextmatch-sortheader label="Startdate" id="pe_real_start"/>
+						<date id="total_pe_real_start" readonly="true"/>
+						<nextmatch-sortheader label="planned" id="pe_planned_start" class="planned"/>
+						<date id="total_pe_planned_start" readonly="true"/>
+					</vbox>
+					<vbox>
+						<nextmatch-sortheader label="Enddate" id="pe_real_end"/>
+						<date id="total_pe_real_end" readonly="true"/>
+						<nextmatch-sortheader label="planned" id="pe_planned_end" class="planned"/>
+						<date id="total_pe_planned_end" readonly="true"/>
+					</vbox>
+					<vbox>
+						<nextmatch-sortheader label="Times" id="pe_used_time"/>
+						<date-duration id="total_pe_used_time" readonly="true" options="@@duration_format"/>
+						<nextmatch-sortheader label="planned" id="pe_planned_time" class="planned"/>
+						<date-duration id="total_pe_planned_time" readonly="true" options="@@duration_format" class="planned"/>
+					</vbox>
+					<vbox>
+						<nextmatch-sortheader label="Times" id="pe_used_time"/>
+						<date-duration id="total_pe_used_time_2" readonly="true" options="@@duration_format"/>
+						<nextmatch-sortheader label="planned" id="pe_planned_time" class="planned"/>
+						<date-duration id="total_pe_planned_time_2" readonly="true" options="@@duration_format" class="planned"/>
+						<nextmatch-sortheader label="re-planned" id="pe_replanned_time" class="replanned"/>
+						<date-duration id="total_pe_replanned_time" readonly="true" options="@@duration_format" class="replanned"/>
+					</vbox>
+					<vbox>
+						<nextmatch-sortheader label="Budget" id="pe_used_budget"/>
+						<description id="total_pe_used_budget" no_lang="1"/>
+						<nextmatch-sortheader label="planned" id="pe_planned_budget" class="planned"/>
+						<description id="total_pe_planned_budget" no_lang="1"/>
+					</vbox>
+					<vbox align="center">
+						<nextmatch-sortheader align="center" disabled="true" label="Health" id="pe_health"/>
+						<nextmatch-sortheader align="center" label="Status" id="pe_completion"/>
+						<description id="total_pe_completion" no_lang="1"/>
+					</vbox>
+					<vbox>
+						<nextmatch-sortheader label="last modified" id="pe_modified"/>
+						<nextmatch-sortheader label="modified by" id="pe_modifier"/>
+					</vbox>
+				</row>
+				<row class="$row_cont[cat_id] $row_cont[class]">
+					<image align="center" label="$row_cont[pe_app]" src="${row}[pe_icon]"/>
+					<vbox>
+						<link id="${row}[pm_link]" no_lang="1"/>
+						<link id="${row}[link]" no_lang="1"/>
+						<html id="${row}[pe_details]" no_lang="1"/>
+						<description id="${row}[pe_remark]" no_lang="1"/>
+						<link-string id="${row}[pe_links]"/>
+					</vbox>
+					<menulist>
+						<menupopup type="select-cat" id="${row}[cat_id]" readonly="true"/>
+					</menulist>
+					<projectmanager-select-erole id="${row}[pe_eroles]" readonly="true"/>
+					<listbox type="select-account" id="${row}[pe_resources]" readonly="true"/>
+					<vbox>
+						<date id="${row}[pe_real_start]" readonly="true"/>
+						<date id="${row}[pe_planned_start]" no_lang="1" readonly="true" class="planned"/>
+					</vbox>
+					<vbox readonly="true">
+						<date id="${row}[pe_real_end]" readonly="true"/>
+						<date id="${row}[pe_planned_end]" no_lang="1" readonly="true" class="planned"/>
+					</vbox>
+					<vbox>
+						<date-duration id="${row}[pe_used_time]" readonly="true" options="@@duration_format"/>
+						<date-duration id="${row}[pe_planned_time]" readonly="true" options="@@duration_format" span="all" class="planned"/>
+					</vbox>
+					<vbox>
+						<hbox id="pe_used_time">
+							<image label="Times" src="timesheet"/>
+							<date-duration id="${row}[pe_used_time]" readonly="true" options="@@duration_format"/>
+						</hbox>
+						<hbox id="planified">
+							<image label="planned time" src="k_alarm.png"/>
+							<date-duration id="${row}[pe_planned_time]" readonly="true" options="@@duration_format" span="all" class="planned"/>
+						</hbox>
+						<hbox id="replanified">
+							<image label="Re-planned time" src="agt_reload.png"/>
+							<date-duration id="${row}[pe_replanned_time]" readonly="true" options="@@duration_format" span="all" class="replanned"/>
+						</hbox>
+					</vbox>
+					<vbox readonly="true">
+						<textbox type="float" id="${row}[pe_used_budget]" readonly="true" max="2"/>
+						<textbox type="float" id="${row}[pe_planned_budget]" no_lang="1" readonly="true" max="2" class="planned"/>
+					</vbox>
+					<vbox align="center">
+						<image align="center" src="${row}[pe_healt_icon]"/>
+						<progress align="center" id="${row}[pe_completion]" no_lang="1"/>
+						<image align="center" src="${row}[pe_completion_icon]" no_lang="1"/>
+						<image align="center" src="{$row_cont[ignored]}" no_lang="1"/>
+					</vbox>
+					<vbox readonly="true">
+						<date-time id="${row}[pe_modified]" readonly="true"/>
+						<menulist>
+							<menupopup type="select-account" id="${row}[pe_modifier]" readonly="true"/>
+						</menulist>
+					</vbox>
+				</row>
+			</rows>
+		</grid>
+	</template>
+	<template id="projectmanager.elements.list" template="" lang="" group="0" version="1.9.005">
+		<nextmatch id="nm" options="projectmanager.elements.list.rows" header_left="projectmanager.elements.list.add-new"/>
+		<box id="add_existing_popup" class="action_popup prompt">
+			<vbox>
+				<description value="Add / Remove link" class="promptheader"/>
+				<link-entry id="link" class="action_popup-content"/>
+				<hbox>
+					<button label="Add" id="link_action[add]" onclick="nm_submit_popup(this); return false;"/>
+					<buttononly label="Cancel" onclick="nm_hide_popup(this,'link_popup');"/>
+				</hbox>
+			</vbox>
+		</box>
+	</template>
+</overlay>

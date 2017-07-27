@@ -1,0 +1,757 @@
+[13-Jul-2017 08:18:05 UTC] PHP Warning: file_get_contents(): http:// wrapper is disabled in the server configuration by allow_url_fopen=0 in /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Updates.php on line 49
+[13-Jul-2017 08:18:05 UTC] #1 /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Updates.php(49): file_get_contents('http://www.egro...', false, Resource id #161)
+[13-Jul-2017 08:18:05 UTC] #2 [internal function]: EGroupware\Api\Framework\Updates::EGroupware\Api\Framework\{closure}()
+[13-Jul-2017 08:18:05 UTC] #3 /home/tcbccomp/maria.tcbc.com.ph/api/src/Cache.php(230): call_user_func_array(Object(Closure), Array)
+[13-Jul-2017 08:18:05 UTC] #4 /home/tcbccomp/maria.tcbc.com.ph/api/src/Cache.php(304): EGroupware\Api\Cache::getCache('Tree', 'EGroupware\\Api\\...', 'versions', Object(Closure), Array, 7200)
+[13-Jul-2017 08:18:05 UTC] #5 /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Updates.php(59): EGroupware\Api\Cache::getTree('EGroupware\\Api\\...', 'versions', Object(Closure), Array, 7200)
+[13-Jul-2017 08:18:05 UTC] #6 /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Updates.php(72): EGroupware\Api\Framework\Updates::available()
+[13-Jul-2017 08:18:05 UTC] #7 /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework.php(1080): EGroupware\Api\Framework\Updates::notification()
+[13-Jul-2017 08:18:05 UTC] #8 /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Ajax.php(326): EGroupware\Api\Framework->topmenu(Array, Array)
+[13-Jul-2017 08:18:05 UTC] #9 /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Ajax.php(283): EGroupware\Api\Framework\Ajax->topmenu(Array, Array)
+[13-Jul-2017 08:18:05 UTC] #10 /home/tcbccomp/maria.tcbc.com.ph/pixelegg/inc/class.pixelegg_framework.inc.php(68): EGroupware\Api\Framework\Ajax->header(Array)
+[13-Jul-2017 08:18:05 UTC] #11 /home/tcbccomp/maria.tcbc.com.ph/index.php(135): pixelegg_framework->header()
+[13-Jul-2017 08:18:05 UTC] #12 {main}
+[13-Jul-2017 08:18:05 UTC] # Instance=default, User=mariaadmin, Request=GET http://maria.tcbc.com.ph/index.php?cd=yes, User-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/603.2.4 (KHTML, like Gecko) Version/10.1.1 Safari/603.2.4
+[13-Jul-2017 08:18:05 UTC] PHP Warning: file_get_contents(http://www.egroupware.org/currentversion): failed to open stream: no suitable wrapper could be found in /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Updates.php on line 49
+[13-Jul-2017 08:18:05 UTC] #1 /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Updates.php(49): file_get_contents('http://www.egro...', false, Resource id #161)
+[13-Jul-2017 08:18:05 UTC] #2 [internal function]: EGroupware\Api\Framework\Updates::EGroupware\Api\Framework\{closure}()
+[13-Jul-2017 08:18:05 UTC] #3 /home/tcbccomp/maria.tcbc.com.ph/api/src/Cache.php(230): call_user_func_array(Object(Closure), Array)
+[13-Jul-2017 08:18:05 UTC] #4 /home/tcbccomp/maria.tcbc.com.ph/api/src/Cache.php(304): EGroupware\Api\Cache::getCache('Tree', 'EGroupware\\Api\\...', 'versions', Object(Closure), Array, 7200)
+[13-Jul-2017 08:18:05 UTC] #5 /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Updates.php(59): EGroupware\Api\Cache::getTree('EGroupware\\Api\\...', 'versions', Object(Closure), Array, 7200)
+[13-Jul-2017 08:18:05 UTC] #6 /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Updates.php(72): EGroupware\Api\Framework\Updates::available()
+[13-Jul-2017 08:18:05 UTC] #7 /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework.php(1080): EGroupware\Api\Framework\Updates::notification()
+[13-Jul-2017 08:18:05 UTC] #8 /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Ajax.php(326): EGroupware\Api\Framework->topmenu(Array, Array)
+[13-Jul-2017 08:18:05 UTC] #9 /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Ajax.php(283): EGroupware\Api\Framework\Ajax->topmenu(Array, Array)
+[13-Jul-2017 08:18:05 UTC] #10 /home/tcbccomp/maria.tcbc.com.ph/pixelegg/inc/class.pixelegg_framework.inc.php(68): EGroupware\Api\Framework\Ajax->header(Array)
+[13-Jul-2017 08:18:05 UTC] #11 /home/tcbccomp/maria.tcbc.com.ph/index.php(135): pixelegg_framework->header()
+[13-Jul-2017 08:18:05 UTC] #12 {main}
+[13-Jul-2017 08:18:05 UTC] # Instance=default, User=mariaadmin, Request=GET http://maria.tcbc.com.ph/index.php?cd=yes, User-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/603.2.4 (KHTML, like Gecko) Version/10.1.1 Safari/603.2.4
+[13-Jul-2017 08:18:08 UTC] PHP Warning: file_get_contents(): https:// wrapper is disabled in the server configuration by allow_url_fopen=0 in /home/tcbccomp/maria.tcbc.com.ph/calendar/inc/class.calendar_holidays.inc.php on line 195
+[13-Jul-2017 08:18:08 UTC] #1 /home/tcbccomp/maria.tcbc.com.ph/calendar/inc/class.calendar_holidays.inc.php(195): file_get_contents('https://communi...', false, Resource id #176)
+[13-Jul-2017 08:18:08 UTC] #2 /home/tcbccomp/maria.tcbc.com.ph/calendar/inc/class.calendar_holidays.inc.php(151): calendar_holidays::ical_url('US')
+[13-Jul-2017 08:18:08 UTC] #3 /home/tcbccomp/maria.tcbc.com.ph/calendar/inc/class.calendar_holidays.inc.php(75): calendar_holidays::fetch('US')
+[13-Jul-2017 08:18:08 UTC] #4 /home/tcbccomp/maria.tcbc.com.ph/calendar/inc/class.calendar_holidays.inc.php(50): calendar_holidays::render('US', 2016, 2022)
+[13-Jul-2017 08:18:08 UTC] #5 /home/tcbccomp/maria.tcbc.com.ph/calendar/inc/class.calendar_bo.inc.php(1888): calendar_holidays::read('US', 2017)
+[13-Jul-2017 08:18:08 UTC] #6 /home/tcbccomp/maria.tcbc.com.ph/calendar/inc/class.calendar_ui.inc.php(561): calendar_bo->read_holidays(2017)
+[13-Jul-2017 08:18:08 UTC] #7 /home/tcbccomp/maria.tcbc.com.ph/calendar/inc/class.calendar_ui.inc.php(504): calendar_ui->sidebox_etemplate()
+[13-Jul-2017 08:18:08 UTC] #8 [internal function]: calendar_ui->sidebox_menu(Array)
+[13-Jul-2017 08:18:08 UTC] #9 /home/tcbccomp/maria.tcbc.com.ph/api/src/loader/deprecated_factory.php(131): call_user_func_array(Array, Array)
+[13-Jul-2017 08:18:08 UTC] #10 /home/tcbccomp/maria.tcbc.com.ph/api/src/Hooks.php(143): ExecMethod2('calendar.calend...', Array)
+[13-Jul-2017 08:18:08 UTC] #11 /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Ajax.php(589): EGroupware\Api\Hooks::single('sidebox_menu', 'calendar')
+[13-Jul-2017 08:18:08 UTC] #12 /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Ajax.php(492): EGroupware\Api\Framework\Ajax->get_sidebox('calendar')
+[13-Jul-2017 08:18:08 UTC] #13 /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Ajax.php(999): EGroupware\Api\Framework\Ajax->do_sidebox()
+[13-Jul-2017 08:18:08 UTC] #14 [internal function]: EGroupware\Api\Framework\Ajax->ajax_exec('index.php?menua...')
+[13-Jul-2017 08:18:08 UTC] #15 /home/tcbccomp/maria.tcbc.com.ph/api/src/Json/Request.php(179): call_user_func_array(Array, Array)
+[13-Jul-2017 08:18:08 UTC] #16 /home/tcbccomp/maria.tcbc.com.ph/api/src/Json/Request.php(91): EGroupware\Api\Json\Request->handleRequest('calendar.jdots_...', Array)
+[13-Jul-2017 08:18:08 UTC] #17 /home/tcbccomp/maria.tcbc.com.ph/json.php(119): EGroupware\Api\Json\Request->parseRequest('calendar.jdots_...', '{"request":{"pa...')
+[13-Jul-2017 08:18:08 UTC] #18 {main}
+[13-Jul-2017 08:18:08 UTC] # Instance=default, User=mariaadmin, Request=POST http://maria.tcbc.com.ph?menuaction=calendar.calendar_uiviews.index&ajax=true, User-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/603.2.4 (KHTML, like Gecko) Version/10.1.1 Safari/603.2.4
+[13-Jul-2017 08:18:08 UTC] PHP Warning: file_get_contents(https://community.egroupware.org/egw/calendar/setup/ical_holiday_urls.json): failed to open stream: no suitable wrapper could be found in /home/tcbccomp/maria.tcbc.com.ph/calendar/inc/class.calendar_holidays.inc.php on line 195
+[13-Jul-2017 08:18:08 UTC] #1 /home/tcbccomp/maria.tcbc.com.ph/calendar/inc/class.calendar_holidays.inc.php(195): file_get_contents('https://communi...', false, Resource id #176)
+[13-Jul-2017 08:18:08 UTC] #2 /home/tcbccomp/maria.tcbc.com.ph/calendar/inc/class.calendar_holidays.inc.php(151): calendar_holidays::ical_url('US')
+[13-Jul-2017 08:18:08 UTC] #3 /home/tcbccomp/maria.tcbc.com.ph/calendar/inc/class.calendar_holidays.inc.php(75): calendar_holidays::fetch('US')
+[13-Jul-2017 08:18:08 UTC] #4 /home/tcbccomp/maria.tcbc.com.ph/calendar/inc/class.calendar_holidays.inc.php(50): calendar_holidays::render('US', 2016, 2022)
+[13-Jul-2017 08:18:08 UTC] #5 /home/tcbccomp/maria.tcbc.com.ph/calendar/inc/class.calendar_bo.inc.php(1888): calendar_holidays::read('US', 2017)
+[13-Jul-2017 08:18:08 UTC] #6 /home/tcbccomp/maria.tcbc.com.ph/calendar/inc/class.calendar_ui.inc.php(561): calendar_bo->read_holidays(2017)
+[13-Jul-2017 08:18:08 UTC] #7 /home/tcbccomp/maria.tcbc.com.ph/calendar/inc/class.calendar_ui.inc.php(504): calendar_ui->sidebox_etemplate()
+[13-Jul-2017 08:18:08 UTC] #8 [internal function]: calendar_ui->sidebox_menu(Array)
+[13-Jul-2017 08:18:08 UTC] #9 /home/tcbccomp/maria.tcbc.com.ph/api/src/loader/deprecated_factory.php(131): call_user_func_array(Array, Array)
+[13-Jul-2017 08:18:08 UTC] #10 /home/tcbccomp/maria.tcbc.com.ph/api/src/Hooks.php(143): ExecMethod2('calendar.calend...', Array)
+[13-Jul-2017 08:18:08 UTC] #11 /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Ajax.php(589): EGroupware\Api\Hooks::single('sidebox_menu', 'calendar')
+[13-Jul-2017 08:18:08 UTC] #12 /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Ajax.php(492): EGroupware\Api\Framework\Ajax->get_sidebox('calendar')
+[13-Jul-2017 08:18:08 UTC] #13 /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Ajax.php(999): EGroupware\Api\Framework\Ajax->do_sidebox()
+[13-Jul-2017 08:18:08 UTC] #14 [internal function]: EGroupware\Api\Framework\Ajax->ajax_exec('index.php?menua...')
+[13-Jul-2017 08:18:08 UTC] #15 /home/tcbccomp/maria.tcbc.com.ph/api/src/Json/Request.php(179): call_user_func_array(Array, Array)
+[13-Jul-2017 08:18:08 UTC] #16 /home/tcbccomp/maria.tcbc.com.ph/api/src/Json/Request.php(91): EGroupware\Api\Json\Request->handleRequest('calendar.jdots_...', Array)
+[13-Jul-2017 08:18:08 UTC] #17 /home/tcbccomp/maria.tcbc.com.ph/json.php(119): EGroupware\Api\Json\Request->parseRequest('calendar.jdots_...', '{"request":{"pa...')
+[13-Jul-2017 08:18:08 UTC] #18 {main}
+[13-Jul-2017 08:18:08 UTC] # Instance=default, User=mariaadmin, Request=POST http://maria.tcbc.com.ph?menuaction=calendar.calendar_uiviews.index&ajax=true, User-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/603.2.4 (KHTML, like Gecko) Version/10.1.1 Safari/603.2.4
+[13-Jul-2017 08:18:08 UTC] PHP Warning: fopen(): https:// wrapper is disabled in the server configuration by allow_url_fopen=0 in /home/tcbccomp/maria.tcbc.com.ph/calendar/inc/class.calendar_holidays.inc.php on line 156
+[13-Jul-2017 08:18:08 UTC] #1 /home/tcbccomp/maria.tcbc.com.ph/calendar/inc/class.calendar_holidays.inc.php(156): fopen('https://www.moz...', 'r', false, Resource id #180)
+[13-Jul-2017 08:18:08 UTC] #2 /home/tcbccomp/maria.tcbc.com.ph/calendar/inc/class.calendar_holidays.inc.php(75): calendar_holidays::fetch('US')
+[13-Jul-2017 08:18:08 UTC] #3 /home/tcbccomp/maria.tcbc.com.ph/calendar/inc/class.calendar_holidays.inc.php(50): calendar_holidays::render('US', 2016, 2022)
+[13-Jul-2017 08:18:08 UTC] #4 /home/tcbccomp/maria.tcbc.com.ph/calendar/inc/class.calendar_bo.inc.php(1888): calendar_holidays::read('US', 2017)
+[13-Jul-2017 08:18:08 UTC] #5 /home/tcbccomp/maria.tcbc.com.ph/calendar/inc/class.calendar_ui.inc.php(561): calendar_bo->read_holidays(2017)
+[13-Jul-2017 08:18:08 UTC] #6 /home/tcbccomp/maria.tcbc.com.ph/calendar/inc/class.calendar_ui.inc.php(504): calendar_ui->sidebox_etemplate()
+[13-Jul-2017 08:18:08 UTC] #7 [internal function]: calendar_ui->sidebox_menu(Array)
+[13-Jul-2017 08:18:08 UTC] #8 /home/tcbccomp/maria.tcbc.com.ph/api/src/loader/deprecated_factory.php(131): call_user_func_array(Array, Array)
+[13-Jul-2017 08:18:08 UTC] #9 /home/tcbccomp/maria.tcbc.com.ph/api/src/Hooks.php(143): ExecMethod2('calendar.calend...', Array)
+[13-Jul-2017 08:18:08 UTC] #10 /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Ajax.php(589): EGroupware\Api\Hooks::single('sidebox_menu', 'calendar')
+[13-Jul-2017 08:18:08 UTC] #11 /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Ajax.php(492): EGroupware\Api\Framework\Ajax->get_sidebox('calendar')
+[13-Jul-2017 08:18:08 UTC] #12 /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Ajax.php(999): EGroupware\Api\Framework\Ajax->do_sidebox()
+[13-Jul-2017 08:18:08 UTC] #13 [internal function]: EGroupware\Api\Framework\Ajax->ajax_exec('index.php?menua...')
+[13-Jul-2017 08:18:08 UTC] #14 /home/tcbccomp/maria.tcbc.com.ph/api/src/Json/Request.php(179): call_user_func_array(Array, Array)
+[13-Jul-2017 08:18:08 UTC] #15 /home/tcbccomp/maria.tcbc.com.ph/api/src/Json/Request.php(91): EGroupware\Api\Json\Request->handleRequest('calendar.jdots_...', Array)
+[13-Jul-2017 08:18:08 UTC] #16 /home/tcbccomp/maria.tcbc.com.ph/json.php(119): EGroupware\Api\Json\Request->parseRequest('calendar.jdots_...', '{"request":{"pa...')
+[13-Jul-2017 08:18:08 UTC] #17 {main}
+[13-Jul-2017 08:18:08 UTC] # Instance=default, User=mariaadmin, Request=POST http://maria.tcbc.com.ph?menuaction=calendar.calendar_uiviews.index&ajax=true, User-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/603.2.4 (KHTML, like Gecko) Version/10.1.1 Safari/603.2.4
+[13-Jul-2017 08:18:08 UTC] PHP Warning: fopen(https://www.mozilla.org/media/caldata/USHolidays.ics): failed to open stream: no suitable wrapper could be found in /home/tcbccomp/maria.tcbc.com.ph/calendar/inc/class.calendar_holidays.inc.php on line 156
+[13-Jul-2017 08:18:08 UTC] #1 /home/tcbccomp/maria.tcbc.com.ph/calendar/inc/class.calendar_holidays.inc.php(156): fopen('https://www.moz...', 'r', false, Resource id #180)
+[13-Jul-2017 08:18:08 UTC] #2 /home/tcbccomp/maria.tcbc.com.ph/calendar/inc/class.calendar_holidays.inc.php(75): calendar_holidays::fetch('US')
+[13-Jul-2017 08:18:08 UTC] #3 /home/tcbccomp/maria.tcbc.com.ph/calendar/inc/class.calendar_holidays.inc.php(50): calendar_holidays::render('US', 2016, 2022)
+[13-Jul-2017 08:18:08 UTC] #4 /home/tcbccomp/maria.tcbc.com.ph/calendar/inc/class.calendar_bo.inc.php(1888): calendar_holidays::read('US', 2017)
+[13-Jul-2017 08:18:08 UTC] #5 /home/tcbccomp/maria.tcbc.com.ph/calendar/inc/class.calendar_ui.inc.php(561): calendar_bo->read_holidays(2017)
+[13-Jul-2017 08:18:08 UTC] #6 /home/tcbccomp/maria.tcbc.com.ph/calendar/inc/class.calendar_ui.inc.php(504): calendar_ui->sidebox_etemplate()
+[13-Jul-2017 08:18:08 UTC] #7 [internal function]: calendar_ui->sidebox_menu(Array)
+[13-Jul-2017 08:18:08 UTC] #8 /home/tcbccomp/maria.tcbc.com.ph/api/src/loader/deprecated_factory.php(131): call_user_func_array(Array, Array)
+[13-Jul-2017 08:18:08 UTC] #9 /home/tcbccomp/maria.tcbc.com.ph/api/src/Hooks.php(143): ExecMethod2('calendar.calend...', Array)
+[13-Jul-2017 08:18:08 UTC] #10 /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Ajax.php(589): EGroupware\Api\Hooks::single('sidebox_menu', 'calendar')
+[13-Jul-2017 08:18:08 UTC] #11 /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Ajax.php(492): EGroupware\Api\Framework\Ajax->get_sidebox('calendar')
+[13-Jul-2017 08:18:08 UTC] #12 /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Ajax.php(999): EGroupware\Api\Framework\Ajax->do_sidebox()
+[13-Jul-2017 08:18:08 UTC] #13 [internal function]: EGroupware\Api\Framework\Ajax->ajax_exec('index.php?menua...')
+[13-Jul-2017 08:18:08 UTC] #14 /home/tcbccomp/maria.tcbc.com.ph/api/src/Json/Request.php(179): call_user_func_array(Array, Array)
+[13-Jul-2017 08:18:08 UTC] #15 /home/tcbccomp/maria.tcbc.com.ph/api/src/Json/Request.php(91): EGroupware\Api\Json\Request->handleRequest('calendar.jdots_...', Array)
+[13-Jul-2017 08:18:08 UTC] #16 /home/tcbccomp/maria.tcbc.com.ph/json.php(119): EGroupware\Api\Json\Request->parseRequest('calendar.jdots_...', '{"request":{"pa...')
+[13-Jul-2017 08:18:08 UTC] #17 {main}
+[13-Jul-2017 08:18:08 UTC] # Instance=default, User=mariaadmin, Request=POST http://maria.tcbc.com.ph?menuaction=calendar.calendar_uiviews.index&ajax=true, User-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/603.2.4 (KHTML, like Gecko) Version/10.1.1 Safari/603.2.4
+[13-Jul-2017 08:18:08 UTC] Can NOT open holiday iCal 'https://www.mozilla.org/media/caldata/USHolidays.ics' for country 'US'!
+[13-Jul-2017 08:18:08 UTC] PHP Warning: file_get_contents(): http:// wrapper is disabled in the server configuration by allow_url_fopen=0 in /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Tutorial.php on line 123
+[13-Jul-2017 08:18:08 UTC] #1 /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Tutorial.php(123): file_get_contents('http://www.egro...')
+[13-Jul-2017 08:18:08 UTC] #2 /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Tutorial.php(140): EGroupware\Api\Framework\Tutorial::getJsonData()
+[13-Jul-2017 08:18:08 UTC] #3 [internal function]: EGroupware\Api\Framework\Tutorial::tutorial_menu(Array)
+[13-Jul-2017 08:18:08 UTC] #4 /home/tcbccomp/maria.tcbc.com.ph/api/src/Hooks.php(138): call_user_func('EGroupware\\Api\\...', Array)
+[13-Jul-2017 08:18:08 UTC] #5 /home/tcbccomp/maria.tcbc.com.ph/api/src/Hooks.php(82): EGroupware\Api\Hooks::single('sidebox_all', 'api', true)
+[13-Jul-2017 08:18:08 UTC] #6 /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Ajax.php(593): EGroupware\Api\Hooks::process('sidebox_all', Array, true)
+[13-Jul-2017 08:18:08 UTC] #7 /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Ajax.php(492): EGroupware\Api\Framework\Ajax->get_sidebox('calendar')
+[13-Jul-2017 08:18:08 UTC] #8 /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Ajax.php(999): EGroupware\Api\Framework\Ajax->do_sidebox()
+[13-Jul-2017 08:18:08 UTC] #9 [internal function]: EGroupware\Api\Framework\Ajax->ajax_exec('index.php?menua...')
+[13-Jul-2017 08:18:08 UTC] #10 /home/tcbccomp/maria.tcbc.com.ph/api/src/Json/Request.php(179): call_user_func_array(Array, Array)
+[13-Jul-2017 08:18:08 UTC] #11 /home/tcbccomp/maria.tcbc.com.ph/api/src/Json/Request.php(91): EGroupware\Api\Json\Request->handleRequest('calendar.jdots_...', Array)
+[13-Jul-2017 08:18:08 UTC] #12 /home/tcbccomp/maria.tcbc.com.ph/json.php(119): EGroupware\Api\Json\Request->parseRequest('calendar.jdots_...', '{"request":{"pa...')
+[13-Jul-2017 08:18:08 UTC] #13 {main}
+[13-Jul-2017 08:18:08 UTC] # Instance=default, User=mariaadmin, Request=POST http://maria.tcbc.com.ph?menuaction=calendar.calendar_uiviews.index&ajax=true, User-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/603.2.4 (KHTML, like Gecko) Version/10.1.1 Safari/603.2.4
+[13-Jul-2017 08:18:08 UTC] PHP Warning: file_get_contents(http://www.egroupware.de/videos/tutorials.json): failed to open stream: no suitable wrapper could be found in /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Tutorial.php on line 123
+[13-Jul-2017 08:18:08 UTC] #1 /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Tutorial.php(123): file_get_contents('http://www.egro...')
+[13-Jul-2017 08:18:08 UTC] #2 /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Tutorial.php(140): EGroupware\Api\Framework\Tutorial::getJsonData()
+[13-Jul-2017 08:18:08 UTC] #3 [internal function]: EGroupware\Api\Framework\Tutorial::tutorial_menu(Array)
+[13-Jul-2017 08:18:08 UTC] #4 /home/tcbccomp/maria.tcbc.com.ph/api/src/Hooks.php(138): call_user_func('EGroupware\\Api\\...', Array)
+[13-Jul-2017 08:18:08 UTC] #5 /home/tcbccomp/maria.tcbc.com.ph/api/src/Hooks.php(82): EGroupware\Api\Hooks::single('sidebox_all', 'api', true)
+[13-Jul-2017 08:18:08 UTC] #6 /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Ajax.php(593): EGroupware\Api\Hooks::process('sidebox_all', Array, true)
+[13-Jul-2017 08:18:08 UTC] #7 /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Ajax.php(492): EGroupware\Api\Framework\Ajax->get_sidebox('calendar')
+[13-Jul-2017 08:18:08 UTC] #8 /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Ajax.php(999): EGroupware\Api\Framework\Ajax->do_sidebox()
+[13-Jul-2017 08:18:08 UTC] #9 [internal function]: EGroupware\Api\Framework\Ajax->ajax_exec('index.php?menua...')
+[13-Jul-2017 08:18:08 UTC] #10 /home/tcbccomp/maria.tcbc.com.ph/api/src/Json/Request.php(179): call_user_func_array(Array, Array)
+[13-Jul-2017 08:18:08 UTC] #11 /home/tcbccomp/maria.tcbc.com.ph/api/src/Json/Request.php(91): EGroupware\Api\Json\Request->handleRequest('calendar.jdots_...', Array)
+[13-Jul-2017 08:18:08 UTC] #12 /home/tcbccomp/maria.tcbc.com.ph/json.php(119): EGroupware\Api\Json\Request->parseRequest('calendar.jdots_...', '{"request":{"pa...')
+[13-Jul-2017 08:18:08 UTC] #13 {main}
+[13-Jul-2017 08:18:08 UTC] # Instance=default, User=mariaadmin, Request=POST http://maria.tcbc.com.ph?menuaction=calendar.calendar_uiviews.index&ajax=true, User-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_5) AppleWebKit/603.2.4 (KHTML, like Gecko) Version/10.1.1 Safari/603.2.4
+[13-Jul-2017 08:51:09 UTC] PHP Warning: fopen(): https:// wrapper is disabled in the server configuration by allow_url_fopen=0 in /home/tcbccomp/maria.tcbc.com.ph/calendar/inc/class.calendar_holidays.inc.php on line 156
+[13-Jul-2017 08:51:09 UTC] #1 /home/tcbccomp/maria.tcbc.com.ph/calendar/inc/class.calendar_holidays.inc.php(156): fopen('https://www.moz...', 'r', false, Resource id #135)
+[13-Jul-2017 08:51:09 UTC] #2 /home/tcbccomp/maria.tcbc.com.ph/calendar/inc/class.calendar_holidays.inc.php(75): calendar_holidays::fetch('US')
+[13-Jul-2017 08:51:09 UTC] #3 /home/tcbccomp/maria.tcbc.com.ph/calendar/inc/class.calendar_holidays.inc.php(50): calendar_holidays::render('US', 2016, 2022)
+[13-Jul-2017 08:51:09 UTC] #4 /home/tcbccomp/maria.tcbc.com.ph/calendar/inc/class.calendar_bo.inc.php(1888): calendar_holidays::read('US', 2017)
+[13-Jul-2017 08:51:09 UTC] #5 /home/tcbccomp/maria.tcbc.com.ph/calendar/inc/class.calendar_ui.inc.php(561): calendar_bo->read_holidays(2017)
+[13-Jul-2017 08:51:09 UTC] #6 /home/tcbccomp/maria.tcbc.com.ph/calendar/inc/class.calendar_ui.inc.php(504): calendar_ui->sidebox_etemplate()
+[13-Jul-2017 08:51:09 UTC] #7 [internal function]: calendar_ui->sidebox_menu(Array)
+[13-Jul-2017 08:51:09 UTC] #8 /home/tcbccomp/maria.tcbc.com.ph/api/src/loader/deprecated_factory.php(131): call_user_func_array(Array, Array)
+[13-Jul-2017 08:51:09 UTC] #9 /home/tcbccomp/maria.tcbc.com.ph/api/src/Hooks.php(143): ExecMethod2('calendar.calend...', Array)
+[13-Jul-2017 08:51:09 UTC] #10 /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Ajax.php(589): EGroupware\Api\Hooks::single('sidebox_menu', 'calendar')
+[13-Jul-2017 08:51:09 UTC] #11 /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Ajax.php(492): EGroupware\Api\Framework\Ajax->get_sidebox('calendar')
+[13-Jul-2017 08:51:09 UTC] #12 /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Ajax.php(999): EGroupware\Api\Framework\Ajax->do_sidebox()
+[13-Jul-2017 08:51:09 UTC] #13 [internal function]: EGroupware\Api\Framework\Ajax->ajax_exec('index.php?menua...')
+[13-Jul-2017 08:51:09 UTC] #14 /home/tcbccomp/maria.tcbc.com.ph/api/src/Json/Request.php(179): call_user_func_array(Array, Array)
+[13-Jul-2017 08:51:09 UTC] #15 /home/tcbccomp/maria.tcbc.com.ph/api/src/Json/Request.php(91): EGroupware\Api\Json\Request->handleRequest('calendar.jdots_...', Array)
+[13-Jul-2017 08:51:09 UTC] #16 /home/tcbccomp/maria.tcbc.com.ph/json.php(119): EGroupware\Api\Json\Request->parseRequest('calendar.jdots_...', '{"request":{"pa...')
+[13-Jul-2017 08:51:09 UTC] #17 {main}
+[13-Jul-2017 08:51:09 UTC] # Instance=default, User=mariaadmin, Request=POST http://maria.tcbc.com.ph?menuaction=calendar.calendar_uiviews.index&ajax=true, User-agent=Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0
+[13-Jul-2017 08:51:09 UTC] PHP Warning: fopen(https://www.mozilla.org/media/caldata/USHolidays.ics): failed to open stream: no suitable wrapper could be found in /home/tcbccomp/maria.tcbc.com.ph/calendar/inc/class.calendar_holidays.inc.php on line 156
+[13-Jul-2017 08:51:09 UTC] #1 /home/tcbccomp/maria.tcbc.com.ph/calendar/inc/class.calendar_holidays.inc.php(156): fopen('https://www.moz...', 'r', false, Resource id #135)
+[13-Jul-2017 08:51:09 UTC] #2 /home/tcbccomp/maria.tcbc.com.ph/calendar/inc/class.calendar_holidays.inc.php(75): calendar_holidays::fetch('US')
+[13-Jul-2017 08:51:09 UTC] #3 /home/tcbccomp/maria.tcbc.com.ph/calendar/inc/class.calendar_holidays.inc.php(50): calendar_holidays::render('US', 2016, 2022)
+[13-Jul-2017 08:51:09 UTC] #4 /home/tcbccomp/maria.tcbc.com.ph/calendar/inc/class.calendar_bo.inc.php(1888): calendar_holidays::read('US', 2017)
+[13-Jul-2017 08:51:09 UTC] #5 /home/tcbccomp/maria.tcbc.com.ph/calendar/inc/class.calendar_ui.inc.php(561): calendar_bo->read_holidays(2017)
+[13-Jul-2017 08:51:09 UTC] #6 /home/tcbccomp/maria.tcbc.com.ph/calendar/inc/class.calendar_ui.inc.php(504): calendar_ui->sidebox_etemplate()
+[13-Jul-2017 08:51:09 UTC] #7 [internal function]: calendar_ui->sidebox_menu(Array)
+[13-Jul-2017 08:51:09 UTC] #8 /home/tcbccomp/maria.tcbc.com.ph/api/src/loader/deprecated_factory.php(131): call_user_func_array(Array, Array)
+[13-Jul-2017 08:51:09 UTC] #9 /home/tcbccomp/maria.tcbc.com.ph/api/src/Hooks.php(143): ExecMethod2('calendar.calend...', Array)
+[13-Jul-2017 08:51:09 UTC] #10 /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Ajax.php(589): EGroupware\Api\Hooks::single('sidebox_menu', 'calendar')
+[13-Jul-2017 08:51:09 UTC] #11 /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Ajax.php(492): EGroupware\Api\Framework\Ajax->get_sidebox('calendar')
+[13-Jul-2017 08:51:09 UTC] #12 /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Ajax.php(999): EGroupware\Api\Framework\Ajax->do_sidebox()
+[13-Jul-2017 08:51:09 UTC] #13 [internal function]: EGroupware\Api\Framework\Ajax->ajax_exec('index.php?menua...')
+[13-Jul-2017 08:51:09 UTC] #14 /home/tcbccomp/maria.tcbc.com.ph/api/src/Json/Request.php(179): call_user_func_array(Array, Array)
+[13-Jul-2017 08:51:09 UTC] #15 /home/tcbccomp/maria.tcbc.com.ph/api/src/Json/Request.php(91): EGroupware\Api\Json\Request->handleRequest('calendar.jdots_...', Array)
+[13-Jul-2017 08:51:09 UTC] #16 /home/tcbccomp/maria.tcbc.com.ph/json.php(119): EGroupware\Api\Json\Request->parseRequest('calendar.jdots_...', '{"request":{"pa...')
+[13-Jul-2017 08:51:09 UTC] #17 {main}
+[13-Jul-2017 08:51:09 UTC] # Instance=default, User=mariaadmin, Request=POST http://maria.tcbc.com.ph?menuaction=calendar.calendar_uiviews.index&ajax=true, User-agent=Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0
+[13-Jul-2017 08:51:09 UTC] Can NOT open holiday iCal 'https://www.mozilla.org/media/caldata/USHolidays.ics' for country 'US'!
+[13-Jul-2017 08:51:50 UTC] EGroupware\Api\Mail::getInstance (279)  Loading the Profile for ProfileID  failed for icServer; Account not found! (acc_id=NULL) Trigger new instance for Default-Profile . called from:EGroupware\Api\Mail::getInstance:279 / mail_ui->__construct:148 / CreateObject:67(mail.mail_ui) / EGroupware\Api\Framework\Ajax->ajax_exec:989 / call_user_func_array(Array) / EGroupware\Api\Json\Request->handleRequest:179 / EGroupware\Api\Json\Request->parseRequest:91
+[13-Jul-2017 08:51:50 UTC] mail_ui::index576Initialization of mail failed. Please use the Wizard to cope with the problem. Menuaction:mail.mail_ui.index.mail_ui->index:576 / EGroupware\Api\Framework\Ajax->ajax_exec:1007 / call_user_func_array(Array) / EGroupware\Api\Json\Request->handleRequest:179 / EGroupware\Api\Json\Request->parseRequest:91
+[14-Jul-2017 00:55:24 UTC] PHP Warning: file_get_contents(): http:// wrapper is disabled in the server configuration by allow_url_fopen=0 in /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Updates.php on line 49
+[14-Jul-2017 00:55:24 UTC] #1 /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Updates.php(49): file_get_contents('http://www.egro...', false, Resource id #151)
+[14-Jul-2017 00:55:24 UTC] #2 [internal function]: EGroupware\Api\Framework\Updates::EGroupware\Api\Framework\{closure}()
+[14-Jul-2017 00:55:24 UTC] #3 /home/tcbccomp/maria.tcbc.com.ph/api/src/Cache.php(230): call_user_func_array(Object(Closure), Array)
+[14-Jul-2017 00:55:24 UTC] #4 /home/tcbccomp/maria.tcbc.com.ph/api/src/Cache.php(304): EGroupware\Api\Cache::getCache('Tree', 'EGroupware\\Api\\...', 'versions', Object(Closure), Array, 7200)
+[14-Jul-2017 00:55:24 UTC] #5 /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Updates.php(59): EGroupware\Api\Cache::getTree('EGroupware\\Api\\...', 'versions', Object(Closure), Array, 7200)
+[14-Jul-2017 00:55:24 UTC] #6 /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Updates.php(72): EGroupware\Api\Framework\Updates::available()
+[14-Jul-2017 00:55:24 UTC] #7 /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework.php(1080): EGroupware\Api\Framework\Updates::notification()
+[14-Jul-2017 00:55:24 UTC] #8 /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Ajax.php(326): EGroupware\Api\Framework->topmenu(Array, Array)
+[14-Jul-2017 00:55:24 UTC] #9 /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Ajax.php(283): EGroupware\Api\Framework\Ajax->topmenu(Array, Array)
+[14-Jul-2017 00:55:24 UTC] #10 /home/tcbccomp/maria.tcbc.com.ph/pixelegg/inc/class.pixelegg_framework.inc.php(68): EGroupware\Api\Framework\Ajax->header(Array)
+[14-Jul-2017 00:55:24 UTC] #11 /home/tcbccomp/maria.tcbc.com.ph/index.php(135): pixelegg_framework->header()
+[14-Jul-2017 00:55:24 UTC] #12 {main}
+[14-Jul-2017 00:55:24 UTC] # Instance=default, User=mariaadmin, Request=GET http://maria.tcbc.com.ph/index.php?cd=yes, User-agent=Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0
+[14-Jul-2017 00:55:24 UTC] PHP Warning: file_get_contents(http://www.egroupware.org/currentversion): failed to open stream: no suitable wrapper could be found in /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Updates.php on line 49
+[14-Jul-2017 00:55:24 UTC] #1 /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Updates.php(49): file_get_contents('http://www.egro...', false, Resource id #151)
+[14-Jul-2017 00:55:24 UTC] #2 [internal function]: EGroupware\Api\Framework\Updates::EGroupware\Api\Framework\{closure}()
+[14-Jul-2017 00:55:24 UTC] #3 /home/tcbccomp/maria.tcbc.com.ph/api/src/Cache.php(230): call_user_func_array(Object(Closure), Array)
+[14-Jul-2017 00:55:24 UTC] #4 /home/tcbccomp/maria.tcbc.com.ph/api/src/Cache.php(304): EGroupware\Api\Cache::getCache('Tree', 'EGroupware\\Api\\...', 'versions', Object(Closure), Array, 7200)
+[14-Jul-2017 00:55:24 UTC] #5 /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Updates.php(59): EGroupware\Api\Cache::getTree('EGroupware\\Api\\...', 'versions', Object(Closure), Array, 7200)
+[14-Jul-2017 00:55:24 UTC] #6 /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Updates.php(72): EGroupware\Api\Framework\Updates::available()
+[14-Jul-2017 00:55:24 UTC] #7 /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework.php(1080): EGroupware\Api\Framework\Updates::notification()
+[14-Jul-2017 00:55:24 UTC] #8 /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Ajax.php(326): EGroupware\Api\Framework->topmenu(Array, Array)
+[14-Jul-2017 00:55:24 UTC] #9 /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Ajax.php(283): EGroupware\Api\Framework\Ajax->topmenu(Array, Array)
+[14-Jul-2017 00:55:24 UTC] #10 /home/tcbccomp/maria.tcbc.com.ph/pixelegg/inc/class.pixelegg_framework.inc.php(68): EGroupware\Api\Framework\Ajax->header(Array)
+[14-Jul-2017 00:55:24 UTC] #11 /home/tcbccomp/maria.tcbc.com.ph/index.php(135): pixelegg_framework->header()
+[14-Jul-2017 00:55:24 UTC] #12 {main}
+[14-Jul-2017 00:55:24 UTC] # Instance=default, User=mariaadmin, Request=GET http://maria.tcbc.com.ph/index.php?cd=yes, User-agent=Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0
+[14-Jul-2017 00:55:28 UTC] PHP Warning: file_get_contents(): http:// wrapper is disabled in the server configuration by allow_url_fopen=0 in /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Tutorial.php on line 123
+[14-Jul-2017 00:55:28 UTC] #1 /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Tutorial.php(123): file_get_contents('http://www.egro...')
+[14-Jul-2017 00:55:28 UTC] #2 /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Tutorial.php(140): EGroupware\Api\Framework\Tutorial::getJsonData()
+[14-Jul-2017 00:55:28 UTC] #3 [internal function]: EGroupware\Api\Framework\Tutorial::tutorial_menu(Array)
+[14-Jul-2017 00:55:28 UTC] #4 /home/tcbccomp/maria.tcbc.com.ph/api/src/Hooks.php(138): call_user_func('EGroupware\\Api\\...', Array)
+[14-Jul-2017 00:55:28 UTC] #5 /home/tcbccomp/maria.tcbc.com.ph/api/src/Hooks.php(82): EGroupware\Api\Hooks::single('sidebox_all', 'api', true)
+[14-Jul-2017 00:55:28 UTC] #6 /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Ajax.php(593): EGroupware\Api\Hooks::process('sidebox_all', Array, true)
+[14-Jul-2017 00:55:28 UTC] #7 /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Ajax.php(492): EGroupware\Api\Framework\Ajax->get_sidebox('addressbook')
+[14-Jul-2017 00:55:28 UTC] #8 /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Ajax.php(999): EGroupware\Api\Framework\Ajax->do_sidebox()
+[14-Jul-2017 00:55:28 UTC] #9 [internal function]: EGroupware\Api\Framework\Ajax->ajax_exec('index.php?menua...')
+[14-Jul-2017 00:55:28 UTC] #10 /home/tcbccomp/maria.tcbc.com.ph/api/src/Json/Request.php(179): call_user_func_array(Array, Array)
+[14-Jul-2017 00:55:28 UTC] #11 /home/tcbccomp/maria.tcbc.com.ph/api/src/Json/Request.php(91): EGroupware\Api\Json\Request->handleRequest('addressbook.jdo...', Array)
+[14-Jul-2017 00:55:28 UTC] #12 /home/tcbccomp/maria.tcbc.com.ph/json.php(119): EGroupware\Api\Json\Request->parseRequest('addressbook.jdo...', '{"request":{"pa...')
+[14-Jul-2017 00:55:28 UTC] #13 {main}
+[14-Jul-2017 00:55:28 UTC] # Instance=default, User=mariaadmin, Request=POST http://maria.tcbc.com.ph?menuaction=addressbook.addressbook_ui.index&ajax=true, User-agent=Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0
+[14-Jul-2017 00:55:28 UTC] PHP Warning: file_get_contents(http://www.egroupware.de/videos/tutorials.json): failed to open stream: no suitable wrapper could be found in /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Tutorial.php on line 123
+[14-Jul-2017 00:55:28 UTC] #1 /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Tutorial.php(123): file_get_contents('http://www.egro...')
+[14-Jul-2017 00:55:28 UTC] #2 /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Tutorial.php(140): EGroupware\Api\Framework\Tutorial::getJsonData()
+[14-Jul-2017 00:55:28 UTC] #3 [internal function]: EGroupware\Api\Framework\Tutorial::tutorial_menu(Array)
+[14-Jul-2017 00:55:28 UTC] #4 /home/tcbccomp/maria.tcbc.com.ph/api/src/Hooks.php(138): call_user_func('EGroupware\\Api\\...', Array)
+[14-Jul-2017 00:55:28 UTC] #5 /home/tcbccomp/maria.tcbc.com.ph/api/src/Hooks.php(82): EGroupware\Api\Hooks::single('sidebox_all', 'api', true)
+[14-Jul-2017 00:55:28 UTC] #6 /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Ajax.php(593): EGroupware\Api\Hooks::process('sidebox_all', Array, true)
+[14-Jul-2017 00:55:28 UTC] #7 /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Ajax.php(492): EGroupware\Api\Framework\Ajax->get_sidebox('addressbook')
+[14-Jul-2017 00:55:28 UTC] #8 /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Ajax.php(999): EGroupware\Api\Framework\Ajax->do_sidebox()
+[14-Jul-2017 00:55:28 UTC] #9 [internal function]: EGroupware\Api\Framework\Ajax->ajax_exec('index.php?menua...')
+[14-Jul-2017 00:55:28 UTC] #10 /home/tcbccomp/maria.tcbc.com.ph/api/src/Json/Request.php(179): call_user_func_array(Array, Array)
+[14-Jul-2017 00:55:28 UTC] #11 /home/tcbccomp/maria.tcbc.com.ph/api/src/Json/Request.php(91): EGroupware\Api\Json\Request->handleRequest('addressbook.jdo...', Array)
+[14-Jul-2017 00:55:28 UTC] #12 /home/tcbccomp/maria.tcbc.com.ph/json.php(119): EGroupware\Api\Json\Request->parseRequest('addressbook.jdo...', '{"request":{"pa...')
+[14-Jul-2017 00:55:28 UTC] #13 {main}
+[14-Jul-2017 00:55:28 UTC] # Instance=default, User=mariaadmin, Request=POST http://maria.tcbc.com.ph?menuaction=addressbook.addressbook_ui.index&ajax=true, User-agent=Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0
+[14-Jul-2017 01:44:16 UTC] PHP Warning: fopen(): https:// wrapper is disabled in the server configuration by allow_url_fopen=0 in /home/tcbccomp/maria.tcbc.com.ph/calendar/inc/class.calendar_holidays.inc.php on line 156
+[14-Jul-2017 01:44:16 UTC] #1 /home/tcbccomp/maria.tcbc.com.ph/calendar/inc/class.calendar_holidays.inc.php(156): fopen('https://www.moz...', 'r', false, Resource id #135)
+[14-Jul-2017 01:44:16 UTC] #2 /home/tcbccomp/maria.tcbc.com.ph/calendar/inc/class.calendar_holidays.inc.php(75): calendar_holidays::fetch('US')
+[14-Jul-2017 01:44:16 UTC] #3 /home/tcbccomp/maria.tcbc.com.ph/calendar/inc/class.calendar_holidays.inc.php(50): calendar_holidays::render('US', 2016, 2022)
+[14-Jul-2017 01:44:16 UTC] #4 /home/tcbccomp/maria.tcbc.com.ph/calendar/inc/class.calendar_bo.inc.php(1888): calendar_holidays::read('US', 2017)
+[14-Jul-2017 01:44:16 UTC] #5 /home/tcbccomp/maria.tcbc.com.ph/calendar/inc/class.calendar_ui.inc.php(561): calendar_bo->read_holidays(2017)
+[14-Jul-2017 01:44:16 UTC] #6 /home/tcbccomp/maria.tcbc.com.ph/calendar/inc/class.calendar_ui.inc.php(504): calendar_ui->sidebox_etemplate()
+[14-Jul-2017 01:44:16 UTC] #7 [internal function]: calendar_ui->sidebox_menu(Array)
+[14-Jul-2017 01:44:16 UTC] #8 /home/tcbccomp/maria.tcbc.com.ph/api/src/loader/deprecated_factory.php(131): call_user_func_array(Array, Array)
+[14-Jul-2017 01:44:16 UTC] #9 /home/tcbccomp/maria.tcbc.com.ph/api/src/Hooks.php(143): ExecMethod2('calendar.calend...', Array)
+[14-Jul-2017 01:44:16 UTC] #10 /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Ajax.php(589): EGroupware\Api\Hooks::single('sidebox_menu', 'calendar')
+[14-Jul-2017 01:44:16 UTC] #11 /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Ajax.php(492): EGroupware\Api\Framework\Ajax->get_sidebox('calendar')
+[14-Jul-2017 01:44:16 UTC] #12 /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Ajax.php(999): EGroupware\Api\Framework\Ajax->do_sidebox()
+[14-Jul-2017 01:44:16 UTC] #13 [internal function]: EGroupware\Api\Framework\Ajax->ajax_exec('index.php?menua...')
+[14-Jul-2017 01:44:16 UTC] #14 /home/tcbccomp/maria.tcbc.com.ph/api/src/Json/Request.php(179): call_user_func_array(Array, Array)
+[14-Jul-2017 01:44:16 UTC] #15 /home/tcbccomp/maria.tcbc.com.ph/api/src/Json/Request.php(91): EGroupware\Api\Json\Request->handleRequest('calendar.jdots_...', Array)
+[14-Jul-2017 01:44:16 UTC] #16 /home/tcbccomp/maria.tcbc.com.ph/json.php(119): EGroupware\Api\Json\Request->parseRequest('calendar.jdots_...', '{"request":{"pa...')
+[14-Jul-2017 01:44:16 UTC] #17 {main}
+[14-Jul-2017 01:44:16 UTC] # Instance=default, User=mariaadmin, Request=POST http://maria.tcbc.com.ph?menuaction=calendar.calendar_uiviews.index&ajax=true, User-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36
+[14-Jul-2017 01:44:16 UTC] PHP Warning: fopen(https://www.mozilla.org/media/caldata/USHolidays.ics): failed to open stream: no suitable wrapper could be found in /home/tcbccomp/maria.tcbc.com.ph/calendar/inc/class.calendar_holidays.inc.php on line 156
+[14-Jul-2017 01:44:16 UTC] #1 /home/tcbccomp/maria.tcbc.com.ph/calendar/inc/class.calendar_holidays.inc.php(156): fopen('https://www.moz...', 'r', false, Resource id #135)
+[14-Jul-2017 01:44:16 UTC] #2 /home/tcbccomp/maria.tcbc.com.ph/calendar/inc/class.calendar_holidays.inc.php(75): calendar_holidays::fetch('US')
+[14-Jul-2017 01:44:16 UTC] #3 /home/tcbccomp/maria.tcbc.com.ph/calendar/inc/class.calendar_holidays.inc.php(50): calendar_holidays::render('US', 2016, 2022)
+[14-Jul-2017 01:44:16 UTC] #4 /home/tcbccomp/maria.tcbc.com.ph/calendar/inc/class.calendar_bo.inc.php(1888): calendar_holidays::read('US', 2017)
+[14-Jul-2017 01:44:16 UTC] #5 /home/tcbccomp/maria.tcbc.com.ph/calendar/inc/class.calendar_ui.inc.php(561): calendar_bo->read_holidays(2017)
+[14-Jul-2017 01:44:16 UTC] #6 /home/tcbccomp/maria.tcbc.com.ph/calendar/inc/class.calendar_ui.inc.php(504): calendar_ui->sidebox_etemplate()
+[14-Jul-2017 01:44:16 UTC] #7 [internal function]: calendar_ui->sidebox_menu(Array)
+[14-Jul-2017 01:44:16 UTC] #8 /home/tcbccomp/maria.tcbc.com.ph/api/src/loader/deprecated_factory.php(131): call_user_func_array(Array, Array)
+[14-Jul-2017 01:44:16 UTC] #9 /home/tcbccomp/maria.tcbc.com.ph/api/src/Hooks.php(143): ExecMethod2('calendar.calend...', Array)
+[14-Jul-2017 01:44:16 UTC] #10 /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Ajax.php(589): EGroupware\Api\Hooks::single('sidebox_menu', 'calendar')
+[14-Jul-2017 01:44:16 UTC] #11 /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Ajax.php(492): EGroupware\Api\Framework\Ajax->get_sidebox('calendar')
+[14-Jul-2017 01:44:16 UTC] #12 /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Ajax.php(999): EGroupware\Api\Framework\Ajax->do_sidebox()
+[14-Jul-2017 01:44:16 UTC] #13 [internal function]: EGroupware\Api\Framework\Ajax->ajax_exec('index.php?menua...')
+[14-Jul-2017 01:44:16 UTC] #14 /home/tcbccomp/maria.tcbc.com.ph/api/src/Json/Request.php(179): call_user_func_array(Array, Array)
+[14-Jul-2017 01:44:16 UTC] #15 /home/tcbccomp/maria.tcbc.com.ph/api/src/Json/Request.php(91): EGroupware\Api\Json\Request->handleRequest('calendar.jdots_...', Array)
+[14-Jul-2017 01:44:16 UTC] #16 /home/tcbccomp/maria.tcbc.com.ph/json.php(119): EGroupware\Api\Json\Request->parseRequest('calendar.jdots_...', '{"request":{"pa...')
+[14-Jul-2017 01:44:16 UTC] #17 {main}
+[14-Jul-2017 01:44:16 UTC] # Instance=default, User=mariaadmin, Request=POST http://maria.tcbc.com.ph?menuaction=calendar.calendar_uiviews.index&ajax=true, User-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36
+[14-Jul-2017 01:44:16 UTC] Can NOT open holiday iCal 'https://www.mozilla.org/media/caldata/USHolidays.ics' for country 'US'!
+[14-Jul-2017 01:44:29 UTC] PHP Deprecated:  Using a negative size to set textbox readonly. [EGroupware\Api\Etemplate\Widget\Textbox] textbox#users in /home/tcbccomp/maria.tcbc.com.ph/api/src/Etemplate/Widget/Textbox.php on line 72
+[14-Jul-2017 01:44:29 UTC] PHP Deprecated:  Using a negative size to set textbox readonly. [EGroupware\Api\Etemplate\Widget\Textbox] textbox#sessions in /home/tcbccomp/maria.tcbc.com.ph/api/src/Etemplate/Widget/Textbox.php on line 72
+[14-Jul-2017 01:44:29 UTC] PHP Deprecated:  Using a negative size to set textbox readonly. [EGroupware\Api\Etemplate\Widget\Textbox] textbox#version in /home/tcbccomp/maria.tcbc.com.ph/api/src/Etemplate/Widget/Textbox.php on line 72
+[14-Jul-2017 01:44:29 UTC] PHP Deprecated:  Using a negative size to set textbox readonly. [EGroupware\Api\Etemplate\Widget\Textbox] textbox#os in /home/tcbccomp/maria.tcbc.com.ph/api/src/Etemplate/Widget/Textbox.php on line 72
+[14-Jul-2017 01:44:29 UTC] PHP Deprecated:  Using a negative size to set textbox readonly. [EGroupware\Api\Etemplate\Widget\Textbox] textbox#php in /home/tcbccomp/maria.tcbc.com.ph/api/src/Etemplate/Widget/Textbox.php on line 72
+[14-Jul-2017 02:20:54 UTC] PHP Warning: fopen(): https:// wrapper is disabled in the server configuration by allow_url_fopen=0 in /home/tcbccomp/maria.tcbc.com.ph/calendar/inc/class.calendar_holidays.inc.php on line 156
+[14-Jul-2017 02:20:54 UTC] #1 /home/tcbccomp/maria.tcbc.com.ph/calendar/inc/class.calendar_holidays.inc.php(156): fopen('https://www.moz...', 'r', false, Resource id #133)
+[14-Jul-2017 02:20:54 UTC] #2 /home/tcbccomp/maria.tcbc.com.ph/calendar/inc/class.calendar_holidays.inc.php(75): calendar_holidays::fetch('US')
+[14-Jul-2017 02:20:54 UTC] #3 /home/tcbccomp/maria.tcbc.com.ph/calendar/inc/class.calendar_holidays.inc.php(50): calendar_holidays::render('US', 2016, 2022)
+[14-Jul-2017 02:20:54 UTC] #4 /home/tcbccomp/maria.tcbc.com.ph/calendar/inc/class.calendar_bo.inc.php(1888): calendar_holidays::read('US', 2017)
+[14-Jul-2017 02:20:54 UTC] #5 /home/tcbccomp/maria.tcbc.com.ph/calendar/inc/class.calendar_ui.inc.php(561): calendar_bo->read_holidays(2017)
+[14-Jul-2017 02:20:54 UTC] #6 /home/tcbccomp/maria.tcbc.com.ph/calendar/inc/class.calendar_ui.inc.php(504): calendar_ui->sidebox_etemplate()
+[14-Jul-2017 02:20:54 UTC] #7 [internal function]: calendar_ui->sidebox_menu(Array)
+[14-Jul-2017 02:20:54 UTC] #8 /home/tcbccomp/maria.tcbc.com.ph/api/src/loader/deprecated_factory.php(131): call_user_func_array(Array, Array)
+[14-Jul-2017 02:20:54 UTC] #9 /home/tcbccomp/maria.tcbc.com.ph/api/src/Hooks.php(143): ExecMethod2('calendar.calend...', Array)
+[14-Jul-2017 02:20:54 UTC] #10 /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Ajax.php(589): EGroupware\Api\Hooks::single('sidebox_menu', 'calendar')
+[14-Jul-2017 02:20:54 UTC] #11 /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Ajax.php(492): EGroupware\Api\Framework\Ajax->get_sidebox('calendar')
+[14-Jul-2017 02:20:54 UTC] #12 /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Ajax.php(999): EGroupware\Api\Framework\Ajax->do_sidebox()
+[14-Jul-2017 02:20:54 UTC] #13 [internal function]: EGroupware\Api\Framework\Ajax->ajax_exec('index.php?menua...')
+[14-Jul-2017 02:20:54 UTC] #14 /home/tcbccomp/maria.tcbc.com.ph/api/src/Json/Request.php(179): call_user_func_array(Array, Array)
+[14-Jul-2017 02:20:54 UTC] #15 /home/tcbccomp/maria.tcbc.com.ph/api/src/Json/Request.php(91): EGroupware\Api\Json\Request->handleRequest('calendar.jdots_...', Array)
+[14-Jul-2017 02:20:54 UTC] #16 /home/tcbccomp/maria.tcbc.com.ph/json.php(119): EGroupware\Api\Json\Request->parseRequest('calendar.jdots_...', '{"request":{"pa...')
+[14-Jul-2017 02:20:54 UTC] #17 {main}
+[14-Jul-2017 02:20:54 UTC] # Instance=default, User=mariaadmin, Request=POST http://maria.tcbc.com.ph?menuaction=calendar.calendar_uiviews.index&ajax=true, User-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36
+[14-Jul-2017 02:20:54 UTC] PHP Warning: fopen(https://www.mozilla.org/media/caldata/USHolidays.ics): failed to open stream: no suitable wrapper could be found in /home/tcbccomp/maria.tcbc.com.ph/calendar/inc/class.calendar_holidays.inc.php on line 156
+[14-Jul-2017 02:20:54 UTC] #1 /home/tcbccomp/maria.tcbc.com.ph/calendar/inc/class.calendar_holidays.inc.php(156): fopen('https://www.moz...', 'r', false, Resource id #133)
+[14-Jul-2017 02:20:54 UTC] #2 /home/tcbccomp/maria.tcbc.com.ph/calendar/inc/class.calendar_holidays.inc.php(75): calendar_holidays::fetch('US')
+[14-Jul-2017 02:20:54 UTC] #3 /home/tcbccomp/maria.tcbc.com.ph/calendar/inc/class.calendar_holidays.inc.php(50): calendar_holidays::render('US', 2016, 2022)
+[14-Jul-2017 02:20:54 UTC] #4 /home/tcbccomp/maria.tcbc.com.ph/calendar/inc/class.calendar_bo.inc.php(1888): calendar_holidays::read('US', 2017)
+[14-Jul-2017 02:20:54 UTC] #5 /home/tcbccomp/maria.tcbc.com.ph/calendar/inc/class.calendar_ui.inc.php(561): calendar_bo->read_holidays(2017)
+[14-Jul-2017 02:20:54 UTC] #6 /home/tcbccomp/maria.tcbc.com.ph/calendar/inc/class.calendar_ui.inc.php(504): calendar_ui->sidebox_etemplate()
+[14-Jul-2017 02:20:54 UTC] #7 [internal function]: calendar_ui->sidebox_menu(Array)
+[14-Jul-2017 02:20:54 UTC] #8 /home/tcbccomp/maria.tcbc.com.ph/api/src/loader/deprecated_factory.php(131): call_user_func_array(Array, Array)
+[14-Jul-2017 02:20:54 UTC] #9 /home/tcbccomp/maria.tcbc.com.ph/api/src/Hooks.php(143): ExecMethod2('calendar.calend...', Array)
+[14-Jul-2017 02:20:54 UTC] #10 /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Ajax.php(589): EGroupware\Api\Hooks::single('sidebox_menu', 'calendar')
+[14-Jul-2017 02:20:54 UTC] #11 /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Ajax.php(492): EGroupware\Api\Framework\Ajax->get_sidebox('calendar')
+[14-Jul-2017 02:20:54 UTC] #12 /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Ajax.php(999): EGroupware\Api\Framework\Ajax->do_sidebox()
+[14-Jul-2017 02:20:54 UTC] #13 [internal function]: EGroupware\Api\Framework\Ajax->ajax_exec('index.php?menua...')
+[14-Jul-2017 02:20:54 UTC] #14 /home/tcbccomp/maria.tcbc.com.ph/api/src/Json/Request.php(179): call_user_func_array(Array, Array)
+[14-Jul-2017 02:20:54 UTC] #15 /home/tcbccomp/maria.tcbc.com.ph/api/src/Json/Request.php(91): EGroupware\Api\Json\Request->handleRequest('calendar.jdots_...', Array)
+[14-Jul-2017 02:20:54 UTC] #16 /home/tcbccomp/maria.tcbc.com.ph/json.php(119): EGroupware\Api\Json\Request->parseRequest('calendar.jdots_...', '{"request":{"pa...')
+[14-Jul-2017 02:20:54 UTC] #17 {main}
+[14-Jul-2017 02:20:54 UTC] # Instance=default, User=mariaadmin, Request=POST http://maria.tcbc.com.ph?menuaction=calendar.calendar_uiviews.index&ajax=true, User-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36
+[14-Jul-2017 02:20:54 UTC] Can NOT open holiday iCal 'https://www.mozilla.org/media/caldata/USHolidays.ics' for country 'US'!
+[14-Jul-2017 02:21:09 UTC] EGroupware\Api\Mail::getInstance (279)  Loading the Profile for ProfileID  failed for icServer; Account not found! (acc_id=NULL) Trigger new instance for Default-Profile . called from:EGroupware\Api\Mail::getInstance:279 / mail_ui->__construct:148 / CreateObject:67(mail.mail_ui) / EGroupware\Api\Framework\Ajax->ajax_exec:989 / call_user_func_array(Array) / EGroupware\Api\Json\Request->handleRequest:179 / EGroupware\Api\Json\Request->parseRequest:91
+[14-Jul-2017 02:21:10 UTC] mail_ui::index576Initialization of mail failed. Please use the Wizard to cope with the problem. Menuaction:mail.mail_ui.index.mail_ui->index:576 / EGroupware\Api\Framework\Ajax->ajax_exec:1007 / call_user_func_array(Array) / EGroupware\Api\Json\Request->handleRequest:179 / EGroupware\Api\Json\Request->parseRequest:91
+[14-Jul-2017 02:26:44 UTC] PHP Deprecated:  Using a negative size to set textbox readonly. [EGroupware\Api\Etemplate\Widget\Textbox] textbox#users in /home/tcbccomp/maria.tcbc.com.ph/api/src/Etemplate/Widget/Textbox.php on line 72
+[14-Jul-2017 02:26:44 UTC] PHP Deprecated:  Using a negative size to set textbox readonly. [EGroupware\Api\Etemplate\Widget\Textbox] textbox#sessions in /home/tcbccomp/maria.tcbc.com.ph/api/src/Etemplate/Widget/Textbox.php on line 72
+[14-Jul-2017 02:26:44 UTC] PHP Deprecated:  Using a negative size to set textbox readonly. [EGroupware\Api\Etemplate\Widget\Textbox] textbox#version in /home/tcbccomp/maria.tcbc.com.ph/api/src/Etemplate/Widget/Textbox.php on line 72
+[14-Jul-2017 02:26:44 UTC] PHP Deprecated:  Using a negative size to set textbox readonly. [EGroupware\Api\Etemplate\Widget\Textbox] textbox#os in /home/tcbccomp/maria.tcbc.com.ph/api/src/Etemplate/Widget/Textbox.php on line 72
+[14-Jul-2017 02:26:44 UTC] PHP Deprecated:  Using a negative size to set textbox readonly. [EGroupware\Api\Etemplate\Widget\Textbox] textbox#php in /home/tcbccomp/maria.tcbc.com.ph/api/src/Etemplate/Widget/Textbox.php on line 72
+[14-Jul-2017 03:35:02 UTC] PHP Warning: file_get_contents(): http:// wrapper is disabled in the server configuration by allow_url_fopen=0 in /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Updates.php on line 49
+[14-Jul-2017 03:35:02 UTC] #1 /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Updates.php(49): file_get_contents('http://www.egro...', false, Resource id #151)
+[14-Jul-2017 03:35:02 UTC] #2 [internal function]: EGroupware\Api\Framework\Updates::EGroupware\Api\Framework\{closure}()
+[14-Jul-2017 03:35:02 UTC] #3 /home/tcbccomp/maria.tcbc.com.ph/api/src/Cache.php(230): call_user_func_array(Object(Closure), Array)
+[14-Jul-2017 03:35:02 UTC] #4 /home/tcbccomp/maria.tcbc.com.ph/api/src/Cache.php(304): EGroupware\Api\Cache::getCache('Tree', 'EGroupware\\Api\\...', 'versions', Object(Closure), Array, 7200)
+[14-Jul-2017 03:35:02 UTC] #5 /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Updates.php(59): EGroupware\Api\Cache::getTree('EGroupware\\Api\\...', 'versions', Object(Closure), Array, 7200)
+[14-Jul-2017 03:35:02 UTC] #6 /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Updates.php(72): EGroupware\Api\Framework\Updates::available()
+[14-Jul-2017 03:35:02 UTC] #7 /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework.php(1080): EGroupware\Api\Framework\Updates::notification()
+[14-Jul-2017 03:35:02 UTC] #8 /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Ajax.php(326): EGroupware\Api\Framework->topmenu(Array, Array)
+[14-Jul-2017 03:35:02 UTC] #9 /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Ajax.php(283): EGroupware\Api\Framework\Ajax->topmenu(Array, Array)
+[14-Jul-2017 03:35:02 UTC] #10 /home/tcbccomp/maria.tcbc.com.ph/pixelegg/inc/class.pixelegg_framework.inc.php(68): EGroupware\Api\Framework\Ajax->header(Array)
+[14-Jul-2017 03:35:02 UTC] #11 /home/tcbccomp/maria.tcbc.com.ph/index.php(135): pixelegg_framework->header()
+[14-Jul-2017 03:35:02 UTC] #12 {main}
+[14-Jul-2017 03:35:02 UTC] # Instance=default, User=mariaadmin, Request=GET http://maria.tcbc.com.ph/index.php?cd=yes, User-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36
+[14-Jul-2017 03:35:02 UTC] PHP Warning: file_get_contents(http://www.egroupware.org/currentversion): failed to open stream: no suitable wrapper could be found in /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Updates.php on line 49
+[14-Jul-2017 03:35:02 UTC] #1 /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Updates.php(49): file_get_contents('http://www.egro...', false, Resource id #151)
+[14-Jul-2017 03:35:02 UTC] #2 [internal function]: EGroupware\Api\Framework\Updates::EGroupware\Api\Framework\{closure}()
+[14-Jul-2017 03:35:02 UTC] #3 /home/tcbccomp/maria.tcbc.com.ph/api/src/Cache.php(230): call_user_func_array(Object(Closure), Array)
+[14-Jul-2017 03:35:02 UTC] #4 /home/tcbccomp/maria.tcbc.com.ph/api/src/Cache.php(304): EGroupware\Api\Cache::getCache('Tree', 'EGroupware\\Api\\...', 'versions', Object(Closure), Array, 7200)
+[14-Jul-2017 03:35:02 UTC] #5 /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Updates.php(59): EGroupware\Api\Cache::getTree('EGroupware\\Api\\...', 'versions', Object(Closure), Array, 7200)
+[14-Jul-2017 03:35:02 UTC] #6 /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Updates.php(72): EGroupware\Api\Framework\Updates::available()
+[14-Jul-2017 03:35:02 UTC] #7 /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework.php(1080): EGroupware\Api\Framework\Updates::notification()
+[14-Jul-2017 03:35:02 UTC] #8 /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Ajax.php(326): EGroupware\Api\Framework->topmenu(Array, Array)
+[14-Jul-2017 03:35:02 UTC] #9 /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Ajax.php(283): EGroupware\Api\Framework\Ajax->topmenu(Array, Array)
+[14-Jul-2017 03:35:02 UTC] #10 /home/tcbccomp/maria.tcbc.com.ph/pixelegg/inc/class.pixelegg_framework.inc.php(68): EGroupware\Api\Framework\Ajax->header(Array)
+[14-Jul-2017 03:35:02 UTC] #11 /home/tcbccomp/maria.tcbc.com.ph/index.php(135): pixelegg_framework->header()
+[14-Jul-2017 03:35:02 UTC] #12 {main}
+[14-Jul-2017 03:35:02 UTC] # Instance=default, User=mariaadmin, Request=GET http://maria.tcbc.com.ph/index.php?cd=yes, User-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36
+[14-Jul-2017 03:35:04 UTC] PHP Warning: file_get_contents(): http:// wrapper is disabled in the server configuration by allow_url_fopen=0 in /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Tutorial.php on line 123
+[14-Jul-2017 03:35:04 UTC] #1 /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Tutorial.php(123): file_get_contents('http://www.egro...')
+[14-Jul-2017 03:35:04 UTC] #2 /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Tutorial.php(140): EGroupware\Api\Framework\Tutorial::getJsonData()
+[14-Jul-2017 03:35:04 UTC] #3 [internal function]: EGroupware\Api\Framework\Tutorial::tutorial_menu(Array)
+[14-Jul-2017 03:35:04 UTC] #4 /home/tcbccomp/maria.tcbc.com.ph/api/src/Hooks.php(138): call_user_func('EGroupware\\Api\\...', Array)
+[14-Jul-2017 03:35:04 UTC] #5 /home/tcbccomp/maria.tcbc.com.ph/api/src/Hooks.php(82): EGroupware\Api\Hooks::single('sidebox_all', 'api', true)
+[14-Jul-2017 03:35:04 UTC] #6 /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Ajax.php(593): EGroupware\Api\Hooks::process('sidebox_all', Array, true)
+[14-Jul-2017 03:35:04 UTC] #7 /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Ajax.php(492): EGroupware\Api\Framework\Ajax->get_sidebox('timesheet')
+[14-Jul-2017 03:35:04 UTC] #8 /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Ajax.php(999): EGroupware\Api\Framework\Ajax->do_sidebox()
+[14-Jul-2017 03:35:04 UTC] #9 [internal function]: EGroupware\Api\Framework\Ajax->ajax_exec('index.php?menua...')
+[14-Jul-2017 03:35:04 UTC] #10 /home/tcbccomp/maria.tcbc.com.ph/api/src/Json/Request.php(179): call_user_func_array(Array, Array)
+[14-Jul-2017 03:35:04 UTC] #11 /home/tcbccomp/maria.tcbc.com.ph/api/src/Json/Request.php(91): EGroupware\Api\Json\Request->handleRequest('timesheet.jdots...', Array)
+[14-Jul-2017 03:35:04 UTC] #12 /home/tcbccomp/maria.tcbc.com.ph/json.php(119): EGroupware\Api\Json\Request->parseRequest('timesheet.jdots...', '{"request":{"pa...')
+[14-Jul-2017 03:35:04 UTC] #13 {main}
+[14-Jul-2017 03:35:04 UTC] # Instance=default, User=mariaadmin, Request=POST http://maria.tcbc.com.ph?menuaction=timesheet.timesheet_ui.index&ajax=true, User-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36
+[14-Jul-2017 03:35:04 UTC] PHP Warning: file_get_contents(http://www.egroupware.de/videos/tutorials.json): failed to open stream: no suitable wrapper could be found in /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Tutorial.php on line 123
+[14-Jul-2017 03:35:04 UTC] #1 /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Tutorial.php(123): file_get_contents('http://www.egro...')
+[14-Jul-2017 03:35:04 UTC] #2 /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Tutorial.php(140): EGroupware\Api\Framework\Tutorial::getJsonData()
+[14-Jul-2017 03:35:04 UTC] #3 [internal function]: EGroupware\Api\Framework\Tutorial::tutorial_menu(Array)
+[14-Jul-2017 03:35:04 UTC] #4 /home/tcbccomp/maria.tcbc.com.ph/api/src/Hooks.php(138): call_user_func('EGroupware\\Api\\...', Array)
+[14-Jul-2017 03:35:04 UTC] #5 /home/tcbccomp/maria.tcbc.com.ph/api/src/Hooks.php(82): EGroupware\Api\Hooks::single('sidebox_all', 'api', true)
+[14-Jul-2017 03:35:04 UTC] #6 /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Ajax.php(593): EGroupware\Api\Hooks::process('sidebox_all', Array, true)
+[14-Jul-2017 03:35:04 UTC] #7 /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Ajax.php(492): EGroupware\Api\Framework\Ajax->get_sidebox('timesheet')
+[14-Jul-2017 03:35:04 UTC] #8 /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Ajax.php(999): EGroupware\Api\Framework\Ajax->do_sidebox()
+[14-Jul-2017 03:35:04 UTC] #9 [internal function]: EGroupware\Api\Framework\Ajax->ajax_exec('index.php?menua...')
+[14-Jul-2017 03:35:04 UTC] #10 /home/tcbccomp/maria.tcbc.com.ph/api/src/Json/Request.php(179): call_user_func_array(Array, Array)
+[14-Jul-2017 03:35:04 UTC] #11 /home/tcbccomp/maria.tcbc.com.ph/api/src/Json/Request.php(91): EGroupware\Api\Json\Request->handleRequest('timesheet.jdots...', Array)
+[14-Jul-2017 03:35:04 UTC] #12 /home/tcbccomp/maria.tcbc.com.ph/json.php(119): EGroupware\Api\Json\Request->parseRequest('timesheet.jdots...', '{"request":{"pa...')
+[14-Jul-2017 03:35:04 UTC] #13 {main}
+[14-Jul-2017 03:35:04 UTC] # Instance=default, User=mariaadmin, Request=POST http://maria.tcbc.com.ph?menuaction=timesheet.timesheet_ui.index&ajax=true, User-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36
+[14-Jul-2017 05:38:18 UTC] PHP Warning: fopen(): https:// wrapper is disabled in the server configuration by allow_url_fopen=0 in /home/tcbccomp/maria.tcbc.com.ph/calendar/inc/class.calendar_holidays.inc.php on line 156
+[14-Jul-2017 05:38:18 UTC] #1 /home/tcbccomp/maria.tcbc.com.ph/calendar/inc/class.calendar_holidays.inc.php(156): fopen('https://www.moz...', 'r', false, Resource id #133)
+[14-Jul-2017 05:38:18 UTC] #2 /home/tcbccomp/maria.tcbc.com.ph/calendar/inc/class.calendar_holidays.inc.php(75): calendar_holidays::fetch('US')
+[14-Jul-2017 05:38:18 UTC] #3 /home/tcbccomp/maria.tcbc.com.ph/calendar/inc/class.calendar_holidays.inc.php(50): calendar_holidays::render('US', 2016, 2022)
+[14-Jul-2017 05:38:18 UTC] #4 /home/tcbccomp/maria.tcbc.com.ph/calendar/inc/class.calendar_bo.inc.php(1888): calendar_holidays::read('US', 2017)
+[14-Jul-2017 05:38:18 UTC] #5 /home/tcbccomp/maria.tcbc.com.ph/calendar/inc/class.calendar_ui.inc.php(561): calendar_bo->read_holidays(2017)
+[14-Jul-2017 05:38:18 UTC] #6 /home/tcbccomp/maria.tcbc.com.ph/calendar/inc/class.calendar_ui.inc.php(504): calendar_ui->sidebox_etemplate()
+[14-Jul-2017 05:38:18 UTC] #7 [internal function]: calendar_ui->sidebox_menu(Array)
+[14-Jul-2017 05:38:18 UTC] #8 /home/tcbccomp/maria.tcbc.com.ph/api/src/loader/deprecated_factory.php(131): call_user_func_array(Array, Array)
+[14-Jul-2017 05:38:18 UTC] #9 /home/tcbccomp/maria.tcbc.com.ph/api/src/Hooks.php(143): ExecMethod2('calendar.calend...', Array)
+[14-Jul-2017 05:38:18 UTC] #10 /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Ajax.php(589): EGroupware\Api\Hooks::single('sidebox_menu', 'calendar')
+[14-Jul-2017 05:38:18 UTC] #11 /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Ajax.php(492): EGroupware\Api\Framework\Ajax->get_sidebox('calendar')
+[14-Jul-2017 05:38:18 UTC] #12 /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Ajax.php(999): EGroupware\Api\Framework\Ajax->do_sidebox()
+[14-Jul-2017 05:38:18 UTC] #13 [internal function]: EGroupware\Api\Framework\Ajax->ajax_exec('index.php?menua...')
+[14-Jul-2017 05:38:18 UTC] #14 /home/tcbccomp/maria.tcbc.com.ph/api/src/Json/Request.php(179): call_user_func_array(Array, Array)
+[14-Jul-2017 05:38:18 UTC] #15 /home/tcbccomp/maria.tcbc.com.ph/api/src/Json/Request.php(91): EGroupware\Api\Json\Request->handleRequest('calendar.jdots_...', Array)
+[14-Jul-2017 05:38:18 UTC] #16 /home/tcbccomp/maria.tcbc.com.ph/json.php(119): EGroupware\Api\Json\Request->parseRequest('calendar.jdots_...', '{"request":{"pa...')
+[14-Jul-2017 05:38:18 UTC] #17 {main}
+[14-Jul-2017 05:38:18 UTC] # Instance=default, User=mariaadmin, Request=POST http://maria.tcbc.com.ph?menuaction=calendar.calendar_uiviews.index&ajax=true, User-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36
+[14-Jul-2017 05:38:18 UTC] PHP Warning: fopen(https://www.mozilla.org/media/caldata/USHolidays.ics): failed to open stream: no suitable wrapper could be found in /home/tcbccomp/maria.tcbc.com.ph/calendar/inc/class.calendar_holidays.inc.php on line 156
+[14-Jul-2017 05:38:18 UTC] #1 /home/tcbccomp/maria.tcbc.com.ph/calendar/inc/class.calendar_holidays.inc.php(156): fopen('https://www.moz...', 'r', false, Resource id #133)
+[14-Jul-2017 05:38:18 UTC] #2 /home/tcbccomp/maria.tcbc.com.ph/calendar/inc/class.calendar_holidays.inc.php(75): calendar_holidays::fetch('US')
+[14-Jul-2017 05:38:18 UTC] #3 /home/tcbccomp/maria.tcbc.com.ph/calendar/inc/class.calendar_holidays.inc.php(50): calendar_holidays::render('US', 2016, 2022)
+[14-Jul-2017 05:38:18 UTC] #4 /home/tcbccomp/maria.tcbc.com.ph/calendar/inc/class.calendar_bo.inc.php(1888): calendar_holidays::read('US', 2017)
+[14-Jul-2017 05:38:18 UTC] #5 /home/tcbccomp/maria.tcbc.com.ph/calendar/inc/class.calendar_ui.inc.php(561): calendar_bo->read_holidays(2017)
+[14-Jul-2017 05:38:18 UTC] #6 /home/tcbccomp/maria.tcbc.com.ph/calendar/inc/class.calendar_ui.inc.php(504): calendar_ui->sidebox_etemplate()
+[14-Jul-2017 05:38:18 UTC] #7 [internal function]: calendar_ui->sidebox_menu(Array)
+[14-Jul-2017 05:38:18 UTC] #8 /home/tcbccomp/maria.tcbc.com.ph/api/src/loader/deprecated_factory.php(131): call_user_func_array(Array, Array)
+[14-Jul-2017 05:38:18 UTC] #9 /home/tcbccomp/maria.tcbc.com.ph/api/src/Hooks.php(143): ExecMethod2('calendar.calend...', Array)
+[14-Jul-2017 05:38:18 UTC] #10 /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Ajax.php(589): EGroupware\Api\Hooks::single('sidebox_menu', 'calendar')
+[14-Jul-2017 05:38:18 UTC] #11 /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Ajax.php(492): EGroupware\Api\Framework\Ajax->get_sidebox('calendar')
+[14-Jul-2017 05:38:18 UTC] #12 /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Ajax.php(999): EGroupware\Api\Framework\Ajax->do_sidebox()
+[14-Jul-2017 05:38:18 UTC] #13 [internal function]: EGroupware\Api\Framework\Ajax->ajax_exec('index.php?menua...')
+[14-Jul-2017 05:38:18 UTC] #14 /home/tcbccomp/maria.tcbc.com.ph/api/src/Json/Request.php(179): call_user_func_array(Array, Array)
+[14-Jul-2017 05:38:18 UTC] #15 /home/tcbccomp/maria.tcbc.com.ph/api/src/Json/Request.php(91): EGroupware\Api\Json\Request->handleRequest('calendar.jdots_...', Array)
+[14-Jul-2017 05:38:18 UTC] #16 /home/tcbccomp/maria.tcbc.com.ph/json.php(119): EGroupware\Api\Json\Request->parseRequest('calendar.jdots_...', '{"request":{"pa...')
+[14-Jul-2017 05:38:18 UTC] #17 {main}
+[14-Jul-2017 05:38:18 UTC] # Instance=default, User=mariaadmin, Request=POST http://maria.tcbc.com.ph?menuaction=calendar.calendar_uiviews.index&ajax=true, User-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36
+[14-Jul-2017 05:38:18 UTC] Can NOT open holiday iCal 'https://www.mozilla.org/media/caldata/USHolidays.ics' for country 'US'!
+[14-Jul-2017 05:38:18 UTC] PHP Warning: file_get_contents(): http:// wrapper is disabled in the server configuration by allow_url_fopen=0 in /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Tutorial.php on line 123
+[14-Jul-2017 05:38:18 UTC] #1 /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Tutorial.php(123): file_get_contents('http://www.egro...')
+[14-Jul-2017 05:38:18 UTC] #2 /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Tutorial.php(140): EGroupware\Api\Framework\Tutorial::getJsonData()
+[14-Jul-2017 05:38:18 UTC] #3 [internal function]: EGroupware\Api\Framework\Tutorial::tutorial_menu(Array)
+[14-Jul-2017 05:38:18 UTC] #4 /home/tcbccomp/maria.tcbc.com.ph/api/src/Hooks.php(138): call_user_func('EGroupware\\Api\\...', Array)
+[14-Jul-2017 05:38:18 UTC] #5 /home/tcbccomp/maria.tcbc.com.ph/api/src/Hooks.php(82): EGroupware\Api\Hooks::single('sidebox_all', 'api', true)
+[14-Jul-2017 05:38:18 UTC] #6 /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Ajax.php(593): EGroupware\Api\Hooks::process('sidebox_all', Array, true)
+[14-Jul-2017 05:38:18 UTC] #7 /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Ajax.php(492): EGroupware\Api\Framework\Ajax->get_sidebox('calendar')
+[14-Jul-2017 05:38:18 UTC] #8 /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Ajax.php(999): EGroupware\Api\Framework\Ajax->do_sidebox()
+[14-Jul-2017 05:38:18 UTC] #9 [internal function]: EGroupware\Api\Framework\Ajax->ajax_exec('index.php?menua...')
+[14-Jul-2017 05:38:18 UTC] #10 /home/tcbccomp/maria.tcbc.com.ph/api/src/Json/Request.php(179): call_user_func_array(Array, Array)
+[14-Jul-2017 05:38:18 UTC] #11 /home/tcbccomp/maria.tcbc.com.ph/api/src/Json/Request.php(91): EGroupware\Api\Json\Request->handleRequest('calendar.jdots_...', Array)
+[14-Jul-2017 05:38:18 UTC] #12 /home/tcbccomp/maria.tcbc.com.ph/json.php(119): EGroupware\Api\Json\Request->parseRequest('calendar.jdots_...', '{"request":{"pa...')
+[14-Jul-2017 05:38:18 UTC] #13 {main}
+[14-Jul-2017 05:38:18 UTC] # Instance=default, User=mariaadmin, Request=POST http://maria.tcbc.com.ph?menuaction=calendar.calendar_uiviews.index&ajax=true, User-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36
+[14-Jul-2017 05:38:18 UTC] PHP Warning: file_get_contents(http://www.egroupware.de/videos/tutorials.json): failed to open stream: no suitable wrapper could be found in /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Tutorial.php on line 123
+[14-Jul-2017 05:38:18 UTC] #1 /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Tutorial.php(123): file_get_contents('http://www.egro...')
+[14-Jul-2017 05:38:18 UTC] #2 /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Tutorial.php(140): EGroupware\Api\Framework\Tutorial::getJsonData()
+[14-Jul-2017 05:38:18 UTC] #3 [internal function]: EGroupware\Api\Framework\Tutorial::tutorial_menu(Array)
+[14-Jul-2017 05:38:18 UTC] #4 /home/tcbccomp/maria.tcbc.com.ph/api/src/Hooks.php(138): call_user_func('EGroupware\\Api\\...', Array)
+[14-Jul-2017 05:38:18 UTC] #5 /home/tcbccomp/maria.tcbc.com.ph/api/src/Hooks.php(82): EGroupware\Api\Hooks::single('sidebox_all', 'api', true)
+[14-Jul-2017 05:38:18 UTC] #6 /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Ajax.php(593): EGroupware\Api\Hooks::process('sidebox_all', Array, true)
+[14-Jul-2017 05:38:18 UTC] #7 /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Ajax.php(492): EGroupware\Api\Framework\Ajax->get_sidebox('calendar')
+[14-Jul-2017 05:38:18 UTC] #8 /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Ajax.php(999): EGroupware\Api\Framework\Ajax->do_sidebox()
+[14-Jul-2017 05:38:18 UTC] #9 [internal function]: EGroupware\Api\Framework\Ajax->ajax_exec('index.php?menua...')
+[14-Jul-2017 05:38:18 UTC] #10 /home/tcbccomp/maria.tcbc.com.ph/api/src/Json/Request.php(179): call_user_func_array(Array, Array)
+[14-Jul-2017 05:38:18 UTC] #11 /home/tcbccomp/maria.tcbc.com.ph/api/src/Json/Request.php(91): EGroupware\Api\Json\Request->handleRequest('calendar.jdots_...', Array)
+[14-Jul-2017 05:38:18 UTC] #12 /home/tcbccomp/maria.tcbc.com.ph/json.php(119): EGroupware\Api\Json\Request->parseRequest('calendar.jdots_...', '{"request":{"pa...')
+[14-Jul-2017 05:38:18 UTC] #13 {main}
+[14-Jul-2017 05:38:18 UTC] # Instance=default, User=mariaadmin, Request=POST http://maria.tcbc.com.ph?menuaction=calendar.calendar_uiviews.index&ajax=true, User-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36
+[14-Jul-2017 05:38:21 UTC] PHP Warning: file_get_contents(): http:// wrapper is disabled in the server configuration by allow_url_fopen=0 in /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Updates.php on line 49
+[14-Jul-2017 05:38:21 UTC] #1 /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Updates.php(49): file_get_contents('http://www.egro...', false, Resource id #135)
+[14-Jul-2017 05:38:21 UTC] #2 [internal function]: EGroupware\Api\Framework\Updates::EGroupware\Api\Framework\{closure}()
+[14-Jul-2017 05:38:21 UTC] #3 /home/tcbccomp/maria.tcbc.com.ph/api/src/Cache.php(230): call_user_func_array(Object(Closure), Array)
+[14-Jul-2017 05:38:21 UTC] #4 /home/tcbccomp/maria.tcbc.com.ph/api/src/Cache.php(304): EGroupware\Api\Cache::getCache('Tree', 'EGroupware\\Api\\...', 'versions', Object(Closure), Array, 7200)
+[14-Jul-2017 05:38:21 UTC] #5 /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Updates.php(59): EGroupware\Api\Cache::getTree('EGroupware\\Api\\...', 'versions', Object(Closure), Array, 7200)
+[14-Jul-2017 05:38:21 UTC] #6 /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Updates.php(72): EGroupware\Api\Framework\Updates::available()
+[14-Jul-2017 05:38:21 UTC] #7 /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework.php(1080): EGroupware\Api\Framework\Updates::notification()
+[14-Jul-2017 05:38:21 UTC] #8 /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Ajax.php(326): EGroupware\Api\Framework->topmenu(Array, Array)
+[14-Jul-2017 05:38:21 UTC] #9 /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Ajax.php(283): EGroupware\Api\Framework\Ajax->topmenu(Array, Array)
+[14-Jul-2017 05:38:21 UTC] #10 /home/tcbccomp/maria.tcbc.com.ph/pixelegg/inc/class.pixelegg_framework.inc.php(68): EGroupware\Api\Framework\Ajax->header(Array)
+[14-Jul-2017 05:38:21 UTC] #11 /home/tcbccomp/maria.tcbc.com.ph/index.php(135): pixelegg_framework->header()
+[14-Jul-2017 05:38:21 UTC] #12 {main}
+[14-Jul-2017 05:38:21 UTC] # Instance=default, User=mariaadmin, Request=GET http://maria.tcbc.com.ph/index.php?cd=yes, User-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36
+[14-Jul-2017 05:38:21 UTC] PHP Warning: file_get_contents(http://www.egroupware.org/currentversion): failed to open stream: no suitable wrapper could be found in /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Updates.php on line 49
+[14-Jul-2017 05:38:21 UTC] #1 /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Updates.php(49): file_get_contents('http://www.egro...', false, Resource id #135)
+[14-Jul-2017 05:38:21 UTC] #2 [internal function]: EGroupware\Api\Framework\Updates::EGroupware\Api\Framework\{closure}()
+[14-Jul-2017 05:38:21 UTC] #3 /home/tcbccomp/maria.tcbc.com.ph/api/src/Cache.php(230): call_user_func_array(Object(Closure), Array)
+[14-Jul-2017 05:38:21 UTC] #4 /home/tcbccomp/maria.tcbc.com.ph/api/src/Cache.php(304): EGroupware\Api\Cache::getCache('Tree', 'EGroupware\\Api\\...', 'versions', Object(Closure), Array, 7200)
+[14-Jul-2017 05:38:21 UTC] #5 /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Updates.php(59): EGroupware\Api\Cache::getTree('EGroupware\\Api\\...', 'versions', Object(Closure), Array, 7200)
+[14-Jul-2017 05:38:21 UTC] #6 /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Updates.php(72): EGroupware\Api\Framework\Updates::available()
+[14-Jul-2017 05:38:21 UTC] #7 /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework.php(1080): EGroupware\Api\Framework\Updates::notification()
+[14-Jul-2017 05:38:21 UTC] #8 /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Ajax.php(326): EGroupware\Api\Framework->topmenu(Array, Array)
+[14-Jul-2017 05:38:21 UTC] #9 /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Ajax.php(283): EGroupware\Api\Framework\Ajax->topmenu(Array, Array)
+[14-Jul-2017 05:38:21 UTC] #10 /home/tcbccomp/maria.tcbc.com.ph/pixelegg/inc/class.pixelegg_framework.inc.php(68): EGroupware\Api\Framework\Ajax->header(Array)
+[14-Jul-2017 05:38:21 UTC] #11 /home/tcbccomp/maria.tcbc.com.ph/index.php(135): pixelegg_framework->header()
+[14-Jul-2017 05:38:21 UTC] #12 {main}
+[14-Jul-2017 05:38:21 UTC] # Instance=default, User=mariaadmin, Request=GET http://maria.tcbc.com.ph/index.php?cd=yes, User-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36
+[14-Jul-2017 05:48:08 UTC] PHP Deprecated:  Using a negative size to set textbox readonly. [EGroupware\Api\Etemplate\Widget\Textbox] textbox#users in /home/tcbccomp/maria.tcbc.com.ph/api/src/Etemplate/Widget/Textbox.php on line 72
+[14-Jul-2017 05:48:08 UTC] PHP Deprecated:  Using a negative size to set textbox readonly. [EGroupware\Api\Etemplate\Widget\Textbox] textbox#sessions in /home/tcbccomp/maria.tcbc.com.ph/api/src/Etemplate/Widget/Textbox.php on line 72
+[14-Jul-2017 05:48:08 UTC] PHP Deprecated:  Using a negative size to set textbox readonly. [EGroupware\Api\Etemplate\Widget\Textbox] textbox#version in /home/tcbccomp/maria.tcbc.com.ph/api/src/Etemplate/Widget/Textbox.php on line 72
+[14-Jul-2017 05:48:08 UTC] PHP Deprecated:  Using a negative size to set textbox readonly. [EGroupware\Api\Etemplate\Widget\Textbox] textbox#os in /home/tcbccomp/maria.tcbc.com.ph/api/src/Etemplate/Widget/Textbox.php on line 72
+[14-Jul-2017 05:48:08 UTC] PHP Deprecated:  Using a negative size to set textbox readonly. [EGroupware\Api\Etemplate\Widget\Textbox] textbox#php in /home/tcbccomp/maria.tcbc.com.ph/api/src/Etemplate/Widget/Textbox.php on line 72
+[18-Jul-2017 01:24:53 UTC] PHP Warning: file_get_contents(): http:// wrapper is disabled in the server configuration by allow_url_fopen=0 in /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Updates.php on line 49
+[18-Jul-2017 01:24:53 UTC] #1 /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Updates.php(49): file_get_contents('http://www.egro...', false, Resource id #149)
+[18-Jul-2017 01:24:53 UTC] #2 [internal function]: EGroupware\Api\Framework\Updates::EGroupware\Api\Framework\{closure}()
+[18-Jul-2017 01:24:53 UTC] #3 /home/tcbccomp/maria.tcbc.com.ph/api/src/Cache.php(230): call_user_func_array(Object(Closure), Array)
+[18-Jul-2017 01:24:53 UTC] #4 /home/tcbccomp/maria.tcbc.com.ph/api/src/Cache.php(304): EGroupware\Api\Cache::getCache('Tree', 'EGroupware\\Api\\...', 'versions', Object(Closure), Array, 7200)
+[18-Jul-2017 01:24:53 UTC] #5 /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Updates.php(59): EGroupware\Api\Cache::getTree('EGroupware\\Api\\...', 'versions', Object(Closure), Array, 7200)
+[18-Jul-2017 01:24:53 UTC] #6 /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Updates.php(72): EGroupware\Api\Framework\Updates::available()
+[18-Jul-2017 01:24:53 UTC] #7 /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework.php(1080): EGroupware\Api\Framework\Updates::notification()
+[18-Jul-2017 01:24:53 UTC] #8 /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Ajax.php(326): EGroupware\Api\Framework->topmenu(Array, Array)
+[18-Jul-2017 01:24:53 UTC] #9 /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Ajax.php(283): EGroupware\Api\Framework\Ajax->topmenu(Array, Array)
+[18-Jul-2017 01:24:53 UTC] #10 /home/tcbccomp/maria.tcbc.com.ph/pixelegg/inc/class.pixelegg_framework.inc.php(68): EGroupware\Api\Framework\Ajax->header(Array)
+[18-Jul-2017 01:24:53 UTC] #11 /home/tcbccomp/maria.tcbc.com.ph/index.php(135): pixelegg_framework->header()
+[18-Jul-2017 01:24:53 UTC] #12 {main}
+[18-Jul-2017 01:24:53 UTC] # Instance=default, User=mariaadmin, Request=GET http://maria.tcbc.com.ph/index.php?cd=yes, User-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36
+[18-Jul-2017 01:24:53 UTC] PHP Warning: file_get_contents(http://www.egroupware.org/currentversion): failed to open stream: no suitable wrapper could be found in /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Updates.php on line 49
+[18-Jul-2017 01:24:53 UTC] #1 /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Updates.php(49): file_get_contents('http://www.egro...', false, Resource id #149)
+[18-Jul-2017 01:24:53 UTC] #2 [internal function]: EGroupware\Api\Framework\Updates::EGroupware\Api\Framework\{closure}()
+[18-Jul-2017 01:24:53 UTC] #3 /home/tcbccomp/maria.tcbc.com.ph/api/src/Cache.php(230): call_user_func_array(Object(Closure), Array)
+[18-Jul-2017 01:24:53 UTC] #4 /home/tcbccomp/maria.tcbc.com.ph/api/src/Cache.php(304): EGroupware\Api\Cache::getCache('Tree', 'EGroupware\\Api\\...', 'versions', Object(Closure), Array, 7200)
+[18-Jul-2017 01:24:53 UTC] #5 /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Updates.php(59): EGroupware\Api\Cache::getTree('EGroupware\\Api\\...', 'versions', Object(Closure), Array, 7200)
+[18-Jul-2017 01:24:53 UTC] #6 /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Updates.php(72): EGroupware\Api\Framework\Updates::available()
+[18-Jul-2017 01:24:53 UTC] #7 /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework.php(1080): EGroupware\Api\Framework\Updates::notification()
+[18-Jul-2017 01:24:53 UTC] #8 /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Ajax.php(326): EGroupware\Api\Framework->topmenu(Array, Array)
+[18-Jul-2017 01:24:53 UTC] #9 /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Ajax.php(283): EGroupware\Api\Framework\Ajax->topmenu(Array, Array)
+[18-Jul-2017 01:24:53 UTC] #10 /home/tcbccomp/maria.tcbc.com.ph/pixelegg/inc/class.pixelegg_framework.inc.php(68): EGroupware\Api\Framework\Ajax->header(Array)
+[18-Jul-2017 01:24:53 UTC] #11 /home/tcbccomp/maria.tcbc.com.ph/index.php(135): pixelegg_framework->header()
+[18-Jul-2017 01:24:53 UTC] #12 {main}
+[18-Jul-2017 01:24:53 UTC] # Instance=default, User=mariaadmin, Request=GET http://maria.tcbc.com.ph/index.php?cd=yes, User-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36
+[18-Jul-2017 01:24:56 UTC] PHP Warning: file_get_contents(): http:// wrapper is disabled in the server configuration by allow_url_fopen=0 in /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Tutorial.php on line 123
+[18-Jul-2017 01:24:56 UTC] #1 /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Tutorial.php(123): file_get_contents('http://www.egro...')
+[18-Jul-2017 01:24:56 UTC] #2 /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Tutorial.php(140): EGroupware\Api\Framework\Tutorial::getJsonData()
+[18-Jul-2017 01:24:56 UTC] #3 [internal function]: EGroupware\Api\Framework\Tutorial::tutorial_menu(Array)
+[18-Jul-2017 01:24:56 UTC] #4 /home/tcbccomp/maria.tcbc.com.ph/api/src/Hooks.php(138): call_user_func('EGroupware\\Api\\...', Array)
+[18-Jul-2017 01:24:56 UTC] #5 /home/tcbccomp/maria.tcbc.com.ph/api/src/Hooks.php(82): EGroupware\Api\Hooks::single('sidebox_all', 'api', true)
+[18-Jul-2017 01:24:56 UTC] #6 /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Ajax.php(593): EGroupware\Api\Hooks::process('sidebox_all', Array, true)
+[18-Jul-2017 01:24:56 UTC] #7 /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Ajax.php(492): EGroupware\Api\Framework\Ajax->get_sidebox('timesheet')
+[18-Jul-2017 01:24:56 UTC] #8 /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Ajax.php(999): EGroupware\Api\Framework\Ajax->do_sidebox()
+[18-Jul-2017 01:24:56 UTC] #9 [internal function]: EGroupware\Api\Framework\Ajax->ajax_exec('index.php?menua...')
+[18-Jul-2017 01:24:56 UTC] #10 /home/tcbccomp/maria.tcbc.com.ph/api/src/Json/Request.php(179): call_user_func_array(Array, Array)
+[18-Jul-2017 01:24:56 UTC] #11 /home/tcbccomp/maria.tcbc.com.ph/api/src/Json/Request.php(91): EGroupware\Api\Json\Request->handleRequest('timesheet.jdots...', Array)
+[18-Jul-2017 01:24:56 UTC] #12 /home/tcbccomp/maria.tcbc.com.ph/json.php(119): EGroupware\Api\Json\Request->parseRequest('timesheet.jdots...', '{"request":{"pa...')
+[18-Jul-2017 01:24:56 UTC] #13 {main}
+[18-Jul-2017 01:24:56 UTC] # Instance=default, User=mariaadmin, Request=POST http://maria.tcbc.com.ph?menuaction=timesheet.timesheet_ui.index&ajax=true, User-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36
+[18-Jul-2017 01:24:56 UTC] PHP Warning: file_get_contents(http://www.egroupware.de/videos/tutorials.json): failed to open stream: no suitable wrapper could be found in /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Tutorial.php on line 123
+[18-Jul-2017 01:24:56 UTC] #1 /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Tutorial.php(123): file_get_contents('http://www.egro...')
+[18-Jul-2017 01:24:56 UTC] #2 /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Tutorial.php(140): EGroupware\Api\Framework\Tutorial::getJsonData()
+[18-Jul-2017 01:24:56 UTC] #3 [internal function]: EGroupware\Api\Framework\Tutorial::tutorial_menu(Array)
+[18-Jul-2017 01:24:56 UTC] #4 /home/tcbccomp/maria.tcbc.com.ph/api/src/Hooks.php(138): call_user_func('EGroupware\\Api\\...', Array)
+[18-Jul-2017 01:24:56 UTC] #5 /home/tcbccomp/maria.tcbc.com.ph/api/src/Hooks.php(82): EGroupware\Api\Hooks::single('sidebox_all', 'api', true)
+[18-Jul-2017 01:24:56 UTC] #6 /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Ajax.php(593): EGroupware\Api\Hooks::process('sidebox_all', Array, true)
+[18-Jul-2017 01:24:56 UTC] #7 /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Ajax.php(492): EGroupware\Api\Framework\Ajax->get_sidebox('timesheet')
+[18-Jul-2017 01:24:56 UTC] #8 /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Ajax.php(999): EGroupware\Api\Framework\Ajax->do_sidebox()
+[18-Jul-2017 01:24:56 UTC] #9 [internal function]: EGroupware\Api\Framework\Ajax->ajax_exec('index.php?menua...')
+[18-Jul-2017 01:24:56 UTC] #10 /home/tcbccomp/maria.tcbc.com.ph/api/src/Json/Request.php(179): call_user_func_array(Array, Array)
+[18-Jul-2017 01:24:56 UTC] #11 /home/tcbccomp/maria.tcbc.com.ph/api/src/Json/Request.php(91): EGroupware\Api\Json\Request->handleRequest('timesheet.jdots...', Array)
+[18-Jul-2017 01:24:56 UTC] #12 /home/tcbccomp/maria.tcbc.com.ph/json.php(119): EGroupware\Api\Json\Request->parseRequest('timesheet.jdots...', '{"request":{"pa...')
+[18-Jul-2017 01:24:56 UTC] #13 {main}
+[18-Jul-2017 01:24:56 UTC] # Instance=default, User=mariaadmin, Request=POST http://maria.tcbc.com.ph?menuaction=timesheet.timesheet_ui.index&ajax=true, User-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36
+[20-Jul-2017 02:03:52 UTC] PHP Warning: file_get_contents(): http:// wrapper is disabled in the server configuration by allow_url_fopen=0 in /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Updates.php on line 49
+[20-Jul-2017 02:03:52 UTC] #1 /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Updates.php(49): file_get_contents('http://www.egro...', false, Resource id #151)
+[20-Jul-2017 02:03:52 UTC] #2 [internal function]: EGroupware\Api\Framework\Updates::EGroupware\Api\Framework\{closure}()
+[20-Jul-2017 02:03:52 UTC] #3 /home/tcbccomp/maria.tcbc.com.ph/api/src/Cache.php(230): call_user_func_array(Object(Closure), Array)
+[20-Jul-2017 02:03:52 UTC] #4 /home/tcbccomp/maria.tcbc.com.ph/api/src/Cache.php(304): EGroupware\Api\Cache::getCache('Tree', 'EGroupware\\Api\\...', 'versions', Object(Closure), Array, 7200)
+[20-Jul-2017 02:03:52 UTC] #5 /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Updates.php(59): EGroupware\Api\Cache::getTree('EGroupware\\Api\\...', 'versions', Object(Closure), Array, 7200)
+[20-Jul-2017 02:03:52 UTC] #6 /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Updates.php(72): EGroupware\Api\Framework\Updates::available()
+[20-Jul-2017 02:03:52 UTC] #7 /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework.php(1080): EGroupware\Api\Framework\Updates::notification()
+[20-Jul-2017 02:03:52 UTC] #8 /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Ajax.php(326): EGroupware\Api\Framework->topmenu(Array, Array)
+[20-Jul-2017 02:03:52 UTC] #9 /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Ajax.php(283): EGroupware\Api\Framework\Ajax->topmenu(Array, Array)
+[20-Jul-2017 02:03:52 UTC] #10 /home/tcbccomp/maria.tcbc.com.ph/pixelegg/inc/class.pixelegg_framework.inc.php(68): EGroupware\Api\Framework\Ajax->header(Array)
+[20-Jul-2017 02:03:52 UTC] #11 /home/tcbccomp/maria.tcbc.com.ph/index.php(135): pixelegg_framework->header()
+[20-Jul-2017 02:03:52 UTC] #12 {main}
+[20-Jul-2017 02:03:52 UTC] # Instance=default, User=mariaadmin, Request=GET http://maria.tcbc.com.ph/index.php?cd=yes, User-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36
+[20-Jul-2017 02:03:52 UTC] PHP Warning: file_get_contents(http://www.egroupware.org/currentversion): failed to open stream: no suitable wrapper could be found in /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Updates.php on line 49
+[20-Jul-2017 02:03:52 UTC] #1 /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Updates.php(49): file_get_contents('http://www.egro...', false, Resource id #151)
+[20-Jul-2017 02:03:52 UTC] #2 [internal function]: EGroupware\Api\Framework\Updates::EGroupware\Api\Framework\{closure}()
+[20-Jul-2017 02:03:52 UTC] #3 /home/tcbccomp/maria.tcbc.com.ph/api/src/Cache.php(230): call_user_func_array(Object(Closure), Array)
+[20-Jul-2017 02:03:52 UTC] #4 /home/tcbccomp/maria.tcbc.com.ph/api/src/Cache.php(304): EGroupware\Api\Cache::getCache('Tree', 'EGroupware\\Api\\...', 'versions', Object(Closure), Array, 7200)
+[20-Jul-2017 02:03:52 UTC] #5 /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Updates.php(59): EGroupware\Api\Cache::getTree('EGroupware\\Api\\...', 'versions', Object(Closure), Array, 7200)
+[20-Jul-2017 02:03:52 UTC] #6 /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Updates.php(72): EGroupware\Api\Framework\Updates::available()
+[20-Jul-2017 02:03:52 UTC] #7 /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework.php(1080): EGroupware\Api\Framework\Updates::notification()
+[20-Jul-2017 02:03:52 UTC] #8 /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Ajax.php(326): EGroupware\Api\Framework->topmenu(Array, Array)
+[20-Jul-2017 02:03:52 UTC] #9 /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Ajax.php(283): EGroupware\Api\Framework\Ajax->topmenu(Array, Array)
+[20-Jul-2017 02:03:52 UTC] #10 /home/tcbccomp/maria.tcbc.com.ph/pixelegg/inc/class.pixelegg_framework.inc.php(68): EGroupware\Api\Framework\Ajax->header(Array)
+[20-Jul-2017 02:03:52 UTC] #11 /home/tcbccomp/maria.tcbc.com.ph/index.php(135): pixelegg_framework->header()
+[20-Jul-2017 02:03:52 UTC] #12 {main}
+[20-Jul-2017 02:03:52 UTC] # Instance=default, User=mariaadmin, Request=GET http://maria.tcbc.com.ph/index.php?cd=yes, User-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36
+[20-Jul-2017 02:03:54 UTC] PHP Warning: file_get_contents(): http:// wrapper is disabled in the server configuration by allow_url_fopen=0 in /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Tutorial.php on line 123
+[20-Jul-2017 02:03:54 UTC] #1 /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Tutorial.php(123): file_get_contents('http://www.egro...')
+[20-Jul-2017 02:03:54 UTC] #2 /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Tutorial.php(140): EGroupware\Api\Framework\Tutorial::getJsonData()
+[20-Jul-2017 02:03:54 UTC] #3 [internal function]: EGroupware\Api\Framework\Tutorial::tutorial_menu(Array)
+[20-Jul-2017 02:03:54 UTC] #4 /home/tcbccomp/maria.tcbc.com.ph/api/src/Hooks.php(138): call_user_func('EGroupware\\Api\\...', Array)
+[20-Jul-2017 02:03:54 UTC] #5 /home/tcbccomp/maria.tcbc.com.ph/api/src/Hooks.php(82): EGroupware\Api\Hooks::single('sidebox_all', 'api', true)
+[20-Jul-2017 02:03:54 UTC] #6 /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Ajax.php(593): EGroupware\Api\Hooks::process('sidebox_all', Array, true)
+[20-Jul-2017 02:03:54 UTC] #7 /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Ajax.php(492): EGroupware\Api\Framework\Ajax->get_sidebox('timesheet')
+[20-Jul-2017 02:03:54 UTC] #8 /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Ajax.php(999): EGroupware\Api\Framework\Ajax->do_sidebox()
+[20-Jul-2017 02:03:54 UTC] #9 [internal function]: EGroupware\Api\Framework\Ajax->ajax_exec('index.php?menua...')
+[20-Jul-2017 02:03:54 UTC] #10 /home/tcbccomp/maria.tcbc.com.ph/api/src/Json/Request.php(179): call_user_func_array(Array, Array)
+[20-Jul-2017 02:03:54 UTC] #11 /home/tcbccomp/maria.tcbc.com.ph/api/src/Json/Request.php(91): EGroupware\Api\Json\Request->handleRequest('timesheet.jdots...', Array)
+[20-Jul-2017 02:03:54 UTC] #12 /home/tcbccomp/maria.tcbc.com.ph/json.php(119): EGroupware\Api\Json\Request->parseRequest('timesheet.jdots...', '{"request":{"pa...')
+[20-Jul-2017 02:03:54 UTC] #13 {main}
+[20-Jul-2017 02:03:54 UTC] # Instance=default, User=mariaadmin, Request=POST http://maria.tcbc.com.ph?menuaction=timesheet.timesheet_ui.index&ajax=true, User-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36
+[20-Jul-2017 02:03:54 UTC] PHP Warning: file_get_contents(http://www.egroupware.de/videos/tutorials.json): failed to open stream: no suitable wrapper could be found in /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Tutorial.php on line 123
+[20-Jul-2017 02:03:54 UTC] #1 /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Tutorial.php(123): file_get_contents('http://www.egro...')
+[20-Jul-2017 02:03:54 UTC] #2 /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Tutorial.php(140): EGroupware\Api\Framework\Tutorial::getJsonData()
+[20-Jul-2017 02:03:54 UTC] #3 [internal function]: EGroupware\Api\Framework\Tutorial::tutorial_menu(Array)
+[20-Jul-2017 02:03:54 UTC] #4 /home/tcbccomp/maria.tcbc.com.ph/api/src/Hooks.php(138): call_user_func('EGroupware\\Api\\...', Array)
+[20-Jul-2017 02:03:54 UTC] #5 /home/tcbccomp/maria.tcbc.com.ph/api/src/Hooks.php(82): EGroupware\Api\Hooks::single('sidebox_all', 'api', true)
+[20-Jul-2017 02:03:54 UTC] #6 /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Ajax.php(593): EGroupware\Api\Hooks::process('sidebox_all', Array, true)
+[20-Jul-2017 02:03:54 UTC] #7 /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Ajax.php(492): EGroupware\Api\Framework\Ajax->get_sidebox('timesheet')
+[20-Jul-2017 02:03:54 UTC] #8 /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Ajax.php(999): EGroupware\Api\Framework\Ajax->do_sidebox()
+[20-Jul-2017 02:03:54 UTC] #9 [internal function]: EGroupware\Api\Framework\Ajax->ajax_exec('index.php?menua...')
+[20-Jul-2017 02:03:54 UTC] #10 /home/tcbccomp/maria.tcbc.com.ph/api/src/Json/Request.php(179): call_user_func_array(Array, Array)
+[20-Jul-2017 02:03:54 UTC] #11 /home/tcbccomp/maria.tcbc.com.ph/api/src/Json/Request.php(91): EGroupware\Api\Json\Request->handleRequest('timesheet.jdots...', Array)
+[20-Jul-2017 02:03:54 UTC] #12 /home/tcbccomp/maria.tcbc.com.ph/json.php(119): EGroupware\Api\Json\Request->parseRequest('timesheet.jdots...', '{"request":{"pa...')
+[20-Jul-2017 02:03:54 UTC] #13 {main}
+[20-Jul-2017 02:03:54 UTC] # Instance=default, User=mariaadmin, Request=POST http://maria.tcbc.com.ph?menuaction=timesheet.timesheet_ui.index&ajax=true, User-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36
+[20-Jul-2017 08:40:43 UTC] PHP Warning: file_get_contents(): http:// wrapper is disabled in the server configuration by allow_url_fopen=0 in /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Updates.php on line 49
+[20-Jul-2017 08:40:43 UTC] #1 /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Updates.php(49): file_get_contents('http://www.egro...', false, Resource id #151)
+[20-Jul-2017 08:40:43 UTC] #2 [internal function]: EGroupware\Api\Framework\Updates::EGroupware\Api\Framework\{closure}()
+[20-Jul-2017 08:40:43 UTC] #3 /home/tcbccomp/maria.tcbc.com.ph/api/src/Cache.php(230): call_user_func_array(Object(Closure), Array)
+[20-Jul-2017 08:40:43 UTC] #4 /home/tcbccomp/maria.tcbc.com.ph/api/src/Cache.php(304): EGroupware\Api\Cache::getCache('Tree', 'EGroupware\\Api\\...', 'versions', Object(Closure), Array, 7200)
+[20-Jul-2017 08:40:43 UTC] #5 /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Updates.php(59): EGroupware\Api\Cache::getTree('EGroupware\\Api\\...', 'versions', Object(Closure), Array, 7200)
+[20-Jul-2017 08:40:43 UTC] #6 /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Updates.php(72): EGroupware\Api\Framework\Updates::available()
+[20-Jul-2017 08:40:43 UTC] #7 /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework.php(1080): EGroupware\Api\Framework\Updates::notification()
+[20-Jul-2017 08:40:43 UTC] #8 /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Ajax.php(326): EGroupware\Api\Framework->topmenu(Array, Array)
+[20-Jul-2017 08:40:43 UTC] #9 /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Ajax.php(283): EGroupware\Api\Framework\Ajax->topmenu(Array, Array)
+[20-Jul-2017 08:40:43 UTC] #10 /home/tcbccomp/maria.tcbc.com.ph/pixelegg/inc/class.pixelegg_framework.inc.php(68): EGroupware\Api\Framework\Ajax->header(Array)
+[20-Jul-2017 08:40:43 UTC] #11 /home/tcbccomp/maria.tcbc.com.ph/index.php(135): pixelegg_framework->header()
+[20-Jul-2017 08:40:43 UTC] #12 {main}
+[20-Jul-2017 08:40:43 UTC] # Instance=default, User=mariaadmin, Request=GET http://maria.tcbc.com.ph/index.php?cd=yes, User-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36
+[20-Jul-2017 08:40:43 UTC] PHP Warning: file_get_contents(http://www.egroupware.org/currentversion): failed to open stream: no suitable wrapper could be found in /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Updates.php on line 49
+[20-Jul-2017 08:40:43 UTC] #1 /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Updates.php(49): file_get_contents('http://www.egro...', false, Resource id #151)
+[20-Jul-2017 08:40:43 UTC] #2 [internal function]: EGroupware\Api\Framework\Updates::EGroupware\Api\Framework\{closure}()
+[20-Jul-2017 08:40:43 UTC] #3 /home/tcbccomp/maria.tcbc.com.ph/api/src/Cache.php(230): call_user_func_array(Object(Closure), Array)
+[20-Jul-2017 08:40:43 UTC] #4 /home/tcbccomp/maria.tcbc.com.ph/api/src/Cache.php(304): EGroupware\Api\Cache::getCache('Tree', 'EGroupware\\Api\\...', 'versions', Object(Closure), Array, 7200)
+[20-Jul-2017 08:40:43 UTC] #5 /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Updates.php(59): EGroupware\Api\Cache::getTree('EGroupware\\Api\\...', 'versions', Object(Closure), Array, 7200)
+[20-Jul-2017 08:40:43 UTC] #6 /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Updates.php(72): EGroupware\Api\Framework\Updates::available()
+[20-Jul-2017 08:40:43 UTC] #7 /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework.php(1080): EGroupware\Api\Framework\Updates::notification()
+[20-Jul-2017 08:40:43 UTC] #8 /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Ajax.php(326): EGroupware\Api\Framework->topmenu(Array, Array)
+[20-Jul-2017 08:40:43 UTC] #9 /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Ajax.php(283): EGroupware\Api\Framework\Ajax->topmenu(Array, Array)
+[20-Jul-2017 08:40:43 UTC] #10 /home/tcbccomp/maria.tcbc.com.ph/pixelegg/inc/class.pixelegg_framework.inc.php(68): EGroupware\Api\Framework\Ajax->header(Array)
+[20-Jul-2017 08:40:43 UTC] #11 /home/tcbccomp/maria.tcbc.com.ph/index.php(135): pixelegg_framework->header()
+[20-Jul-2017 08:40:43 UTC] #12 {main}
+[20-Jul-2017 08:40:43 UTC] # Instance=default, User=mariaadmin, Request=GET http://maria.tcbc.com.ph/index.php?cd=yes, User-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36
+[20-Jul-2017 08:40:49 UTC] PHP Warning: file_get_contents(): http:// wrapper is disabled in the server configuration by allow_url_fopen=0 in /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Tutorial.php on line 123
+[20-Jul-2017 08:40:49 UTC] #1 /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Tutorial.php(123): file_get_contents('http://www.egro...')
+[20-Jul-2017 08:40:49 UTC] #2 /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Tutorial.php(140): EGroupware\Api\Framework\Tutorial::getJsonData()
+[20-Jul-2017 08:40:49 UTC] #3 [internal function]: EGroupware\Api\Framework\Tutorial::tutorial_menu(Array)
+[20-Jul-2017 08:40:49 UTC] #4 /home/tcbccomp/maria.tcbc.com.ph/api/src/Hooks.php(138): call_user_func('EGroupware\\Api\\...', Array)
+[20-Jul-2017 08:40:49 UTC] #5 /home/tcbccomp/maria.tcbc.com.ph/api/src/Hooks.php(82): EGroupware\Api\Hooks::single('sidebox_all', 'api', true)
+[20-Jul-2017 08:40:49 UTC] #6 /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Ajax.php(593): EGroupware\Api\Hooks::process('sidebox_all', Array, true)
+[20-Jul-2017 08:40:49 UTC] #7 /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Ajax.php(492): EGroupware\Api\Framework\Ajax->get_sidebox('timesheet')
+[20-Jul-2017 08:40:49 UTC] #8 /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Ajax.php(999): EGroupware\Api\Framework\Ajax->do_sidebox()
+[20-Jul-2017 08:40:49 UTC] #9 [internal function]: EGroupware\Api\Framework\Ajax->ajax_exec('index.php?menua...')
+[20-Jul-2017 08:40:49 UTC] #10 /home/tcbccomp/maria.tcbc.com.ph/api/src/Json/Request.php(179): call_user_func_array(Array, Array)
+[20-Jul-2017 08:40:49 UTC] #11 /home/tcbccomp/maria.tcbc.com.ph/api/src/Json/Request.php(91): EGroupware\Api\Json\Request->handleRequest('timesheet.jdots...', Array)
+[20-Jul-2017 08:40:49 UTC] #12 /home/tcbccomp/maria.tcbc.com.ph/json.php(119): EGroupware\Api\Json\Request->parseRequest('timesheet.jdots...', '{"request":{"pa...')
+[20-Jul-2017 08:40:49 UTC] #13 {main}
+[20-Jul-2017 08:40:49 UTC] # Instance=default, User=mariaadmin, Request=POST http://maria.tcbc.com.ph?menuaction=timesheet.timesheet_ui.index&ajax=true, User-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36
+[20-Jul-2017 08:40:49 UTC] PHP Warning: file_get_contents(http://www.egroupware.de/videos/tutorials.json): failed to open stream: no suitable wrapper could be found in /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Tutorial.php on line 123
+[20-Jul-2017 08:40:49 UTC] #1 /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Tutorial.php(123): file_get_contents('http://www.egro...')
+[20-Jul-2017 08:40:49 UTC] #2 /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Tutorial.php(140): EGroupware\Api\Framework\Tutorial::getJsonData()
+[20-Jul-2017 08:40:49 UTC] #3 [internal function]: EGroupware\Api\Framework\Tutorial::tutorial_menu(Array)
+[20-Jul-2017 08:40:49 UTC] #4 /home/tcbccomp/maria.tcbc.com.ph/api/src/Hooks.php(138): call_user_func('EGroupware\\Api\\...', Array)
+[20-Jul-2017 08:40:49 UTC] #5 /home/tcbccomp/maria.tcbc.com.ph/api/src/Hooks.php(82): EGroupware\Api\Hooks::single('sidebox_all', 'api', true)
+[20-Jul-2017 08:40:49 UTC] #6 /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Ajax.php(593): EGroupware\Api\Hooks::process('sidebox_all', Array, true)
+[20-Jul-2017 08:40:49 UTC] #7 /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Ajax.php(492): EGroupware\Api\Framework\Ajax->get_sidebox('timesheet')
+[20-Jul-2017 08:40:49 UTC] #8 /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Ajax.php(999): EGroupware\Api\Framework\Ajax->do_sidebox()
+[20-Jul-2017 08:40:49 UTC] #9 [internal function]: EGroupware\Api\Framework\Ajax->ajax_exec('index.php?menua...')
+[20-Jul-2017 08:40:49 UTC] #10 /home/tcbccomp/maria.tcbc.com.ph/api/src/Json/Request.php(179): call_user_func_array(Array, Array)
+[20-Jul-2017 08:40:49 UTC] #11 /home/tcbccomp/maria.tcbc.com.ph/api/src/Json/Request.php(91): EGroupware\Api\Json\Request->handleRequest('timesheet.jdots...', Array)
+[20-Jul-2017 08:40:49 UTC] #12 /home/tcbccomp/maria.tcbc.com.ph/json.php(119): EGroupware\Api\Json\Request->parseRequest('timesheet.jdots...', '{"request":{"pa...')
+[20-Jul-2017 08:40:49 UTC] #13 {main}
+[20-Jul-2017 08:40:49 UTC] # Instance=default, User=mariaadmin, Request=POST http://maria.tcbc.com.ph?menuaction=timesheet.timesheet_ui.index&ajax=true, User-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36
+[20-Jul-2017 14:25:33 UTC] PHP Warning: file_get_contents(): http:// wrapper is disabled in the server configuration by allow_url_fopen=0 in /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Updates.php on line 49
+[20-Jul-2017 14:25:33 UTC] #1 /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Updates.php(49): file_get_contents('http://www.egro...', false, Resource id #151)
+[20-Jul-2017 14:25:33 UTC] #2 [internal function]: EGroupware\Api\Framework\Updates::EGroupware\Api\Framework\{closure}()
+[20-Jul-2017 14:25:33 UTC] #3 /home/tcbccomp/maria.tcbc.com.ph/api/src/Cache.php(230): call_user_func_array(Object(Closure), Array)
+[20-Jul-2017 14:25:33 UTC] #4 /home/tcbccomp/maria.tcbc.com.ph/api/src/Cache.php(304): EGroupware\Api\Cache::getCache('Tree', 'EGroupware\\Api\\...', 'versions', Object(Closure), Array, 7200)
+[20-Jul-2017 14:25:33 UTC] #5 /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Updates.php(59): EGroupware\Api\Cache::getTree('EGroupware\\Api\\...', 'versions', Object(Closure), Array, 7200)
+[20-Jul-2017 14:25:33 UTC] #6 /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Updates.php(72): EGroupware\Api\Framework\Updates::available()
+[20-Jul-2017 14:25:33 UTC] #7 /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework.php(1080): EGroupware\Api\Framework\Updates::notification()
+[20-Jul-2017 14:25:33 UTC] #8 /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Ajax.php(326): EGroupware\Api\Framework->topmenu(Array, Array)
+[20-Jul-2017 14:25:33 UTC] #9 /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Ajax.php(283): EGroupware\Api\Framework\Ajax->topmenu(Array, Array)
+[20-Jul-2017 14:25:33 UTC] #10 /home/tcbccomp/maria.tcbc.com.ph/pixelegg/inc/class.pixelegg_framework.inc.php(68): EGroupware\Api\Framework\Ajax->header(Array)
+[20-Jul-2017 14:25:33 UTC] #11 /home/tcbccomp/maria.tcbc.com.ph/index.php(135): pixelegg_framework->header()
+[20-Jul-2017 14:25:33 UTC] #12 {main}
+[20-Jul-2017 14:25:33 UTC] # Instance=default, User=mariaadmin, Request=GET http://maria.tcbc.com.ph/index.php?cd=yes, User-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/603.3.8 (KHTML, like Gecko) Version/10.1.2 Safari/603.3.8
+[20-Jul-2017 14:25:33 UTC] PHP Warning: file_get_contents(http://www.egroupware.org/currentversion): failed to open stream: no suitable wrapper could be found in /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Updates.php on line 49
+[20-Jul-2017 14:25:33 UTC] #1 /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Updates.php(49): file_get_contents('http://www.egro...', false, Resource id #151)
+[20-Jul-2017 14:25:33 UTC] #2 [internal function]: EGroupware\Api\Framework\Updates::EGroupware\Api\Framework\{closure}()
+[20-Jul-2017 14:25:33 UTC] #3 /home/tcbccomp/maria.tcbc.com.ph/api/src/Cache.php(230): call_user_func_array(Object(Closure), Array)
+[20-Jul-2017 14:25:33 UTC] #4 /home/tcbccomp/maria.tcbc.com.ph/api/src/Cache.php(304): EGroupware\Api\Cache::getCache('Tree', 'EGroupware\\Api\\...', 'versions', Object(Closure), Array, 7200)
+[20-Jul-2017 14:25:33 UTC] #5 /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Updates.php(59): EGroupware\Api\Cache::getTree('EGroupware\\Api\\...', 'versions', Object(Closure), Array, 7200)
+[20-Jul-2017 14:25:33 UTC] #6 /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Updates.php(72): EGroupware\Api\Framework\Updates::available()
+[20-Jul-2017 14:25:33 UTC] #7 /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework.php(1080): EGroupware\Api\Framework\Updates::notification()
+[20-Jul-2017 14:25:33 UTC] #8 /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Ajax.php(326): EGroupware\Api\Framework->topmenu(Array, Array)
+[20-Jul-2017 14:25:33 UTC] #9 /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Ajax.php(283): EGroupware\Api\Framework\Ajax->topmenu(Array, Array)
+[20-Jul-2017 14:25:33 UTC] #10 /home/tcbccomp/maria.tcbc.com.ph/pixelegg/inc/class.pixelegg_framework.inc.php(68): EGroupware\Api\Framework\Ajax->header(Array)
+[20-Jul-2017 14:25:33 UTC] #11 /home/tcbccomp/maria.tcbc.com.ph/index.php(135): pixelegg_framework->header()
+[20-Jul-2017 14:25:33 UTC] #12 {main}
+[20-Jul-2017 14:25:33 UTC] # Instance=default, User=mariaadmin, Request=GET http://maria.tcbc.com.ph/index.php?cd=yes, User-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/603.3.8 (KHTML, like Gecko) Version/10.1.2 Safari/603.3.8
+[20-Jul-2017 14:25:35 UTC] PHP Warning: file_get_contents(): http:// wrapper is disabled in the server configuration by allow_url_fopen=0 in /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Tutorial.php on line 123
+[20-Jul-2017 14:25:35 UTC] #1 /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Tutorial.php(123): file_get_contents('http://www.egro...')
+[20-Jul-2017 14:25:35 UTC] #2 /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Tutorial.php(140): EGroupware\Api\Framework\Tutorial::getJsonData()
+[20-Jul-2017 14:25:35 UTC] #3 [internal function]: EGroupware\Api\Framework\Tutorial::tutorial_menu(Array)
+[20-Jul-2017 14:25:35 UTC] #4 /home/tcbccomp/maria.tcbc.com.ph/api/src/Hooks.php(138): call_user_func('EGroupware\\Api\\...', Array)
+[20-Jul-2017 14:25:35 UTC] #5 /home/tcbccomp/maria.tcbc.com.ph/api/src/Hooks.php(82): EGroupware\Api\Hooks::single('sidebox_all', 'api', true)
+[20-Jul-2017 14:25:35 UTC] #6 /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Ajax.php(593): EGroupware\Api\Hooks::process('sidebox_all', Array, true)
+[20-Jul-2017 14:25:35 UTC] #7 /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Ajax.php(492): EGroupware\Api\Framework\Ajax->get_sidebox('timesheet')
+[20-Jul-2017 14:25:35 UTC] #8 /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Ajax.php(999): EGroupware\Api\Framework\Ajax->do_sidebox()
+[20-Jul-2017 14:25:35 UTC] #9 [internal function]: EGroupware\Api\Framework\Ajax->ajax_exec('index.php?menua...')
+[20-Jul-2017 14:25:35 UTC] #10 /home/tcbccomp/maria.tcbc.com.ph/api/src/Json/Request.php(179): call_user_func_array(Array, Array)
+[20-Jul-2017 14:25:35 UTC] #11 /home/tcbccomp/maria.tcbc.com.ph/api/src/Json/Request.php(91): EGroupware\Api\Json\Request->handleRequest('timesheet.jdots...', Array)
+[20-Jul-2017 14:25:35 UTC] #12 /home/tcbccomp/maria.tcbc.com.ph/json.php(119): EGroupware\Api\Json\Request->parseRequest('timesheet.jdots...', '{"request":{"pa...')
+[20-Jul-2017 14:25:35 UTC] #13 {main}
+[20-Jul-2017 14:25:35 UTC] # Instance=default, User=mariaadmin, Request=POST http://maria.tcbc.com.ph?menuaction=timesheet.timesheet_ui.index&ajax=true, User-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/603.3.8 (KHTML, like Gecko) Version/10.1.2 Safari/603.3.8
+[20-Jul-2017 14:25:35 UTC] PHP Warning: file_get_contents(http://www.egroupware.de/videos/tutorials.json): failed to open stream: no suitable wrapper could be found in /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Tutorial.php on line 123
+[20-Jul-2017 14:25:35 UTC] #1 /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Tutorial.php(123): file_get_contents('http://www.egro...')
+[20-Jul-2017 14:25:35 UTC] #2 /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Tutorial.php(140): EGroupware\Api\Framework\Tutorial::getJsonData()
+[20-Jul-2017 14:25:35 UTC] #3 [internal function]: EGroupware\Api\Framework\Tutorial::tutorial_menu(Array)
+[20-Jul-2017 14:25:35 UTC] #4 /home/tcbccomp/maria.tcbc.com.ph/api/src/Hooks.php(138): call_user_func('EGroupware\\Api\\...', Array)
+[20-Jul-2017 14:25:35 UTC] #5 /home/tcbccomp/maria.tcbc.com.ph/api/src/Hooks.php(82): EGroupware\Api\Hooks::single('sidebox_all', 'api', true)
+[20-Jul-2017 14:25:35 UTC] #6 /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Ajax.php(593): EGroupware\Api\Hooks::process('sidebox_all', Array, true)
+[20-Jul-2017 14:25:35 UTC] #7 /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Ajax.php(492): EGroupware\Api\Framework\Ajax->get_sidebox('timesheet')
+[20-Jul-2017 14:25:35 UTC] #8 /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Ajax.php(999): EGroupware\Api\Framework\Ajax->do_sidebox()
+[20-Jul-2017 14:25:35 UTC] #9 [internal function]: EGroupware\Api\Framework\Ajax->ajax_exec('index.php?menua...')
+[20-Jul-2017 14:25:35 UTC] #10 /home/tcbccomp/maria.tcbc.com.ph/api/src/Json/Request.php(179): call_user_func_array(Array, Array)
+[20-Jul-2017 14:25:35 UTC] #11 /home/tcbccomp/maria.tcbc.com.ph/api/src/Json/Request.php(91): EGroupware\Api\Json\Request->handleRequest('timesheet.jdots...', Array)
+[20-Jul-2017 14:25:35 UTC] #12 /home/tcbccomp/maria.tcbc.com.ph/json.php(119): EGroupware\Api\Json\Request->parseRequest('timesheet.jdots...', '{"request":{"pa...')
+[20-Jul-2017 14:25:35 UTC] #13 {main}
+[20-Jul-2017 14:25:35 UTC] # Instance=default, User=mariaadmin, Request=POST http://maria.tcbc.com.ph?menuaction=timesheet.timesheet_ui.index&ajax=true, User-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/603.3.8 (KHTML, like Gecko) Version/10.1.2 Safari/603.3.8
+[20-Jul-2017 14:26:02 UTC] PHP Warning: fopen(): https:// wrapper is disabled in the server configuration by allow_url_fopen=0 in /home/tcbccomp/maria.tcbc.com.ph/calendar/inc/class.calendar_holidays.inc.php on line 156
+[20-Jul-2017 14:26:02 UTC] #1 /home/tcbccomp/maria.tcbc.com.ph/calendar/inc/class.calendar_holidays.inc.php(156): fopen('https://www.moz...', 'r', false, Resource id #133)
+[20-Jul-2017 14:26:02 UTC] #2 /home/tcbccomp/maria.tcbc.com.ph/calendar/inc/class.calendar_holidays.inc.php(75): calendar_holidays::fetch('US')
+[20-Jul-2017 14:26:02 UTC] #3 /home/tcbccomp/maria.tcbc.com.ph/calendar/inc/class.calendar_holidays.inc.php(50): calendar_holidays::render('US', 2016, 2022)
+[20-Jul-2017 14:26:02 UTC] #4 /home/tcbccomp/maria.tcbc.com.ph/calendar/inc/class.calendar_bo.inc.php(1888): calendar_holidays::read('US', 2017)
+[20-Jul-2017 14:26:02 UTC] #5 /home/tcbccomp/maria.tcbc.com.ph/calendar/inc/class.calendar_ui.inc.php(561): calendar_bo->read_holidays(2017)
+[20-Jul-2017 14:26:02 UTC] #6 /home/tcbccomp/maria.tcbc.com.ph/calendar/inc/class.calendar_ui.inc.php(504): calendar_ui->sidebox_etemplate()
+[20-Jul-2017 14:26:02 UTC] #7 [internal function]: calendar_ui->sidebox_menu(Array)
+[20-Jul-2017 14:26:02 UTC] #8 /home/tcbccomp/maria.tcbc.com.ph/api/src/loader/deprecated_factory.php(131): call_user_func_array(Array, Array)
+[20-Jul-2017 14:26:02 UTC] #9 /home/tcbccomp/maria.tcbc.com.ph/api/src/Hooks.php(143): ExecMethod2('calendar.calend...', Array)
+[20-Jul-2017 14:26:02 UTC] #10 /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Ajax.php(589): EGroupware\Api\Hooks::single('sidebox_menu', 'calendar')
+[20-Jul-2017 14:26:02 UTC] #11 /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Ajax.php(492): EGroupware\Api\Framework\Ajax->get_sidebox('calendar')
+[20-Jul-2017 14:26:02 UTC] #12 /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Ajax.php(999): EGroupware\Api\Framework\Ajax->do_sidebox()
+[20-Jul-2017 14:26:02 UTC] #13 [internal function]: EGroupware\Api\Framework\Ajax->ajax_exec('index.php?menua...')
+[20-Jul-2017 14:26:02 UTC] #14 /home/tcbccomp/maria.tcbc.com.ph/api/src/Json/Request.php(179): call_user_func_array(Array, Array)
+[20-Jul-2017 14:26:02 UTC] #15 /home/tcbccomp/maria.tcbc.com.ph/api/src/Json/Request.php(91): EGroupware\Api\Json\Request->handleRequest('calendar.jdots_...', Array)
+[20-Jul-2017 14:26:02 UTC] #16 /home/tcbccomp/maria.tcbc.com.ph/json.php(119): EGroupware\Api\Json\Request->parseRequest('calendar.jdots_...', '{"request":{"pa...')
+[20-Jul-2017 14:26:02 UTC] #17 {main}
+[20-Jul-2017 14:26:02 UTC] # Instance=default, User=mariaadmin, Request=POST http://maria.tcbc.com.ph?menuaction=calendar.calendar_uiviews.index&ajax=true, User-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/603.3.8 (KHTML, like Gecko) Version/10.1.2 Safari/603.3.8
+[20-Jul-2017 14:26:02 UTC] PHP Warning: fopen(https://www.mozilla.org/media/caldata/USHolidays.ics): failed to open stream: no suitable wrapper could be found in /home/tcbccomp/maria.tcbc.com.ph/calendar/inc/class.calendar_holidays.inc.php on line 156
+[20-Jul-2017 14:26:02 UTC] #1 /home/tcbccomp/maria.tcbc.com.ph/calendar/inc/class.calendar_holidays.inc.php(156): fopen('https://www.moz...', 'r', false, Resource id #133)
+[20-Jul-2017 14:26:02 UTC] #2 /home/tcbccomp/maria.tcbc.com.ph/calendar/inc/class.calendar_holidays.inc.php(75): calendar_holidays::fetch('US')
+[20-Jul-2017 14:26:02 UTC] #3 /home/tcbccomp/maria.tcbc.com.ph/calendar/inc/class.calendar_holidays.inc.php(50): calendar_holidays::render('US', 2016, 2022)
+[20-Jul-2017 14:26:02 UTC] #4 /home/tcbccomp/maria.tcbc.com.ph/calendar/inc/class.calendar_bo.inc.php(1888): calendar_holidays::read('US', 2017)
+[20-Jul-2017 14:26:02 UTC] #5 /home/tcbccomp/maria.tcbc.com.ph/calendar/inc/class.calendar_ui.inc.php(561): calendar_bo->read_holidays(2017)
+[20-Jul-2017 14:26:02 UTC] #6 /home/tcbccomp/maria.tcbc.com.ph/calendar/inc/class.calendar_ui.inc.php(504): calendar_ui->sidebox_etemplate()
+[20-Jul-2017 14:26:02 UTC] #7 [internal function]: calendar_ui->sidebox_menu(Array)
+[20-Jul-2017 14:26:02 UTC] #8 /home/tcbccomp/maria.tcbc.com.ph/api/src/loader/deprecated_factory.php(131): call_user_func_array(Array, Array)
+[20-Jul-2017 14:26:02 UTC] #9 /home/tcbccomp/maria.tcbc.com.ph/api/src/Hooks.php(143): ExecMethod2('calendar.calend...', Array)
+[20-Jul-2017 14:26:02 UTC] #10 /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Ajax.php(589): EGroupware\Api\Hooks::single('sidebox_menu', 'calendar')
+[20-Jul-2017 14:26:02 UTC] #11 /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Ajax.php(492): EGroupware\Api\Framework\Ajax->get_sidebox('calendar')
+[20-Jul-2017 14:26:02 UTC] #12 /home/tcbccomp/maria.tcbc.com.ph/api/src/Framework/Ajax.php(999): EGroupware\Api\Framework\Ajax->do_sidebox()
+[20-Jul-2017 14:26:02 UTC] #13 [internal function]: EGroupware\Api\Framework\Ajax->ajax_exec('index.php?menua...')
+[20-Jul-2017 14:26:02 UTC] #14 /home/tcbccomp/maria.tcbc.com.ph/api/src/Json/Request.php(179): call_user_func_array(Array, Array)
+[20-Jul-2017 14:26:02 UTC] #15 /home/tcbccomp/maria.tcbc.com.ph/api/src/Json/Request.php(91): EGroupware\Api\Json\Request->handleRequest('calendar.jdots_...', Array)
+[20-Jul-2017 14:26:02 UTC] #16 /home/tcbccomp/maria.tcbc.com.ph/json.php(119): EGroupware\Api\Json\Request->parseRequest('calendar.jdots_...', '{"request":{"pa...')
+[20-Jul-2017 14:26:02 UTC] #17 {main}
+[20-Jul-2017 14:26:02 UTC] # Instance=default, User=mariaadmin, Request=POST http://maria.tcbc.com.ph?menuaction=calendar.calendar_uiviews.index&ajax=true, User-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/603.3.8 (KHTML, like Gecko) Version/10.1.2 Safari/603.3.8
+[20-Jul-2017 14:26:02 UTC] Can NOT open holiday iCal 'https://www.mozilla.org/media/caldata/USHolidays.ics' for country 'US'!

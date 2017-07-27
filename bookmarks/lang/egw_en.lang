@@ -1,0 +1,122 @@
+%1 bookmarks have been deleted	bookmarks	en	%1 bookmarks have been deleted.
+%1 bookmarks imported from %2 successfully.	bookmarks	en	%1 bookmarks imported from %2 successfully.
+%s bookmarks selected for export	bookmarks	en	%s bookmarks selected for export.
+(comma separate multiple addresses)	bookmarks	en	Comma separate multiple addresses
+(selecting a category includes all sub-categories)	bookmarks	en	Selecting a category includes all sub categories
+actions	bookmarks	en	Actions
+add bookmark	bookmarks	en	Add boomkark
+added	bookmarks	en	Added
+all bookmarks	bookmarks	en	All bookmarks
+and	bookmarks	en	And
+append this message to mailed bookmarks	bookmarks	en	Append this message to mailed bookmarks.
+apply the action on the whole query, not only the shown bookmarks!!!	bookmarks	en	Apply the action on the whole query, NOT only the shown bookmarks!
+ascending	bookmarks	en	Ascending
+book marks	common	en	Bookmarks
+bookmark - %1	bookmarks	en	Bookmark - %1
+bookmark changed sucessfully	bookmarks	en	Bookmark changed successfully.
+bookmark created successfully.	bookmarks	en	Bookmark created successfully.
+bookmark deleted successfully	bookmarks	en	Bookmark deleted successfully.
+bookmark deleted successfully.	bookmarks	en	Bookmark deleted successfully.
+bookmark file	bookmarks	en	Bookmark file
+bookmark not editable	bookmarks	en	Bookmark not editable
+bookmark not readable	bookmarks	en	Bookmark not readable
+bookmarks	common	en	Bookmarks
+bookmarks - export	bookmarks	en	Bookmarks - Export
+bookmarks - import	bookmarks	en	Bookmarks - Import
+bookmarks - mail	bookmarks	en	Bookmarks - Mail
+bookmarks - tree	bookmarks	en	Bookmarks - Tree
+bookmarks settings	bookmarks	en	Bookmarks settings
+categories to export	bookmarks	en	Categories to export
+change bookmark	bookmarks	en	Change bookmark
+check all	bookmarks	en	Check all
+choose the categories to display	bookmarks	en	Choose the categories to display
+choose the categories to expand in the initial view	bookmarks	en	Choose the categories to expand in the initial view
+close this window to return	bookmarks	en	Close this window to return
+create bookmark	bookmarks	en	Create bookmark
+create new bookmark	bookmarks	en	Create new bookmark
+create new links	bookmarks	en	Create new links
+created	bookmarks	en	Created
+custom fields	bookmarks	en	Custom fields
+date added	bookmarks	en	Date added
+date changed	bookmarks	en	Date changed
+date last updated	bookmarks	en	Date last updated
+date last visited	bookmarks	en	Date last visited
+default view for bookmarks	bookmarks	en	Default view for bookmarks
+descending	bookmarks	en	Descending
+edit bookmark	bookmarks	en	Edit bookmark
+edit bookmark - %1	bookmarks	en	Edit bookmark - %1
+edit this bookmark	bookmarks	en	Edit this bookmark
+enter the name of the netscape bookmark file<br>that you want imported into bookmarker below.	bookmarks	en	Enter the name of the Netscape bookmark file<br>that you want imported into bookmark below.
+existing links	bookmarks	en	Existing links
+export	bookmarks	en	Export
+export bookmarks	common	en	Export bookmarks
+export definition to use for nextmatch export	bookmarks	en	Export definition to use for nextmatch export
+export definitition to use for nextmatch export	bookmarks	en	Export definition to use for nextmatch export
+export format	bookmarks	en	Export format
+fewer	bookmarks	en	Fewer
+filter by	bookmarks	en	Filter by
+found a link you might like	bookmarks	en	Found a link you might like
+from	bookmarks	en	From
+from category %1	bookmarks	en	From category %1
+general	bookmarks	en	General
+global categories	bookmarks	en	Global categories
+highest	bookmarks	en	Highest
+history	bookmarks	en	History
+i thought you would be interested in the following link(s):	bookmarks	en	I thought you would be interested in the following link(s):
+if you specify an export definition, it will be used when you export	bookmarks	en	If you specify an export definition, it will be used when you export.
+if you specify an export definition, it will be used when you export*	bookmarks	en	If you specify an export definition, it will be used when you export*
+import bookmarks	common	en	Import bookmarks
+import under category	bookmarks	en	Import under category
+last modified	bookmarks	en	Last modified
+last visited	bookmarks	en	Last visited
+like	bookmarks	en	Like
+links	bookmarks	en	Links
+list view	bookmarks	en	List view
+lowest	bookmarks	en	Lowest
+mail	bookmarks	en	Mail
+mail this bookmark	bookmarks	en	Mail this bookmark
+mail-this-link message sent to %1.	bookmarks	en	Mail this link -message sent to %1
+mass update:	bookmarks	en	Mass update:
+message from	bookmarks	en	Message from
+more	bookmarks	en	More
+name	bookmarks	en	Name
+name is required	bookmarks	en	Name is required
+netscape / firefox	bookmarks	en	Netscape / Firefox
+netscape bookmark file	bookmarks	en	Netscape bookmark file
+netscape bookmark filename is required!	bookmarks	en	Netscape bookmark filen ame is required!
+netscape/mozilla	bookmarks	en	Netscape / Mozilla
+new	bookmarks	en	New
+note: you can use bookmark files exported as html	bookmarks	en	Note: You can use bookmark files exported as HTML.
+old fixed definition	bookmarks	en	Old fixed definition
+or	bookmarks	en	or
+please fill out <b>to e-mail address</b>, <b>subject</b>, and <b>message</b>!	bookmarks	en	Fill out <B>To email address</B>, <B>Subject</B>, and <B>Message</B>!
+please select the categories to export	bookmarks	en	Please select the categories to export.
+query condition	bookmarks	en	Query condition
+rating	bookmarks	en	Rating
+rating of this site	bookmarks	en	Rating of this site
+search for:	bookmarks	en	Search for:
+select an action	bookmarks	en	Select an action
+select an action...	bookmarks	en	Select an action...
+select the format you would like to export to	bookmarks	en	Select the format you would like to export to.
+send bookmark	bookmarks	en	Send bookmark
+sub category	bookmarks	en	Sub category
+sub-folders will create new categories	bookmarks	en	Sub folders will create new categories
+this is the view bookmarks uses when you enter the application.	bookmarks	en	This is the view Bookmarks uses when you enter the application.
+this module displays bookmarks in a javascript based tree	bookmarks	en	This module displays bookmarks in a java script based tree.
+to address %1 invalid. format must be <strong>user@domain</strong> and domain must exist!	bookmarks	en	To address %1 invalid. Format must be <strong>user@domain</strong> and domain must exist!
+to e-mail addresses	bookmarks	en	To email addresses
+to which category should the imported folder hierarchy be attached	bookmarks	en	To which category should the imported folder hierarchy be attached.
+total visits	bookmarks	en	Total visits
+tree view	bookmarks	en	Tree view
+unable to open temp file %1 for import.	bookmarks	en	Unable to open temp file %1 for import
+unknown format	bookmarks	en	Unknown format
+updated	bookmarks	en	Updated.
+url is required.	bookmarks	en	URL is required
+view bookmark	bookmarks	en	View bookmark
+view this bookmark	bookmarks	en	View this bookmark
+warning	bookmarks	en	Warning
+whole query	bookmarks	en	Whole query
+xbel	bookmarks	en	XBEL
+you are viewing this site outside of egroupware	bookmarks	en	You are viewing this site outside of EGroupware
+you must select a category	bookmarks	en	You must select a category.
+you need to select a category!	bookmarks	en	You need to select a category!

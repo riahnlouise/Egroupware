@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE overlay PUBLIC "-//Stylite AG//eTemplate 2//EN" "http://www.egroupware.org/etemplate2.dtd">
+<!-- $Id$ -->
+<overlay>
+	<template id="bookmarks.tree" template="" lang="" group="0" version="1.7.001">
+		<grid width="100%">
+			<columns>
+				<column/>
+			</columns>
+			<rows>
+				<row>
+					<buttononly label="Add" id="add" onclick="egw.open('','bookmarks','add');"/>
+				</row>
+				<row>
+					<tree id="tree" autoloading="bookmarks_ui::ajax_tree_autoloading" onclick="app.bookmarks.tree_onclick"/>
+				</row>
+			</rows>
+		</grid>
+		<styles>a.action {
+  float: right;
+}</styles>
+	</template>
+</overlay>

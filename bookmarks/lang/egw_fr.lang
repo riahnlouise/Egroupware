@@ -1,0 +1,119 @@
+%1 bookmarks have been deleted	bookmarks	fr	%1 signets ont été supprimés
+%1 bookmarks imported from %2 successfully.	bookmarks	fr	%1 signets importés depuis %2 avec succès.
+%s bookmarks selected for export	bookmarks	fr	%s favoris sélectionné pour l'export.
+(comma separate multiple addresses)	bookmarks	fr	(l'espace sépare les adresses multiples)
+(selecting a category includes all sub-categories)	bookmarks	fr	Sélectionner une catégorie et toutes les sous-catégories
+actions	bookmarks	fr	Actions
+added	bookmarks	fr	Ajouté
+all bookmarks	bookmarks	fr	Tous les signets
+and	bookmarks	fr	Et
+append this message to mailed bookmarks	bookmarks	fr	Ajouter ce message aux signets envoyés par EMail
+apply the action on the whole query, not only the shown bookmarks!!!	bookmarks	fr	Appliquer l'action sur la requête entière, ET PAS SEULEMENT les signets affichés !
+ascending	bookmarks	fr	Croissant
+book marks	common	fr	Signets
+bookmark - %1	bookmarks	fr	Signet %1
+bookmark changed sucessfully	bookmarks	fr	Signet modifié avec succès
+bookmark created successfully.	bookmarks	fr	Signet créé avec succès.
+bookmark deleted successfully	bookmarks	fr	Signet supprimé avec succès.
+bookmark deleted successfully.	bookmarks	fr	signet supprimé avec succès.
+bookmark file	bookmarks	fr	Fichier de signets
+bookmark not editable	bookmarks	fr	Signet non modifiable
+bookmark not readable	bookmarks	fr	Signet illisible
+bookmarks	common	fr	Signets
+bookmarks - export	bookmarks	fr	Signets - Export
+bookmarks - import	bookmarks	fr	Signets - Import
+bookmarks - mail	bookmarks	fr	Signets - Email
+bookmarks - tree	bookmarks	fr	Signets - Arborescence
+bookmarks settings	bookmarks	fr	Réglages Signets
+categories to export	bookmarks	fr	Catégories à exporter
+change bookmark	bookmarks	fr	Modifier le signet
+check all	bookmarks	fr	Vérifier tout
+choose the categories to display	bookmarks	fr	Sélectionnez les catégories à afficher
+choose the categories to expand in the initial view	bookmarks	fr	Choisir les catégories à étendre sur la vue initiale.
+close this window to return	bookmarks	fr	fermer cette fenêtre pour retourner
+create bookmark	bookmarks	fr	Créer un signet
+create new bookmark	bookmarks	fr	Créer un nouveau signet
+create new links	bookmarks	fr	Créer de nouveaux liens
+created	bookmarks	fr	Créé(s)
+custom fields	bookmarks	fr	Champs personnalisés
+date added	bookmarks	fr	Date ajoutée
+date changed	bookmarks	fr	Date modifiée
+date last updated	bookmarks	fr	Date de dernière mise à jour
+date last visited	bookmarks	fr	Date de dernière visite
+default view for bookmarks	bookmarks	fr	Vue par défaut pour les signets
+descending	bookmarks	fr	Décroissant
+edit bookmark	bookmarks	fr	Editer le signet
+edit bookmark - %1	bookmarks	fr	Modifier un signet - %1
+edit this bookmark	bookmarks	fr	Editer ce signet
+enter the name of the netscape bookmark file<br>that you want imported into bookmarker below.	bookmarks	fr	Entrez le nom du fichier des signets Netscape<br>que vous voulez importer dans le gestionnaire de signets ci-dessous.
+existing links	bookmarks	fr	Liens existants
+export	bookmarks	fr	Exportation
+export bookmarks	common	fr	Exporter les Signets
+export definition to use for nextmatch export	bookmarks	fr	Définition de l'export à utiliser pour l'export "nextmatch"
+export definitition to use for nextmatch export	bookmarks	fr	Définition de l'export à utiliser pour l'export "nextmatch"
+export format	bookmarks	fr	Exporter le format
+fewer	bookmarks	fr	Moins
+filter by	bookmarks	fr	Filtrer par
+found a link you might like	bookmarks	fr	J'ai trouvé un lien que vous pourriez aimer
+from	bookmarks	fr	Depuis
+from category %1	bookmarks	fr	depuis la catégorie %1
+general	bookmarks	fr	Général
+global categories	bookmarks	fr	Catégories Globales
+highest	bookmarks	fr	Le plus haut
+history	bookmarks	fr	Historique
+i thought you would be interested in the following link(s):	bookmarks	fr	J'ai pensé que vous pourriez être intéressé par le(s) lien(s) suivant(s):
+if you specify an export definition, it will be used when you export	bookmarks	fr	Si vous spécifier un format d'export, il sera utilisé à l'export.
+if you specify an export definition, it will be used when you export*	bookmarks	fr	Si vous spécifier un format d'export, il sera utilisé à l'export*
+import bookmarks	common	fr	Importer les signets
+import under category	bookmarks	fr	Importer dans la catégorie
+last modified	bookmarks	fr	Dernière modification
+last visited	bookmarks	fr	Dernière visite
+like	bookmarks	fr	comme
+links	bookmarks	fr	Liens
+list view	bookmarks	fr	vue liste
+lowest	bookmarks	fr	Le plus bas
+mail	bookmarks	fr	Email
+mail this bookmark	bookmarks	fr	Envoyer ce signet par EMail
+mail-this-link message sent to %1.	bookmarks	fr	Message envoyer-ce-lien-par-email envoyé à %1.
+mass update:	bookmarks	fr	Mise à jour de masse:
+message from	bookmarks	fr	Message de
+more	bookmarks	fr	Plus
+name	bookmarks	fr	Nom
+name is required	bookmarks	fr	Le nom est requis
+netscape / firefox	bookmarks	fr	Netscape / Firefox
+netscape bookmark file	bookmarks	fr	Fichier de Signets Netscape
+netscape bookmark filename is required!	bookmarks	fr	Le nom du fichier de signets Netscape est requis!
+netscape/mozilla	bookmarks	fr	Netscape / Mozilla
+new	bookmarks	fr	Nouveau
+new bookmark	bookmarks	fr	nouveau signet
+note: you can use bookmark files exported as html	bookmarks	fr	Note : vous pouvez utiliser les exports de signet comme HTML
+old fixed definition	bookmarks	fr	L'ancienne définition fixe
+or	bookmarks	fr	ou
+please fill out <b>to e-mail address</b>, <b>subject</b>, and <b>message</b>!	bookmarks	fr	SVP remplissez <B>l'adresse EMail destinataire</B>, <B>le sujet</B>, et <B>le message</B>!
+please select the categories to export	bookmarks	fr	Merci de sélectionner les catégories à exporter
+query condition	bookmarks	fr	Condition de Requête
+rating	bookmarks	fr	Note
+rating of this site	bookmarks	fr	Notes sur ce site
+search for:	bookmarks	fr	Rechercher:
+select an action	bookmarks	fr	Sélectionner une action
+select an action...	bookmarks	fr	Sélectionner une action...
+select the format you would like to export to	bookmarks	fr	Sélectionnez le format dans lequel vous désirez exporter
+send bookmark	bookmarks	fr	Envoyer le signet
+sub category	bookmarks	fr	Sous-catégorie
+this module displays bookmarks in a javascript based tree	bookmarks	fr	Ce module affiche les signets dans un arbre basé sur javascript
+to address %1 invalid. format must be <strong>user@domain</strong> and domain must exist!	bookmarks	fr	L'adresse du destinataire %1 est invalide. Le format doit être <strong>utilisateur@domaine</strong> et le domaine doit exister!
+to e-mail addresses	bookmarks	fr	Adresses EMail des destinataires
+to which category should the imported folder hierarchy be attached	bookmarks	fr	A quelle catégorie la hiérarchie du dossier importé doit être attachée
+total visits	bookmarks	fr	visites totales
+tree view	bookmarks	fr	Arborescence
+unable to open temp file %1 for import.	bookmarks	fr	Impossible d'ouvrir le fichier temporaire %1 pour l'importation.
+unknown format	bookmarks	fr	Format inconnu
+updated	bookmarks	fr	Mis à jour
+url is required.	bookmarks	fr	L'URL est requise.
+view bookmark	bookmarks	fr	Voir le signet
+view this bookmark	bookmarks	fr	Voir ce signet
+warning	bookmarks	fr	Attention
+whole query	bookmarks	fr	requête entière
+you are viewing this site outside of egroupware	bookmarks	fr	Vous visualisez ce site en dehors d'eGroupWare
+you must select a category	bookmarks	fr	Vous devez choisir une catégorie
+you need to select a category!	bookmarks	fr	Vous devez sélectionner une catégorie!

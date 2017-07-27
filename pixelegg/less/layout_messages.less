@@ -1,0 +1,109 @@
+/**
+ * EGroupware: CSS with less preprocessor
+ *
+ * et2 Messages
+ *
+ * Please do NOT change css-files directly, instead change less-files and compile them!
+ *
+ * @link http://www.egroupware.org
+ * @license http://opensource.org/licenses/gpl-license.php GPL - GNU General Public License
+ * @author Stefan Reinhardt <stefan.reinhardt@pixelegg.de>
+ * @package pixelegg
+ * @version $Id$
+ */
+
+@import (reference) "definitions.less";
+//##############################################################################################################
+
+
+#egwpopup{
+
+    .background_color_5_gray;
+    .border_radius_button_righttop;
+    		border-width: 9px 0px 0px 0px;
+		border-style: solid;
+		border-color: @gray_30;
+
+     .box_shadow_message;
+     padding: 1em;
+
+     /*Button*/
+     input#egwpopup_ok_button,
+     button#desktop_perms{
+         .Complete_Button_normal;
+         .dimension_height_m;
+         padding: 0 5px;
+
+         &:hover {.Complete_Button_hover;}
+         &:active {background-color: @color_positive_action_active !important;}
+
+     }
+
+}
+
+/*popup Messsage*/
+ div#egwpopup_message {
+
+     background-color: .color_gray_0;
+     padding: 1em;
+     overflow-y: auto;
+
+
+ }
+
+
+#msg,.message {
+            color: red;
+            font-style: italic;
+            background: @gray_0;
+}
+
+
+
+// Container für Meldungen / Message Container
+.egw_fw_ui_app_header_container {
+		border-width: 1px 0px 0px 0px;
+		border-style: solid;
+		border-color: @gray_30;
+        height: auto;
+
+		// Statusmeldung
+		// Meldung oberhalb iFrame
+		.egw_fw_ui_app_header {
+			padding: 1px 0 0 0;
+			font-weight: normal;
+			color: silver;
+			overflow: hidden;
+			height: 15px;
+		}
+}
+
+ .colselection.ui-widget-content {
+			 width: 33%;
+//			 margin-left: 49%;
+
+
+		}
+
+
+ /*Calendar ##############*/
+
+ td.message {
+        background-color: @gray_10 !important;
+        height: 0px;
+        padding: 0px;
+
+        span.message {
+                 height: 35px;
+                border-bottom: 2px solid @gray_10;
+                 color: red;
+                 background: @gray_10;
+                 height: auto;
+                 width: 100%;
+     }
+
+ }
+
+
+
+ //

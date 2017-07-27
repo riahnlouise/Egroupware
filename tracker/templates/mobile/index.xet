@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE overlay PUBLIC "-//Stylite AG//eTemplate 2//EN" "http://www.egroupware.org/etemplate2.dtd">
+<!-- $Id$ -->
+<overlay>
+	<template id="tracker.index.queue" template="" lang="" group="0" version="1.9.001">
+		<listbox id="col_filter[tr_tracker]" no_lang="1" multiple="true" tags="true" height="32px" width="200px" class="tracker_queue" empty_label="Select tracker queues"/>
+	</template>
+	<template id="tracker.index.add" template="" lang="" group="0" version="1.7.001">
+		<buttononly class="plus_button" id="add" onclick="egw.open('', 'tracker', 'add', {tracker:widget.getRoot().getWidgetById('nm').activeFilters.col_filter.tr_tracker});" parent_node="tracker-index_plus_button_container"/>
+	</template>
+	<template id="tracker.index.dates" template="" lang="" group="0" version="16.1.001" >
+		<hbox>
+			<description value="Start"/>
+			<date id="startdate" onchange="widget.getParent().getWidgetById('enddate').set_min(widget.getValue());return true;"/>
+			<description value="End"/>
+			<date id="enddate"  onchange="widget.getParent().getWidgetById('startdate').set_max(widget.getValue());return true;"/>
+		</hbox>
+	</template>
+	<template id="tracker.index.rows" template="" lang="" group="0" version="1.9.009">
+		<grid width="100%">
+			<columns>
+				<column width="90%" />
+				<column width="90"/>
+			</columns>
+			<rows>
+				<row class="th">
+
+				</row>
+				<row class="$row_cont[cat_id] $row_cont[class] trackerRow" valign="top">
+					<vbox no_lang="1" class="tracker1Col">
+						<description id="${row}[tr_summary]" no_lang="1" class="$row_cont[seen_class]"/>
+						<hbox>
+							<menulist>
+								<menupopup  id="${row}[tr_tracker]" no_lang="1" readonly="true"/>
+							</menulist>
+							<menulist>
+								<menupopup id="${row}[cat_id]" readonly="true" options="None"/>
+							</menulist>
+						</hbox>
+					</vbox>
+					<vbox class="tracker2Col">
+						<hbox>
+							<time_or_date id="${row}[tr_created]" readonly="true" class="$row_cont[overdue_class]"/>
+						</hbox>
+						<hbox>
+							<menulist>
+								<menupopup id="${row}[tr_status]" readonly="true"/>
+							</menulist>
+						</hbox>
+					</vbox>
+				</row>
+			</rows>
+		</grid>
+	</template>
+	<template id="tracker.index" template="" lang="" group="0" version="1.9.003">
+		<grid width="100%">
+			<columns>
+				<column/>
+			</columns>
+			<rows>
+				<row>
+					<description id="plus_button_container"/>
+				</row>
+				<row>
+					<nextmatch id="nm" template="tracker.index.rows" header_left="tracker.index.add" header_row="tracker.index.queue" header_right="tracker.index.dates"/>
+				</row>
+			</rows>
+		</grid>
+	</template>
+</overlay>

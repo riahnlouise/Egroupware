@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE overlay PUBLIC "-//Stylite AG//eTemplate 2//EN" "http://www.egroupware.org/etemplate2.dtd">
+<!-- $Id$ -->
+<overlay>
+	<template id="bookmarks.export" template="" lang="" group="0" version="1.7.001">
+		<grid>
+			<columns>
+				<column/>
+				<column/>
+			</columns>
+			<rows>
+				<row disabled="!@bm_count">
+					<description value="%s bookmarks selected for export" id="bm_count" span="all"/>
+				</row>
+				<row valign="top" disabled="@bm_count" class="dialogHeader">
+					<description value="Categories to export"/>
+				</row>
+				<row >
+					<description value="(Selecting a category includes all sub-categories)"/>
+					<tree-cat id="category" options="1"/>
+				</row>
+				<row>
+					<description value="Export format"/>
+					<menulist>
+						<menupopup id="format"/>
+					</menulist>
+				</row>
+				<row class="dialogFooterToolbar">
+					<hbox span="all">
+						<button label="Export" id="export"/>
+						<button label="Cancel" id="cancel" onclick="window.close();"/>
+					</hbox>
+				</row>
+			</rows>
+		</grid>
+	</template>
+</overlay>

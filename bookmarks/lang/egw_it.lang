@@ -1,0 +1,122 @@
+%1 bookmarks have been deleted	bookmarks	it	%1 segnalibri sono stati cancellati
+%1 bookmarks imported from %2 successfully.	bookmarks	it	%1 segnalibri importati da %2 con successo.
+%s bookmarks selected for export	bookmarks	it	% segnalibri selezionati per l'esportazione
+(comma separate multiple addresses)	bookmarks	it	(indirizzi multipli separati da virgole)
+(selecting a category includes all sub-categories)	bookmarks	it	La selezione di una categoria comprende le sottocategorie
+actions	bookmarks	it	Azioni
+added	bookmarks	it	Aggiunto
+all bookmarks	bookmarks	it	Tutti i segnalibri
+and	bookmarks	it	E
+append this message to mailed bookmarks	bookmarks	it	Appendi questo messaggio ai segnalibri inviati
+apply the action on the whole query, not only the shown bookmarks!!!	bookmarks	it	Applica l'azione a tutta la query, NON solo ai segnalibri mostrati!
+ascending	bookmarks	it	Ascendente
+book marks	common	it	Segnalibri
+bookmark - %1	bookmarks	it	Segnalibro - %1
+bookmark changed sucessfully	bookmarks	it	Segnalibro cambiato con successo
+bookmark created successfully.	bookmarks	it	Segnalibro creato con successo.
+bookmark deleted successfully	bookmarks	it	Segnalibro eliminato con successo.
+bookmark deleted successfully.	bookmarks	it	Segnalibro rimosso correttamente
+bookmark file	bookmarks	it	Segnalibro file
+bookmark not editable	bookmarks	it	Segnalibro non modificabile
+bookmark not readable	bookmarks	it	Segnalibro non leggibile
+bookmarks	common	it	Segnalibri
+bookmarks - export	bookmarks	it	Segnalibri - Esporta
+bookmarks - import	bookmarks	it	Segnalibri - Importa
+bookmarks - mail	bookmarks	it	Segnalibri - Mail
+bookmarks - tree	bookmarks	it	Segnalibri - Albero
+bookmarks settings	bookmarks	it	Impostazioni Segnalibri
+categories to export	bookmarks	it	Categorie da sportare
+change bookmark	bookmarks	it	Cambia segnalibro
+check all	bookmarks	it	Seleziona tutto
+choose the categories to display	bookmarks	it	Scegli le categorie da mostrare
+choose the categories to expand in the initial view	bookmarks	it	Seleziona le categorie da espandere nella vista iniziale
+close this window to return	bookmarks	it	chiudi questa finestra per ritornare
+create bookmark	bookmarks	it	Crea segnalibro
+create new bookmark	bookmarks	it	Crea nuovo segnalibro
+create new links	bookmarks	it	Crea nuovi collegamenti
+created	bookmarks	it	Creato
+custom fields	bookmarks	it	Campi Personalizzati
+date added	bookmarks	it	Data aggiunta
+date changed	bookmarks	it	Data modifica
+date last updated	bookmarks	it	Data ultimo aggiornamento
+date last visited	bookmarks	it	Data ultima visita
+default view for bookmarks	bookmarks	it	Vista predefinita per i segnalibri
+descending	bookmarks	it	Discendente
+edit bookmark	bookmarks	it	Modifica segnalibro
+edit bookmark - %1	bookmarks	it	Modifica segnalibro - %1
+edit this bookmark	bookmarks	it	Modifica questo segnalibro
+enter the name of the netscape bookmark file<br>that you want imported into bookmarker below.	bookmarks	it	Inserisci il nome del file Netscape <br> che vuoi importare qui sotto.
+existing links	bookmarks	it	Collegamenti esistenti
+export	bookmarks	it	esporta
+export bookmarks	common	it	Esporta Segnalibri
+export definition to use for nextmatch export	bookmarks	it	Definizione di esportazione da utilizzare per l'esportazione "nextmatch" (corrispondenza successiva)
+export definitition to use for nextmatch export	bookmarks	it	Esporta la definizione da utilizzare per la esportazione
+export format	bookmarks	it	Formato esportazione
+fewer	bookmarks	it	Di meno
+filter by	bookmarks	it	Filtra per
+found a link you might like	bookmarks	it	Trovato un link che ti potrebbe piacere
+from	bookmarks	it	Da
+from category %1	bookmarks	it	dalla categoria %1
+general	bookmarks	it	Generale
+global categories	bookmarks	it	Categorie Globali
+highest	bookmarks	it	Più alto
+history	bookmarks	it	Storico
+i thought you would be interested in the following link(s):	bookmarks	it	Ho pensato che saresti stato interessato ai seguenti link:
+if you specify an export definition, it will be used when you export	bookmarks	it	Se specifichi una definizione di esportazione, allora verrà usata durante la relativa operazione
+if you specify an export definition, it will be used when you export*	bookmarks	it	Verrà usata quando esporti, se specifichi qui una definizione di esportazione
+import bookmarks	common	it	Importa segnalibri
+import under category	bookmarks	it	Importa sotto la categoria
+last modified	bookmarks	it	Ultima modifica
+last visited	bookmarks	it	Ultima visita
+like	bookmarks	it	come
+links	bookmarks	it	Collegamenti
+list view	bookmarks	it	elenco
+lowest	bookmarks	it	Più basso
+mail	bookmarks	it	mail
+mail this bookmark	bookmarks	it	Invia questo segnalibro
+mail-this-link message sent to %1.	bookmarks	it	messaggio invia-questo-link inviato a %1.
+mass update:	bookmarks	it	Aggiornamento cumulativo:
+message from	bookmarks	it	Messaggio da
+more	bookmarks	it	Altro
+name	bookmarks	it	Nome
+name is required	bookmarks	it	Il nome è richiesto
+netscape / firefox	bookmarks	it	Netscape / Firefox
+netscape bookmark file	bookmarks	it	File Segnalibri Netscape
+netscape bookmark filename is required!	bookmarks	it	NomeFile dei Segnalibri di Netscape è richiesto !
+netscape/mozilla	bookmarks	it	Netscape / Mozilla
+new	bookmarks	it	Nuovo
+new bookmark	bookmarks	it	nuovo segnalibro
+note: you can use bookmark files exported as html	bookmarks	it	N.B.: Puoi usare i file HTML esportati
+old fixed definition	bookmarks	it	Vecchia definizione fissa
+or	bookmarks	it	oppure
+please fill out <b>to e-mail address</b>, <b>subject</b>, and <b>message</b>!	bookmarks	it	Prego riempi <B>A Indirizzo E-Mail</B>,<B>Oggetto</B>, e <B>Messaggio</B>!
+please select the categories to export	bookmarks	it	Prego seleziona le categorie da esportare
+query condition	bookmarks	it	Condizione query
+rating	bookmarks	it	Valutazione
+rating of this site	bookmarks	it	Rating di questo sito
+search for:	bookmarks	it	Cerca:
+select an action	bookmarks	it	Seleziona una azione
+select an action...	bookmarks	it	Seleziona una azione
+select the format you would like to export to	bookmarks	it	Seleziona il formato per l'esportazione
+send bookmark	bookmarks	it	Invia segnalibro
+sub category	bookmarks	it	SottoCategoria
+sub-folders will create new categories	bookmarks	it	Le sottocartelle  creeranno nuove categorie
+this is the view bookmarks uses when you enter the application.	bookmarks	it	Questa è la vista che il modulo Segnalibri usa quandi si apre l'applicazione
+this module displays bookmarks in a javascript based tree	bookmarks	it	Questo modulo visualizza i preferiti in una struttura basata su javascript
+to address %1 invalid. format must be <strong>user@domain</strong> and domain must exist!	bookmarks	it	L'indirizzo %1 non è valido. Il formato deve essere <strong>utente@dominio</strong> e il dominio deve esistere!
+to e-mail addresses	bookmarks	it	Indirizzi email A
+to which category should the imported folder hierarchy be attached	bookmarks	it	A quale categoria deve appartenere la gerarchia delle cartelle importate
+total visits	bookmarks	it	visite totali
+tree view	bookmarks	it	Vista ad albero
+unable to open temp file %1 for import.	bookmarks	it	Impossibile aprire il file temporaneo %1 per importazione.
+unknown format	bookmarks	it	Formato sconosciuto
+updated	bookmarks	it	Aggiornato
+url is required.	bookmarks	it	URL richiesto
+view bookmark	bookmarks	it	Visualizza segnalibro
+view this bookmark	bookmarks	it	Visualizza questo segnalibro
+warning	bookmarks	it	Avvertenza
+whole query	bookmarks	it	Intera query
+xbel	bookmarks	it	XBEL
+you are viewing this site outside of egroupware	bookmarks	it	Stai vedendo questo sito fuori da eGroupWare
+you must select a category	bookmarks	it	Devi selezionare una categoria
+you need to select a category!	bookmarks	it	Devi selezionare una catagoria!

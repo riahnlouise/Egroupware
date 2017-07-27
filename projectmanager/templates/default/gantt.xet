@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE overlay PUBLIC "-//Stylite AG//eTemplate 2//EN" "http://www.egroupware.org/etemplate2.dtd">
+<!-- $Id$ -->
+<overlay>
+	<template id="projectmanager.gantt" template="" lang="" group="0" version="1.9.001">
+		<vbox width="100%" height="100%">
+			<hbox>
+				<checkbox statustext="Show planned times instead of the real times" label="Planned times" id="planned_times" onchange="1"/>
+				<checkbox statustext="Show constraints and milestones" label="Constraints" id="constraints" onchange="1"/>
+				<button statustext="necessary for project-elements doing that not automatic" label="Synchronise all" id="sync_all"/>
+				<button statustext="Add a new milestone" label="Add milestone" id="milestone" onclick="window.open(egw::link('/index.php','menuaction=projectmanager.projectmanager_milestones_ui.edit&amp;pm_id=$cont[pm_id]&amp;ms_id=0'),'milestone','dependent=yes,width=680,height=450,scrollbars=yes,status=yes'); return false;"/>
+				<!-- Disabled for now, as these use external services
+				<button statustext="Export as PDF" label="PDF" onclick="widget.getRoot().getWidgetById('gantt').exportToPDF();"/>
+				<button statustext="Export as PNG" label="PNG" onclick="widget.getRoot().getWidgetById('gantt').exportToPNG();"/>
+				-->
+			</hbox>
+			<projectmanager-gantt id="gantt" class="ganttContent" autoload="projectmanager_gantt::ajax_gantt_project" ajax_update="projectmanager_gantt::ajax_update" span="all">
+				<grid>
+					<columns>
+						<column/>
+						<column/>
+						<column/>
+						<column/>
+						<column/>
+						<column/>
+						<column/>
+					</columns>
+					<rows>
+						<row>
+							<description value="Startdate" for="start"/>
+							<date id="start_date"/>
+							<description value="Enddate" for="end"/>
+							<date id="end_date"/>
+							<description/>
+							<description/>
+						</row>
+						<row>
+							<description value="Category"/>
+							<menulist>
+								<menupopup type="select-cat" id="cat_id" options="All"/>
+							</menulist>
+							<description value="Status filter" for="filter"/>
+							<menulist>
+								<menupopup id="filter" no_lang="1"/>
+							</menulist>
+							<description value="Resources"/>
+							<menulist>
+								<menupopup type="select-account" id="pe_resources" options="All"/>
+							</menulist>
+						</row>
+					</rows>
+				</grid>
+			</projectmanager-gantt>
+		</vbox>
+	</template>
+	<template id="projectmanager.gantt.edit" template="" lang="" group="0" version="1.9.001">
+		<textbox readonly="true" label="Change the following details of %s" id="pe_title"/>
+		<grid id="fields" width="100%">
+			<columns><column/><column/><column/><column/></columns>
+			<rows>
+				<row>
+					<description id="${row}[label]" no_lang="true"/>
+					<description id="${row}[old_value]" no_lang="true"/>
+					<description value="=>" no_lang="true"/>
+					<description id="${row}[new_value]" no_lang="true"/>
+				</row>
+			</rows>
+		</grid>
+	</template>
+</overlay>

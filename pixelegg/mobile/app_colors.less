@@ -1,0 +1,83 @@
+/**
+ *
+ * Mobile FW - Applications colors
+ *
+ * Please do NOT change *.css directly, instead change *.less and compile it!
+ *
+ * @link http://www.egroupware.org
+ * @license http://opensource.org/licenses/gpl-license.php GPL - GNU General Public License
+ * @author Hadi Nategh <hn@stylite.de>
+ * @package Mobile Framework
+ * @version $Id: app.less 55033 2016-02-16 18:49:17Z hnategh $
+ */
+
+
+// Color code for applications
+@addressbook-color: #333399;
+@admin-color: #0073ce;
+@bookmarks-color: #db0087;
+@calendar-color: #CC0033;
+@filemanager-color:#F9d730;
+@infolog-color: #FFB936;
+@mail-color:#47b2d4;
+@projectmanager-color: #75de27;
+@resources-color: #009966;
+@timesheet-color:#9d15ea;
+@tracker-color: #006666;
+
+
+// Addressbook
+div[id^="addressbook-"],form[id^="addressbook-"] {
+	.nm_favorites_div .et2_dropdown button:nth-child(2),.plus_button,.search.nm-mob-header,.dialogHeadbar {background-color: @addressbook-color;}
+}
+#addressbook_sidebox_header {border-left:6px solid @addressbook-color !important;}
+// Admin
+div[id^="admin-"],form[id^="admin-"] {
+	.plus_button,.search.nm-mob-header,.dialogHeadbar {background-color: @admin-color;}
+}
+#admin_sidebox_header {border-left:6px solid @admin-color !important;}
+// Bookmarks
+div[id^="bookmarks-"],form[id^="bookmarks-"] {
+	.nm_favorites_div .et2_dropdown button:nth-child(2),.plus_button,.search.nm-mob-header,.dialogHeadbar {background-color: @bookmarks-color;}
+}
+#bookmarks_sidebox_header {border-left:6px solid @bookmarks-color !important;}
+// Calendar
+div[id^="calendar-"],form[id^="calendar-"]{
+	.nm_favorites_div .et2_dropdown button:nth-child(2),.plus_button,.search.nm-mob-header,.dialogHeadbar {background-color: @calendar-color;}
+}
+#calendar_sidebox_header {border-left:6px solid @calendar-color !important;}
+// Filemanager
+div[id^="filemanager-"],form[id^="filemanager-"] {
+	.nm_favorites_div .et2_dropdown button:nth-child(2),.plus_button,.search.nm-mob-header,.dialogHeadbar {background-color: @filemanager-color;}
+}
+#filemanager_sidebox_header {border-left:6px solid @filemanager-color !important;}
+// Infolog
+div[id^="infolog-"],form[id^="infolog-"] {
+	.nm_favorites_div .et2_dropdown button:nth-child(2),.plus_button,.search.nm-mob-header,.dialogHeadbar {background-color: @infolog-color;}
+}
+#infolog_sidebox_header {border-left:6px solid @infolog-color !important;}
+// Mail
+div[id^="mail-"],form[id^="mail-"] {
+	.plus_button,.search.nm-mob-header,.dialogHeadbar {background-color: @mail-color;}
+}
+#mail_sidebox_header {border-left:6px solid @mail-color !important;}
+// Projectmanager
+div[id^="projectmanager-"],form[id^="projectmanager-"] {
+	.nm_favorites_div .et2_dropdown button:nth-child(2),.plus_button,.search.nm-mob-header,.dialogHeadbar {background-color: @projectmanager-color;}
+}
+#projectmanager_sidebox_header {border-left:6px solid @projectmanager-color !important;}
+// Resources
+div[id^="resources-"],form[id^="resources-"] {
+	.nm_favorites_div .et2_dropdown button:nth-child(2),.plus_button,.search.nm-mob-header,.dialogHeadbar {background-color: @resources-color;}
+}
+#resources_sidebox_header {border-left:6px solid @resources-color !important;}
+// Timesheet
+div[id^="timesheet-"],form[id^="timesheet-"] {
+	.nm_favorites_div .et2_dropdown button:nth-child(2),.plus_button,.search.nm-mob-header,.dialogHeadbar {background-color: @timesheet-color;}
+}
+#timesheet_sidebox_header {border-left:6px solid @timesheet-color !important;}
+// Tracker
+div[id^="tracker-"],form[id^="tracker-"] {
+	.nm_favorites_div .et2_dropdown button:nth-child(2),.plus_button,.search.nm-mob-header,.dialogHeadbar {background-color: @tracker-color;}
+}
+#tracker_sidebox_header {border-left:6px solid @tracker-color !important;}

@@ -1,0 +1,73 @@
+account password retrieval	registration	iw	שליפת סיסמת החשבון
+account registration	registration	iw	רישום חשבון
+activate account	admin	iw	הפעל חשבון
+address	registration	iw	כתובת
+address line 2	registration	iw	כתובת שורה 2
+after you enter your username, instructions to change your password will be sent to you by e-mail to the address you gave when you registered.	registration	iw	לאחר הכנסת שם הכניסה שלך, הוראות  לשינוי הסיסמא יישלחו אליך בדוא"ל אל הכתובת  שציינת בעת הרישום
+an error occured. please contact our technical support and let them know.	registration	iw	.אירעה שגיאה. נא ליצור קשר ליידע את סיוע הטכני שלנו
+anonymous password	admin	iw	סיסמה של אנונימי
+anonymous user	registration	iw	משתמש אנונימי
+business phone	registration	iw	טלפון עבודה
+canceled	registration	iw	מבוטל
+change password for user	registration	iw	שנה סיסמא של המשתמש
+city	registration	iw	עיר
+confirm	registration	iw	אישורך
+days until trial accounts expire	admin	iw	ימים את שיפוג תוקפו של חשבון הדמו
+department	registration	iw	מחלקה
+display terms of service?	admin	iw	?להציג את תנאי השרות
+email address	registration	iw	כתובת דואר אלקטרוני
+email address to display for support	admin	iw	כתובת דוא"ל של התמיכה
+email address to send notices from	admin	iw	כתובת דוא"ל שיהווה מקור ההודעות
+enable registration?	admin	iw	?לאפשר רישום
+enter your new password	registration	iw	הכנס את הסיסמא החדשה שלך
+expires	registration	iw	פג תוקף
+fax	registration	iw	פקס
+home phone	registration	iw	טלפון בבית
+hours	registration	iw	שעות
+http password	admin	iw	HTTP סיסמת
+http username	admin	iw	HTTP שם כניסה
+i have read the terms and conditions and agree by them.	registration	iw	.קראתי את התנאים ואת הסייגים ומסכים להם
+if you did not request this account, simply ignore this message.	registration	iw	.אם לא אתא ביקשת חשבון זה, פשוט תתעלם מהודעה זו
+if you did not request this change, simply ignore this message.	registration	iw	.אם לא אתא ביקשת שינוי זה, פשוט תתעלם מהודעה זו
+immediately	admin	iw	מיד
+mobile phone	registration	iw	טלפון נייד
+not a user yet? register now	login	iw	עדיין לא משתמש? הרשם עכשיו
+on-line registration is not activated. please contact the site administrator for more information about registration.	registration	iw	.רישום מקונן לא פעיל. נא ליצור קשר עם המנהל לקבלת מידע נוסף בדבר הרישום
+order	registration	iw	סדר
+prefix	registration	iw	קידומת
+re-enter password	registration	iw	הכנס שוב את הסיסמא
+re-enter your password	registration	iw	הכנס שוב את הסיסמא שלך
+register link at login screen?	admin	iw	?לרשום קישור במסך הכניסה
+registered	registration	iw	רשום
+registration	common	iw	רישום
+registration settings	admin	iw	הגדרות רישום
+remove	registration	iw	הסר
+report all problems and abuse to	registration	iw	-דווח על כל בעיה או שימוש פוגע ל
+required	registration	iw	נדרש
+send email	admin	iw	שלח דוא"ל
+sorry, that username does not exist.	registration	iw	מצטער, שם משתמש זה לא קיים
+sorry, that username is already taken.	registration	iw	מצטער, שם משתמש זה כבר בשימוש
+sorry, we are having a problem activating your account. note that links sent by e-mail are only valid during two hours. if you think this delay was expired, just retry. otherwise, please contact the site administrator.	registration	iw	מצטער, יש בעיה בהפעלת החשבון שלך. שים לב שהקישורים הנשלחים בדואר אלקטרוני פועלים למשך שעתיים בלבד. אם לדעתך זמן זה עבר, נסה שוב. אחרת, נה לדווח למנהל
+street	registration	iw	רחוב
+terms of service	registration	iw	תנאי שרות
+terms of service text	admin	iw	טקסט של תנאי שרות
+text	registration	iw	טקסט
+the two passwords are not the same	registration	iw	שני הסיסמאות אינם זהים
+type	registration	iw	סוג
+update/add	registration	iw	עדכן/הוסף
+use html	admin	iw	HTML-השתמש ב
+use trial accounts?	admin	iw	?להשתמש בחשבונות דמו
+username is	admin	iw	שם המשתמש הוא
+values (for dropdown only; comma separated)	registration	iw	(ערכים (לתיבה יורדת בלבד; מופרדים בפסיק
+we have sent a mail with instructions to change your password. you should follow the included link within two hours. if you do not, you will have to go to the lost password screen again.	registration	iw	שלחנו לך הודעה עם הוראות לשינוי סיסמתך. עליך להקלק על הקישור בה תוך שעתיים. אם לא תעשה כן, תצטריך לחזור אל מסך סיסמא אבודה
+work phone	registration	iw	טלפון בעבודה
+wrong session	registration	iw	מושב שגוי
+you have entered an invalid birthday	registration	iw	הכנסת יום הולדת לא חוקי
+you have entered an invalid email address	registration	iw	הכנסת כתובת דוא"ל לא חוקי
+you must enter a password	registration	iw	עליך להכניס סיסמא
+you must enter a username	registration	iw	עליך להכניס שם כניסה
+you must fill in all of the required fields	registration	iw	עליך למלא את כל שדות החובה
+you requested to change your password. please follow the url below to do so. this url will expire in two hours. after this delay you should go thru the lost password procedure again.	registration	iw	ביקשת לשנות את סיסמתך. אנא הקלק על הקישור המצורף כדי לבצע זאת. תוקפו של קישור זה יפוג בעוד שעתיים. אם יפוג יהיה עליך לחזור ולבצע את תהליך סיסמה אבודה שוב
+you specified a value for %1 that is not a choice	registration	iw	ציינת ערך עבור %1 שאינו בין האפשרויות
+zip code	registration	iw	מיקוד
+zip/postal	registration	iw	מיקוד

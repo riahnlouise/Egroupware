@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE overlay PUBLIC "-//Stylite AG//eTemplate 2//EN" "http://www.egroupware.org/etemplate2.dtd">
+<!-- $Id$ -->
+<overlay>
+	<template id="projectmanager.pricelist.list.rows" template="" lang="" group="0" version="1.9.001">
+		<grid width="100%">
+			<columns>
+				<column width="50%"/>
+				<column width="50%"/>
+				<column width="120"/>
+				<column width="120"/>
+				<column width="140"/>
+			</columns>
+			<rows>
+				<row class="th">
+					<nextmatch-sortheader label="Title" id="pl_title"/>
+					<vbox>
+						<nextmatch-filterheader id="pm_id" no_lang="1" options="Project" multiple="false"/>
+						<nextmatch-sortheader label="Customer title" id="pl_customertitle"/>
+					</vbox>
+					<nextmatch-filterheader id="pl_billable" options="Availible" multiple="false"/>
+					<vbox>
+						<nextmatch-sortheader label="Price / Unit" id="pl_price"/>
+						<nextmatch-sortheader label="Valid since" id="pl_validsince"/>
+					</vbox>
+					<vbox>
+						<nextmatch-sortheader label="Last modified" id="pl_modified"/>
+						<nextmatch-sortheader label="Modified by" id="pl_modifier"/>
+					</vbox>
+				</row>
+				<row class="row $row_cont[class]">
+					<textbox id="${row}[pl_title]" no_lang="1" readonly="true"/>
+					<vbox>
+						<menulist>
+							<menupopup id="${row}[pm_id]" no_lang="1" readonly="true"/>
+						</menulist>
+						<description id="${row}[pl_customertitle]" no_lang="1"/>
+					</vbox>
+					<menulist>
+						<menupopup id="${row}[pl_billable]" readonly="true" options="No"/>
+					</menulist>
+					<vbox>
+						<textbox type="float" label="%s / $row_cont[pl_unit]" id="${row}[pl_price]" no_lang="1" readonly="true" max="2"/>
+						<date id="${row}[pl_validsince]" readonly="true"/>
+					</vbox>
+					<vbox>
+						<date-time id="${row}[pl_modified]" readonly="true"/>
+						<menulist>
+							<menupopup type="select-account" id="${row}[pl_modifier]" readonly="true"/>
+						</menulist>
+					</vbox>
+				</row>
+			</rows>
+		</grid>
+	</template>
+	<template id="projectmanager.pricelist.add-new" template="" lang="" group="0" version="1.9.001">
+		<button align="right" statustext="Add" id="add" onclick="window.open(egw::link('/index.php','menuaction=projectmanager.projectmanager_pricelist_ui.edit'),'_blank','dependent=yes,width=600,height=450,scrollbars=yes,status=yes'); return false;"/>
+	</template>
+	<template id="projectmanager.pricelist.list" template="" lang="" group="0" version="1.9.001">
+		<nextmatch id="nm" options="projectmanager.pricelist.list.rows" header_left="projectmanager.pricelist.add-new"/>
+	</template>
+</overlay>
